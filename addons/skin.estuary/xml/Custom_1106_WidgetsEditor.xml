@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog" id="1106">
+	<defaultcontrol always="true">22000</defaultcontrol>
+	<include>Animation_DialogPopupOpenClose</include>
+	<onunload>ClearProperty(widgeteditor_content,Home)</onunload>
+	<onunload>ClearProperty(widgeteditor_header,Home)</onunload>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<height>670</height>
+			<centertop>50%</centertop>
+			<width>700</width>
+			<animation effect="fade" time="200">VisibleChange</animation>
+			<include content="DialogBackgroundCommons">
+				<param name="width" value="700" />
+				<param name="height" value="80" />
+				<param name="header_label" value="$INFO[Window(home).Property(widgeteditor_header)]" />
+				<param name="header_id" value="1" />
+			</include>
+			<control type="group" id="22000">
+				<left>0</left>
+				<top>80</top>
+				<control type="grouplist" id="22100">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22100</onup>
+					<ondown>22100</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),movies)</visible>
+					<control type="radiobutton" id="22101">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_movies_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22102">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31010]</label>
+						<onclick>Skin.ToggleSetting(home_movies_inprogress_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_inprogress_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22103">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[20386]</label>
+						<onclick>Skin.ToggleSetting(home_movies_recentlyadded_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_recentlyadded_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22104">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31007]</label>
+						<onclick>Skin.ToggleSetting(home_movies_unwatched_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_unwatched_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22105">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31006]</label>
+						<onclick>Skin.ToggleSetting(home_movies_random_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_random_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22106">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[135]</label>
+						<onclick>Skin.ToggleSetting(home_movies_genres_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_genres_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22107">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31075]</label>
+						<onclick>Skin.ToggleSetting(home_movies_sets_widget)</onclick>
+						<selected>!Skin.HasSetting(home_movies_sets_widget)</selected>
+					</control>
+				</control>
+				<control type="grouplist" id="22200">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22200</onup>
+					<ondown>22200</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),tvshows)</visible>
+					<control type="radiobutton" id="22201">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22202">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[626]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_inprogress_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_inprogress_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22203">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[20387]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_recentlyaddedepisodes_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_recentlyaddedepisodes_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22204">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31122]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_unwatched_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_unwatched_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22205">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[135]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_genres_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_genres_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22206">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[20388]</label>
+						<onclick>Skin.ToggleSetting(home_tvshows_studios_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tvshows_studios_widget)</selected>
+					</control>
+				</control>
+				<control type="grouplist" id="22300">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22300</onup>
+					<ondown>22300</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),music)</visible>
+					<control type="radiobutton" id="22301">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_music_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22302">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[517]</label>
+						<onclick>Skin.ToggleSetting(home_music_recentlyplayedalbums_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_recentlyplayedalbums_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22303">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[359]</label>
+						<onclick>Skin.ToggleSetting(home_music_recentalbums_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_recentalbums_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22304">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31012]</label>
+						<onclick>Skin.ToggleSetting(home_music_randomalbums_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_randomalbums_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22305">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31013]</label>
+						<onclick>Skin.ToggleSetting(home_music_randomartists_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_randomartists_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22306">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31014]</label>
+						<onclick>Skin.ToggleSetting(home_music_unplayedalbums_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_unplayedalbums_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22307">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31011]</label>
+						<onclick>Skin.ToggleSetting(home_music_mostplayedalbums_widget)</onclick>
+						<selected>!Skin.HasSetting(home_music_mostplayedalbums_widget)</selected>
+					</control>
+				</control>
+				<control type="grouplist" id="22400">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22400</onup>
+					<ondown>22400</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),musicvideos)</visible>
+					<control type="radiobutton" id="22401">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22402">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[20390]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_recentlyadded_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_recentlyadded_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22403">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31151]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_unwatched_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_unwatched_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22404">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31013]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_randomartists_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_randomartists_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22405">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31152]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_random_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_random_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22406">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[20388]</label>
+						<onclick>Skin.ToggleSetting(home_musicvideos_studios_widget)</onclick>
+						<selected>!Skin.HasSetting(home_musicvideos_studios_widget)</selected>
+					</control>
+				</control>
+				<control type="grouplist" id="22500">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22500</onup>
+					<ondown>22500</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),tv)</visible>
+					<control type="radiobutton" id="22501">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_tv_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22502">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31016]</label>
+						<onclick>Skin.ToggleSetting(home_tv_recentlyplayed_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_recentlyplayed_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22503">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31015]</label>
+						<onclick>Skin.ToggleSetting(home_tv_recentrecordings_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_recentrecordings_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22504">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19040]</label>
+						<onclick>Skin.ToggleSetting(home_tv_timers_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_timers_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22505">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19173]</label>
+						<onclick>Skin.ToggleSetting(home_tv_channelgroups_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_channelgroups_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22506">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19337]</label>
+						<onclick>Skin.ToggleSetting(home_tv_savedsearches_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_savedsearches_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22507">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[855]</label>
+						<onclick>Skin.ToggleSetting(home_tv_recentlyaddedchannels_widget)</onclick>
+						<selected>!Skin.HasSetting(home_tv_recentlyaddedchannels_widget)</selected>
+					</control>
+				</control>
+				<control type="grouplist" id="22600">
+					<width>700</width>
+					<height>630</height>
+					<itemgap>0</itemgap>
+					<onup>22600</onup>
+					<ondown>22600</ondown>
+					<orientation>vertical</orientation>
+					<visible>String.IsEqual(window(home).Property(widgeteditor_content),radio)</visible>
+					<control type="radiobutton" id="22601">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31148]</label>
+						<onclick>Skin.ToggleSetting(home_radio_categories_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_categories_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22602">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31018]</label>
+						<onclick>Skin.ToggleSetting(home_radio_recentlyplayed_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_recentlyplayed_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22603">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[31015]</label>
+						<onclick>Skin.ToggleSetting(home_radio_recentrecordings_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_recentrecordings_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22604">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19040]</label>
+						<onclick>Skin.ToggleSetting(home_radio_timers_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_timers_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22605">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19174]</label>
+						<onclick>Skin.ToggleSetting(home_radio_channelgroups_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_channelgroups_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22606">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[19337]</label>
+						<onclick>Skin.ToggleSetting(home_radio_savedsearches_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_savedsearches_widget)</selected>
+					</control>
+					<control type="radiobutton" id="22607">
+						<width>700</width>
+						<include>DialogSettingButton</include>
+						<label>$LOCALIZE[855]</label>
+						<onclick>Skin.ToggleSetting(home_radio_recentlyaddedchannels_widget)</onclick>
+						<selected>!Skin.HasSetting(home_radio_recentlyaddedchannels_widget)</selected>
+					</control>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>
