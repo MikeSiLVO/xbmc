@@ -124,7 +124,7 @@
 			</control>
 		</definition>
 	</include>
-	<include name="DialogToggleButton">
+	<!-- <include name="DialogToggleButton">
 		<param name="width">300</param>
 		<param name="height">100</param>
 		<param name="wrapmultiline">false</param>
@@ -153,7 +153,7 @@
 				<enable>$PARAM[enable]</enable>
 			</control>
 		</definition>
-	</include>
+	</include> -->
 	<include name="KeyboardButton">
 		<width>120</width>
 		<height>120</height>
