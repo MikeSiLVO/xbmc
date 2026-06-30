@@ -202,11 +202,8 @@ void CGUIImage::ProcessState()
     return;
   }
 
-  // can't set new texture during animation.
-  if (m_isTransitioning && (m_textureNext->ReadyToRender() || m_textureNext->GetFileName().empty()))
-    return;
-
-  // finally, we can request a new image.
+  // replace the in-flight texture with a new mid-fade request rather than refusing it, so we
+  // track the latest request and a one-frame transient never commits to a full fade
   m_textureNext->SetFileName(fileName);
   m_nameNext = fileName;
   m_isTransitioning = true;
@@ -594,6 +591,10 @@ std::string CGUIImage::GetFallback(const std::string& currentName)
 
 std::string CGUIImage::GetDescription(void) const
 {
+  // report the incoming texture as soon as it resolves, so Control.GetLabel tracks the
+  // crossfade instead of lagging a fade behind
+  if (m_isTransitioning && (m_textureNext->ReadyToRender() || m_textureNext->GetFileName().empty()))
+    return m_textureNext->GetFileName();
   return GetFileName();
 }
 
