@@ -9,6 +9,11 @@ on:
   push:
     branches: [ 'docs-*' ]
 
+# One publish at a time: every branch pushes to the same gh-pages ref.
+concurrency:
+  group: pages-publish
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
