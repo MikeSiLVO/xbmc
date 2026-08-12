@@ -1,0 +1,27 @@
+var class_c_setting_number =
+[
+    [ "CSettingNumber", "d5/d76/class_c_setting_number.html#aa74de1fb9eadd1aab2799f88b2fe85ba", null ],
+    [ "CSettingNumber", "d5/d76/class_c_setting_number.html#a7922f2b6e311d20ebc2634e06ab37842", null ],
+    [ "CSettingNumber", "d5/d76/class_c_setting_number.html#a1764eb10ce6f23c93ece402edd3f6563", null ],
+    [ "CSettingNumber", "d5/d76/class_c_setting_number.html#a6799ae74c30a45ff691c4665e8fb5527", null ],
+    [ "~CSettingNumber", "d5/d76/class_c_setting_number.html#ae875c2be20bcc4a6e3b4a03e3377d30d", null ],
+    [ "CheckValidity", "d5/d76/class_c_setting_number.html#a6eb1bbf2667365d23670f47e837e9b17", null ],
+    [ "CheckValidity", "d5/d76/class_c_setting_number.html#a5587882e7a2279ab0bcd5866a8921b33", null ],
+    [ "Clone", "d5/d76/class_c_setting_number.html#a7a90ffe054d131f6c2c74d0885aaaf6f", null ],
+    [ "Deserialize", "d5/d76/class_c_setting_number.html#aa1d5d1fa84bae451d0f2ee93ae5814ce", null ],
+    [ "Equals", "d5/d76/class_c_setting_number.html#a25c3cd9adaa5fcdce206ab77e9c56a24", null ],
+    [ "FromString", "d5/d76/class_c_setting_number.html#ab317857322cc12a34bda6475cff9a3c2", null ],
+    [ "GetDefault", "d5/d76/class_c_setting_number.html#ad36f3f4747f4f7a7a4ff531e003aa0b0", null ],
+    [ "GetMaximum", "d5/d76/class_c_setting_number.html#ad400f928694a475c8723b95a080eea2a", null ],
+    [ "GetMinimum", "d5/d76/class_c_setting_number.html#ac7ed11f3838e8d3fe64cda775746ecfa", null ],
+    [ "GetStep", "d5/d76/class_c_setting_number.html#a50e8f8cf1d472236b5aa5eaae4f151a8", null ],
+    [ "GetValue", "d5/d76/class_c_setting_number.html#afd153dc3c38c73b0160768ba1696477f", null ],
+    [ "MergeDetails", "d5/d76/class_c_setting_number.html#aa9697c258fb9ac218695e0f3f3d9945d", null ],
+    [ "Reset", "d5/d76/class_c_setting_number.html#a7c62f6f192549ad2f7edd6996991c82c", null ],
+    [ "SetDefault", "d5/d76/class_c_setting_number.html#acb09acfcbbe93f0a5bcc087b071ba816", null ],
+    [ "SetMaximum", "d5/d76/class_c_setting_number.html#a953cf59c148c7b424dea57d80f00c4a4", null ],
+    [ "SetMinimum", "d5/d76/class_c_setting_number.html#a521aea1808531a5811dcaa1dd81615c8", null ],
+    [ "SetStep", "d5/d76/class_c_setting_number.html#ad0270f9c7dfc270dc09f36b6c2a72b93", null ],
+    [ "SetValue", "d5/d76/class_c_setting_number.html#a4f529299d203222b6dc0653ecdf0a902", null ],
+    [ "ToString", "d5/d76/class_c_setting_number.html#ab8d6b43c139746aa53b872670b9c7b1c", null ]
+];

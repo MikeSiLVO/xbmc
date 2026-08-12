@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['database_0',['Database',['../d3/daf/namespace_p_v_r_1_1_g_u_i.html#a2695e17a4ca7c96b7311a2febc995de0',1,'PVR::GUI']]],
+  ['databaseresult_1',['DatabaseResult',['../d5/d72/_database_utils_8h.html#abbb14188b1b4395813076dbdcf1bc13f',1,'DatabaseUtils.h']]],
+  ['databaseresults_2',['DatabaseResults',['../d5/d72/_database_utils_8h.html#a6c5193fd35b07d4783afb4674595106d',1,'DatabaseUtils.h']]],
+  ['dbusmessageptr_3',['DBusMessagePtr',['../d9/d1f/_d_bus_message_8h.html#a55372ff1f33b54c2817d6a486eb921e1',1,'DBusMessage.h']]],
+  ['definesmap_4',['DefinesMap',['../da/d3c/_d3_d_resource_8h.html#ab52cc86fc09f39733939aa9584452840',1,'D3DResource.h']]],
+  ['deltapairvector_5',['DeltaPairVector',['../d4/d2e/class_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream.html#aba3f61b9c1232a3b9fd7363c281b387d',1,'KODI::RETRO::CDeltaPairMemoryStream']]],
+  ['demuxptr_6',['DemuxPtr',['../da/d19/_demux_multi_source_8h.html#aa982d307166f8d02eeed55f6cefd08bb',1,'DemuxMultiSource.h']]],
+  ['demuxqueue_7',['DemuxQueue',['../da/d19/_demux_multi_source_8h.html#a3f34169f1f23f39cfaef84590609f614',1,'DemuxMultiSource.h']]],
+  ['digitalbutton_8',['DigitalButton',['../d2/db5/class_k_o_d_i_1_1_g_a_m_e_1_1_c_controller_state.html#a4e4784003eca905b61ee13e5348af714',1,'KODI::GAME::CControllerState']]],
+  ['dir_9',['DIR',['../d7/da9/dirent_8h.html#a805632179a707f8794b35f089c940cb3',1,'dirent.h']]],
+  ['directorizeentries_10',['DirectorizeEntries',['../dc/d52/namespace_x_f_i_l_e.html#a7b01f7210338b760d5b6675a1024c25a',1,'XFILE']]],
+  ['directorizeentry_11',['DirectorizeEntry',['../dc/d52/namespace_x_f_i_l_e.html#ad57623681814faaa181a39c9311c404e',1,'XFILE']]],
+  ['directorizeentrytofileitemfunction_12',['DirectorizeEntryToFileItemFunction',['../dc/d52/namespace_x_f_i_l_e.html#a9cb6db6d8ac4b8733acb0cfa81ca4f69',1,'XFILE']]],
+  ['directoryenumerationcallback_13',['DirectoryEnumerationCallback',['../dc/d32/class_x_f_i_l_e_1_1_c_directory.html#a1beb5056f8fd1e30d7ec44f8c95ba841',1,'XFILE::CDirectory']]],
+  ['directoryfilter_14',['DirectoryFilter',['../dc/d32/class_x_f_i_l_e_1_1_c_directory.html#a194d42da5075ffcec66c4c8e94950292',1,'XFILE::CDirectory']]],
+  ['dirent_15',['dirent',['../d7/da9/dirent_8h.html#ae50c911db67dfb4b55fbfc97a557f6f2',1,'dirent.h']]],
+  ['displayconfig_5fadvanced_5fcolor_5fmode_16',['DISPLAYCONFIG_ADVANCED_COLOR_MODE',['../d7/dee/_s_d_k__26100_8h.html#a162f6a3a2649e2417a43af40be655cad',1,'SDK_26100.h']]],
+  ['displayconfig_5fget_5fadvanced_5fcolor_5finfo_5f2_17',['DISPLAYCONFIG_GET_ADVANCED_COLOR_INFO_2',['../d7/dee/_s_d_k__26100_8h.html#af96aeac2d536e185f351806c79e201ef',1,'SDK_26100.h']]],
+  ['displayconfig_5fset_5fhdr_5fstate_18',['DISPLAYCONFIG_SET_HDR_STATE',['../d7/dee/_s_d_k__26100_8h.html#a1e603c95c33795070a0dc37ae0247c36',1,'SDK_26100.h']]],
+  ['displaymode_19',['DisplayMode',['../d9/dbb/_resolution_8h.html#ac6705e9645884bbb3494bc6e485dc068',1,'Resolution.h']]],
+  ['drawquadfunc_20',['DrawQuadFunc',['../d4/d4e/_g_u_i_texture_8h.html#a900c03803e091855e06b91e93ef7fd88',1,'GUITexture.h']]],
+  ['driverprimitives_21',['DriverPrimitives',['../da/d66/namespacekodi_1_1addon.html#aab63cb2b5efc9dfb710050bb1cf91295',1,'kodi::addon']]],
+  ['dvdaudioframe_22',['DVDAudioFrame',['../db/d49/_audio_sink_a_e_8h.html#a5231fab1cb4a92494b0f41d88968e808',1,'DVDAudioFrame:&#160;AudioSinkAE.h'],['../d5/d4f/_d_v_d_audio_codec_8h.html#a5231fab1cb4a92494b0f41d88968e808',1,'DVDAudioFrame:&#160;DVDAudioCodec.h']]],
+  ['dword_23',['DWORD',['../d4/d0e/posix_2_platform_defs_8h.html#a798af1e30bc65f319c1a246cecf59e39',1,'PlatformDefs.h']]]
+];

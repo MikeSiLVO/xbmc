@@ -1,0 +1,25 @@
+var class_a_d_d_o_n_1_1_i_addon_instance_handler =
+[
+    [ "IAddonInstanceHandler", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a721675e74d1d7d137e83bba098a9924e", null ],
+    [ "~IAddonInstanceHandler", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a8ff0030ff8569e9063e295f7883b4a6d", null ],
+    [ "Addon", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a08fbf3a0cc6b5d35749794c88e2f9be4", null ],
+    [ "Author", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a9a9f58b5e0defc60c0fa3fadbbd96af6", null ],
+    [ "CreateInstance", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#aa883fcbda3ab15ad021b3679504cdefe", null ],
+    [ "DestroyInstance", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a89b29c7cc2b97e8d4ba116dcca755a84", null ],
+    [ "GetAddonInfo", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a0c9789dab386eba7695e40dbd6b70350", null ],
+    [ "Icon", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a048074a36d1ced7cdf0a70e2d2cb6c6d", null ],
+    [ "ID", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a15ab3b49558c9aec064ba1ca098a38f6", null ],
+    [ "InstanceID", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a46f13c13117d2c555a4288a96bfcd86e", null ],
+    [ "InstanceId", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a109bcf6c7b0c27c961da05b046156c5c", null ],
+    [ "Name", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a91fb00befb575250946b6a09fbf7db8b", null ],
+    [ "OnPostInstall", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a7b2fa0dffad4952e612168e5a10c34e2", null ],
+    [ "OnPostUnInstall", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a100dd01641c06d791407c271e0a9ea8d", null ],
+    [ "OnPreInstall", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#afbce4f041cec93e8a7314bc23ec8b01a", null ],
+    [ "OnPreUnInstall", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a9849553646fa2cd44167c5f82240a566", null ],
+    [ "Path", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#ad0f83412533971a9dcf7dead2b6296ba", null ],
+    [ "Profile", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#ad7c644db44a93ab3762124cf707253f2", null ],
+    [ "UniqueWorkID", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a3e3df2f5c6e91bf1be7239fdec53cdd3", null ],
+    [ "UsedType", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a582a10a068e052ef132c5dc9b59679bd", null ],
+    [ "Version", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a7d09704916fbba798cfe47c7a84df79d", null ],
+    [ "m_ifc", "d0/dac/class_a_d_d_o_n_1_1_i_addon_instance_handler.html#a134a240b78c598adb6aed0bd5a867ef4", null ]
+];

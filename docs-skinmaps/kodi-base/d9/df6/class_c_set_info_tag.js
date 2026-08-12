@@ -1,0 +1,28 @@
+var class_c_set_info_tag =
+[
+    [ "CSetInfoTag", "d9/df6/class_c_set_info_tag.html#a04f6c533f04f2a756fdcfd7eaecb6380", null ],
+    [ "Archive", "d9/df6/class_c_set_info_tag.html#a71fffef8f53f1df383c580ce83c5142d", null ],
+    [ "Copy", "d9/df6/class_c_set_info_tag.html#aecb2156c7ca3d034dcd1626a8e642482", null ],
+    [ "GetArt", "d9/df6/class_c_set_info_tag.html#abb5549fde9f314868fa5b87964ebde0c", null ],
+    [ "GetID", "d9/df6/class_c_set_info_tag.html#a9ba6f67d2455906c10de94f1bdd8c361", null ],
+    [ "GetOriginalTitle", "d9/df6/class_c_set_info_tag.html#a31b1932ee32f10c6df955012a095a4bc", null ],
+    [ "GetOverview", "d9/df6/class_c_set_info_tag.html#a3d3a5f7ba31eac9e19399215ac6785f1", null ],
+    [ "GetTitle", "d9/df6/class_c_set_info_tag.html#abbf7a82237a454df9b846e72e3905e59", null ],
+    [ "GetUpdateSetOverview", "d9/df6/class_c_set_info_tag.html#ab68da1b3f975657911c6eb98de916ded", null ],
+    [ "HasArt", "d9/df6/class_c_set_info_tag.html#a0f0654a0b417cad26543867efa1818fb", null ],
+    [ "HasOriginalTitle", "d9/df6/class_c_set_info_tag.html#a99a6ffb384e1fe2ef4e776d68e1836a4", null ],
+    [ "HasOverview", "d9/df6/class_c_set_info_tag.html#a04582815d56db6383b48f2b9fb7b30cd", null ],
+    [ "HasTitle", "d9/df6/class_c_set_info_tag.html#a2da2afb02149769113a528d11a5d4a81", null ],
+    [ "IsEmpty", "d9/df6/class_c_set_info_tag.html#ab315e55862a4ae6fb7a7e7c7f868e603", null ],
+    [ "Load", "d9/df6/class_c_set_info_tag.html#abc3de8fcc26fd2923494a4f0362310ba", null ],
+    [ "Merge", "d9/df6/class_c_set_info_tag.html#a27697510803bcbe52be1ce6d5df026c6", null ],
+    [ "Reset", "d9/df6/class_c_set_info_tag.html#a66fd8c093e6e4bf336ea14af76bfeea3", null ],
+    [ "Save", "d9/df6/class_c_set_info_tag.html#a76a2b9d906ff88b92a40ae8860e5d029", null ],
+    [ "Serialize", "d9/df6/class_c_set_info_tag.html#adc96de61b5e92e7ca7a013e93862aeb1", null ],
+    [ "SetArt", "d9/df6/class_c_set_info_tag.html#a8d76372c0f06ea34decda960635b2d9b", null ],
+    [ "SetID", "d9/df6/class_c_set_info_tag.html#a04f2d1682feef838ce0fa6795e6273f7", null ],
+    [ "SetOriginalTitle", "d9/df6/class_c_set_info_tag.html#ac7ec4bebc175907cd2ab0bacb5da4db6", null ],
+    [ "SetOverview", "d9/df6/class_c_set_info_tag.html#a7f268e116db6ce99a430fd5bc15613d9", null ],
+    [ "SetTitle", "d9/df6/class_c_set_info_tag.html#a2dd07f230a182eac44a23d5414a7127a", null ],
+    [ "CSetInfoTagOffsets", "d9/df6/class_c_set_info_tag.html#a92eed5dadd9d56389f4708119de3b272", null ]
+];

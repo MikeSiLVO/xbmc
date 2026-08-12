@@ -1,0 +1,13 @@
+var group__cpp__kodi__addon__peripheral___defs___joystick =
+[
+    [ "class Joystick", "d0/da1/group__cpp__kodi__addon__peripheral___defs___joystick___joystick.html", "d0/da1/group__cpp__kodi__addon__peripheral___defs___joystick___joystick" ],
+    [ "class DriverPrimitive", "d5/d57/group__cpp__kodi__addon__peripheral___defs___joystick___driver_primitive.html", "d5/d57/group__cpp__kodi__addon__peripheral___defs___joystick___driver_primitive" ],
+    [ "class JoystickFeature", "db/d89/group__cpp__kodi__addon__peripheral___defs___joystick___joystick_feature.html", "db/d89/group__cpp__kodi__addon__peripheral___defs___joystick___joystick_feature" ],
+    [ "enum JOYSTICK_DRIVER_PRIMITIVE_TYPE", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e" ],
+    [ "enum JOYSTICK_DRIVER_HAT_DIRECTION", "d6/d3a/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___h_a_t___d_i_r_e_c_t_i_o_n.html", "d6/d3a/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___h_a_t___d_i_r_e_c_t_i_o_n" ],
+    [ "enum JOYSTICK_DRIVER_SEMIAXIS_DIRECTION", "de/d2f/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___s_e_m_i_a_x_i_s___d_i_r_e_c_t_i_o_n.html", "de/d2f/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___s_e_m_i_a_x_i_s___d_i_r_e_c_t_i_o_n" ],
+    [ "enum JOYSTICK_DRIVER_MOUSE_INDEX", "d7/d7e/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___m_o_u_s_e___i_n_d_e_x.html", "d7/d7e/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___m_o_u_s_e___i_n_d_e_x" ],
+    [ "enum JOYSTICK_DRIVER_RELPOINTER_DIRECTION", "dd/def/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___r_e_l_p_o_i_n_t_e_r___d_i_r_e_c_t_i_o_n.html", "dd/def/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___r_e_l_p_o_i_n_t_e_r___d_i_r_e_c_t_i_o_n" ],
+    [ "enum JOYSTICK_FEATURE_TYPE", "d0/df0/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___f_e_a_t_u_r_e___t_y_p_e.html", "d0/df0/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___f_e_a_t_u_r_e___t_y_p_e" ],
+    [ "enum JOYSTICK_FEATURE_PRIMITIVE", "de/d45/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___f_e_a_t_u_r_e___p_r_i_m_i_t_i_v_e.html", "de/d45/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___f_e_a_t_u_r_e___p_r_i_m_i_t_i_v_e" ]
+];

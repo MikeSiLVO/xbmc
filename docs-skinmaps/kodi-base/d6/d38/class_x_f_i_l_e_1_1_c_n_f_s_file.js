@@ -1,0 +1,27 @@
+var class_x_f_i_l_e_1_1_c_n_f_s_file =
+[
+    [ "CNFSFile", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a7afc070d4fe455b38ab799fd1002ee2c", null ],
+    [ "~CNFSFile", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a245fc0147fe16c1d90ce134833b77bed", null ],
+    [ "Close", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#ad6ff63045a72a70d0145a30025d1e97d", null ],
+    [ "Delete", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a980df05bc04291cb43c50a3f15db3aea", null ],
+    [ "Exists", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a36120fde40b2c2bb20121d96bb5c21e4", null ],
+    [ "GetChunkSize", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#acbbcc4bb00b706dec97ee2faeff72c37", null ],
+    [ "GetLength", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a33c32ecb0be0650bce8da5c955551084", null ],
+    [ "GetPosition", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a3bdab24f7fd46711218176b1187c38d0", null ],
+    [ "IoControl", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#ab4ac9a45c1f19d78be6bcc5ab25ed639", null ],
+    [ "IsValidFile", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#acf07c698ec4afbed5203bf710b0b61af", null ],
+    [ "Open", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a6446b54c6b06c10e9fff9aeb7172466a", null ],
+    [ "OpenForWrite", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a41fd95c631ccd2ebb168f3be0aab912c", null ],
+    [ "Read", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#ab01246fcd09b100c5c2bfe4bcd60a1f7", null ],
+    [ "Rename", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a332048673c24a58440471c696d431f60", null ],
+    [ "Seek", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a0a10aef1712104d11e0946fd6f9d1c6c", null ],
+    [ "Stat", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a838eeac20a414bde97b0576ba276c01f", null ],
+    [ "Stat", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a19c8530c0f0597a8ceac1a5b62953ba7", null ],
+    [ "Truncate", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#aee3a2ffda2721e0514e458c92136d53b", null ],
+    [ "Write", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a2038facc363254a7705e7c546f54b722", null ],
+    [ "m_exportPath", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a75e76d564aad9d47796d5e3f489c4fd3", null ],
+    [ "m_fileSize", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a65f0107d65e2f2ffbc5256f86d029777", null ],
+    [ "m_pFileHandle", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a74a8de2f39320b0311710a36e87bb96d", null ],
+    [ "m_pNfsContext", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#ad7f1c0fbf77c0b8e38e6da8493918eaf", null ],
+    [ "m_url", "d6/d38/class_x_f_i_l_e_1_1_c_n_f_s_file.html#a3f573b75c1b6c40702fe6bdd41da1b83", null ]
+];

@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['feature_5fcategory_0',['FEATURE_CATEGORY',['../d1/d5a/namespace_k_o_d_i_1_1_j_o_y_s_t_i_c_k.html#a4054a452abfc9521336e6f16b27c4c53',1,'KODI::JOYSTICK']]],
+  ['feature_5ftype_1',['FEATURE_TYPE',['../d1/d5a/namespace_k_o_d_i_1_1_j_o_y_s_t_i_c_k.html#a3b42f4fe2c10932ca8be18e97208eabc',1,'KODI::JOYSTICK']]],
+  ['fetchstatus_2',['FetchStatus',['../dd/dcb/class_a_d_d_o_n_1_1_c_repository.html#abae59e7b201b7341f27a7c09f7b8c201',1,'ADDON::CRepository']]],
+  ['field_3',['Field',['../d5/d72/_database_utils_8h.html#a1e35064f4b70226adc63b8fe1af7ddf8',1,'DatabaseUtils.h']]],
+  ['fieldtype_4',['FieldType',['../d8/d39/class_c_database_query_rule.html#a8e42b19eeaaa89802cac21afcb29490a',1,'CDatabaseQueryRule']]],
+  ['fileaction_5',['FileAction',['../d2/d67/class_c_file_operation_job.html#af45dfc54693e42c7457f5a48eca108a2',1,'CFileOperationJob']]],
+  ['fileexistsaction_6',['FileExistsAction',['../d8/d7a/class_c_video_database.html#a7c99f70b007b67970c39ea281a837ef8',1,'CVideoDatabase']]],
+  ['filefoldertype_7',['FileFolderType',['../d4/d8f/_file_item_8h.html#a3760ee6d0b9625d77307e1675dd5fde4',1,'FileItem.h']]],
+  ['fileproperty_8',['FileProperty',['../dc/d52/namespace_x_f_i_l_e.html#a50e7c7630d624f961d78024af28e3ad7',1,'XFILE']]],
+  ['filepropertytypes_9',['FilePropertyTypes',['../dd/d76/group__cpp__kodi__vfs___defs___file_property_types.html#ga48e8218ccc16c09e02390cc14901b583',1,'filesystem.h']]],
+  ['filtering_10',['FILTERING',['../d9/d9b/_g_u_i_keyboard_8h.html#aa1e2cd954a3288ec48c15c5065e59448',1,'GUIKeyboard.h']]],
+  ['filterselect_11',['FilterSelect',['../d6/d20/class_k_o_d_i_1_1_a_d_d_o_n_s_1_1_c_exts_mime_support_list.html#ace8ffd7b06c31c9301dc8e9b63801b99',1,'KODI::ADDONS::CExtsMimeSupportList']]],
+  ['filtertype_12',['FilterType',['../dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a4936868f93677f110a1c4b6b1b45e8d7',1,'KODI::SHADER']]],
+  ['finaldot_13',['FinalDot',['../d9/d13/_u_r_i_utils_8cpp.html#ade34d232c4db9b06c17c673235a79a47',1,'URIUtils.cpp']]],
+  ['findextensions_14',['FindExtensions',['../d9/d13/_u_r_i_utils_8cpp.html#a975bbf6dd4dce4837059bb18ee435a77',1,'URIUtils.cpp']]],
+  ['fixedlistaligny_15',['FixedListAlignY',['../de/d27/_g_u_i_fixed_list_container_8h.html#a275da7f2d5a984fa63faa8d955ff92cf',1,'GUIFixedListContainer.h']]],
+  ['fontalign_16',['FontAlign',['../d0/ddf/namespace_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_s_t_y_l_e.html#abf684103d9669c30c864049e105389df',1,'KODI::SUBTITLES::STYLE']]],
+  ['fontstyle_17',['FontStyle',['../d0/ddf/namespace_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_s_t_y_l_e.html#af041ce85583c478f4b326d5751ed029c',1,'KODI::SUBTITLES::STYLE::FontStyle'],['../df/de1/namespace_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s.html#ab14abcd72c1b384afaa924f55ece7a83',1,'KODI::SUBTITLES::FontStyle']]],
+  ['ftype_18',['fType',['../d6/d8d/namespacedbiplus.html#a7a023c23d2e782ee4c41cc0e6ffc57db',1,'dbiplus']]]
+];

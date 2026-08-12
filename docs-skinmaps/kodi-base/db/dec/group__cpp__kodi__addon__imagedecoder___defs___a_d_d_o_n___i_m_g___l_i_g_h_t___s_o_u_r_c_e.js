@@ -1,0 +1,27 @@
+var group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e =
+[
+    [ "ADDON_IMG_LIGHT_SOURCE", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#gab6df8d93b55b14412cd4a5b7cd49ed5f", null ],
+    [ "ADDON_IMG_LIGHT_SOURCE", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#gac51fad65ab53652721c5348867a4ddaa", [
+      [ "ADDON_IMG_LIGHT_SOURCE_UNKNOWN", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaada3e38585faf83c9da9c02555b0ce8cf", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_DAYLIGHT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaac96ab27195d7e84ba12ea9e31143e6bc", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_FLUORESCENT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa40b6f695bc99e293e8ae97d93a65d69e", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_TUNGSTEN", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa25b836161a6868ae68eff02dc4a252a1", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_FLASH", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaae29ce24b3cd1ec9cb5713e72a5b49870", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_FINE_WEATHER", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa34e9b338da03ff70353c55ab8fefdaa9", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_CLOUDY_WEATHER", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa34e56d833d56f3bf1332ac3475df3765", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_SHADE", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaad2bc43923fcdee212893c402efb63db9", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_DAYLIGHT_FLUORESCENT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaae1c2f5255f1aa0468e87e453bf0790cc", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_DAY_WHITE_FLUORESCENT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaacc22db60b3d0b520d95eb4797c415eab", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_COOL_WHITE_FLUORESCENT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa214b3e638635f6ebf263cce7cf89ec43", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_WHITE_FLUORESCENT", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaaf1a23565bd8222bfc40901beaad7f7f9", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_STANDARD_LIGHT_A", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa7ebef84f96ded03a14985441fa1c3783", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_STANDARD_LIGHT_B", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa52e6e3769770b6a1a5ed392b76c82518", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_STANDARD_LIGHT_C", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaadcd6b390cd3905ae97e242d4b77c683d", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_D55", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa089637e32214d455c1f9a6edcbbd6398", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_D65", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaaf569d77d7b6e5b685ce37befa062896d", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_D75", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa2632d9bfd639442507bf191698da33bf", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_D50", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa714f0cdad5d027a27d9a061ae24b4f41", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_ISO_STUDIO_TUNGSTEN", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaa0872264d997f3a82670f2d1fdf9bc14f", null ],
+      [ "ADDON_IMG_LIGHT_SOURCE_OTHER", "db/dec/group__cpp__kodi__addon__imagedecoder___defs___a_d_d_o_n___i_m_g___l_i_g_h_t___s_o_u_r_c_e.html#ggac51fad65ab53652721c5348867a4ddaaaf492b3c98f83629e4d3f6116686a24a5", null ]
+    ] ]
+];

@@ -1,0 +1,27 @@
+var class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings =
+[
+    [ "CSubtitlesSettings", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#ab46daa33e5a781d39199ebb5ce4260f7", null ],
+    [ "~CSubtitlesSettings", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a2c7171fdeb99f9b52cd0d1bee07f09fb", null ],
+    [ "GetAlignment", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a7295012f0097af126b5ec64baa00375c", null ],
+    [ "GetBackgroundColor", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#aff90fa799dfe0ee0ba58984489ea183b", null ],
+    [ "GetBackgroundOpacity", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a69c2c143c9dad76f85433a12f464b2e6", null ],
+    [ "GetBackgroundType", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a2fda283be40164bb57642dc1c8fa891b", null ],
+    [ "GetBlurSize", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a59d3d39c85175d78ff90cbfd64a62413", null ],
+    [ "GetBorderColor", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#aa57a5e016ff15fab4d878222f6c15215", null ],
+    [ "GetBorderSize", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#abf490acf7b62bea73124e3c768078a91", null ],
+    [ "GetFontColor", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a5ba3de06254b5386bbd7583420d079be", null ],
+    [ "GetFontName", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a1892f1c57950ab9fd196f96b051b609c", null ],
+    [ "GetFontOpacity", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a7c9472b85b26776e00a46e6aebb39904", null ],
+    [ "GetFontSize", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a8bfe7b2fbd6cfc68ad174dc9d05f653a", null ],
+    [ "GetFontStyle", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a7e99418303c19f36b41dc872bf7813e0", null ],
+    [ "GetHorizontalAlignment", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a5a5debe9d90ac85d4a36c3872463b4b2", null ],
+    [ "GetLineSpacing", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#ad65515f90fd75004bc88762059be7fa4", null ],
+    [ "GetOverrideStyles", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a39ab413e6d427abbea697ed8228b26db", null ],
+    [ "GetShadowColor", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a3349c9af50437372576c0414982f1c3f", null ],
+    [ "GetShadowOpacity", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a6d6a17cdd55ee63ed35d51694f86c9e7", null ],
+    [ "GetShadowSize", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a9a1ed7c330fbe728277198c815ee9341", null ],
+    [ "GetVerticalMarginPerc", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a1340819c4d2d205b87ee3b6d125ca059", null ],
+    [ "IsOverrideFonts", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a6b5256d3a50e33c295cc9e3e946d0873", null ],
+    [ "OnSettingChanged", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#af63e359b978fe00c11ba6d759e51a7be", null ],
+    [ "SetAlignment", "d4/dab/class_k_o_d_i_1_1_s_u_b_t_i_t_l_e_s_1_1_c_subtitles_settings.html#a873b9415b909e0478ee75c85f71a975e", null ]
+];

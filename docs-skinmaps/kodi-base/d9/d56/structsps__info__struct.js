@@ -1,0 +1,27 @@
+var structsps__info__struct =
+[
+    [ "bit_depth_chroma_minus8", "d9/d56/structsps__info__struct.html#a22f7f8d19bee96cfbcc6a2f616f8f842", null ],
+    [ "bit_depth_luma_minus8", "d9/d56/structsps__info__struct.html#aa38323ffd031d11ffc9854da2049a94b", null ],
+    [ "chroma_format_idc", "d9/d56/structsps__info__struct.html#a135bbf7087a5acf16f1a06e510ec5ec4", null ],
+    [ "direct_8x8_inference_flag", "d9/d56/structsps__info__struct.html#a7e015c49d1824c2135316a1a8fac5dba", null ],
+    [ "frame_crop_bottom_offset", "d9/d56/structsps__info__struct.html#adf9bad5fabdd1ef7a6d4d886b37dba1f", null ],
+    [ "frame_crop_left_offset", "d9/d56/structsps__info__struct.html#a5791d4c7def872ea10eb31d56c9870f4", null ],
+    [ "frame_crop_right_offset", "d9/d56/structsps__info__struct.html#a22b0dd2a999f308d3123364706c03291", null ],
+    [ "frame_crop_top_offset", "d9/d56/structsps__info__struct.html#ab20d2df3acbc7ba75e261676d1db5844", null ],
+    [ "frame_cropping_flag", "d9/d56/structsps__info__struct.html#acf33f39eebc86e3b49093ea3be28ddb5", null ],
+    [ "frame_mbs_only_flag", "d9/d56/structsps__info__struct.html#a3b0aabc4c513be713a50cdef2d42c1f3", null ],
+    [ "gaps_in_frame_num_value_allowed_flag", "d9/d56/structsps__info__struct.html#a4e1788f9db0e04ae543786467ec0d6ad", null ],
+    [ "level_idc", "d9/d56/structsps__info__struct.html#ab4b48110be1e3024daa2b438d2718467", null ],
+    [ "log2_max_frame_num_minus4", "d9/d56/structsps__info__struct.html#a0bc73864d0859f00da45c831f2b68e11", null ],
+    [ "log2_max_pic_order_cnt_lsb_minus4", "d9/d56/structsps__info__struct.html#a87e9702471e64d08a5377b21a446c6a7", null ],
+    [ "max_num_ref_frames", "d9/d56/structsps__info__struct.html#a125c28a19e5e7be6a55cd0b933cb8585", null ],
+    [ "mb_adaptive_frame_field_flag", "d9/d56/structsps__info__struct.html#a47dc91868e472f5922870847a13ca32f", null ],
+    [ "pic_height_in_map_units_minus1", "d9/d56/structsps__info__struct.html#ac64f0bc54f2b053d51204f8d8ec9208d", null ],
+    [ "pic_order_cnt_type", "d9/d56/structsps__info__struct.html#a6d77f271b10e0850f82820e53bc4ec6d", null ],
+    [ "pic_width_in_mbs_minus1", "d9/d56/structsps__info__struct.html#ad7415ee7224d47e4cdfbaeb0f3c4afda", null ],
+    [ "profile_idc", "d9/d56/structsps__info__struct.html#af3d31b4ce62960a23bbdd1087b2dc9ed", null ],
+    [ "qpprime_y_zero_transform_bypass_flag", "d9/d56/structsps__info__struct.html#a1db39626d00ac083d0b3261744c40ed9", null ],
+    [ "separate_colour_plane_flag", "d9/d56/structsps__info__struct.html#a1d7f5b8bbdb66c5f8c0344374e4a9e3f", null ],
+    [ "seq_scaling_matrix_present_flag", "d9/d56/structsps__info__struct.html#a36bd092aeacf6a6dee2eb71a3216649d", null ],
+    [ "sps_id", "d9/d56/structsps__info__struct.html#a0eac5e790cee269b85b1eb5dac9010c7", null ]
+];

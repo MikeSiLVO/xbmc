@@ -1,0 +1,27 @@
+var class_x_f_i_l_e_1_1_c_simple_file_cache =
+[
+    [ "CSimpleFileCache", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a89e54368e048befdd721a1da114a1483", null ],
+    [ "~CSimpleFileCache", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#ace948dc1dab7622107e02b3917dbe352", null ],
+    [ "CachedDataEndPos", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a822d70b58865c276d39791c637e08e4e", null ],
+    [ "CachedDataEndPosIfSeekTo", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a0a8f5724dae33a6447784b4047e625fd", null ],
+    [ "CachedDataStartPos", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a88386e742f1ceef2f11ca47e0c82850f", null ],
+    [ "Close", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#afeb3f241b12c74cba2696cb4a1685c13", null ],
+    [ "CreateNew", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a6b6c1ec0079b3af59dea079d89f3440e", null ],
+    [ "EndOfInput", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a86b4d8c97fdac83c208a7e67e0513922", null ],
+    [ "GetAvailableRead", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a5d7a201c04fd680be518d40bdae6ed49", null ],
+    [ "GetMaxWriteSize", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a8d01e371cd3d1fb6312d9b94ec11fe8a", null ],
+    [ "IsCachedPosition", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a3a6330c555800cb78731a0d4d5c492df", null ],
+    [ "Open", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a169c1df7645f1409d355d860d8ae02b1", null ],
+    [ "ReadFromCache", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a6eea07b094e0b3576e7a28563bf11ce7", null ],
+    [ "Reset", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a086e2954594077dc9fc8d57991867a0f", null ],
+    [ "Seek", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a6b113adabc0dac83848c8375a3997f70", null ],
+    [ "WaitForData", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a898e6119a26ae85d72c1466f07032b88", null ],
+    [ "WriteToCache", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#ad285324c4dab209cd5711f26905f11f5", null ],
+    [ "m_cacheFileRead", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#ac81ef7e34323990fc68288d330cd0b7a", null ],
+    [ "m_cacheFileWrite", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a6ca70168c3c72e7a27853e4f00e5eb34", null ],
+    [ "m_filename", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#aeba1b2e96d008e33d663482fee4f4747", null ],
+    [ "m_hDataAvailEvent", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#afc9130c422dd83196b01a9d31906b48d", null ],
+    [ "m_nReadPosition", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a4beec54e8b3a41f71454aca595ad7df4", null ],
+    [ "m_nStartPosition", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#a19670cc80b6d3a153b6ab1bbf9905f8c", null ],
+    [ "m_nWritePosition", "d2/d05/class_x_f_i_l_e_1_1_c_simple_file_cache.html#ac084ff2d51187518d2295d8133ff938e", null ]
+];

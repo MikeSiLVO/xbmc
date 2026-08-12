@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['ratingmap_0',['RatingMap',['../d9/d95/_video_info_tag_8h.html#aaabc01b26ac2f88d0c1a65cb14b609fa',1,'VideoInfoTag.h']]],
+  ['raw_5fread_5finfo_1',['RAW_READ_INFO',['../df/d43/my__ntddcdrm_8h.html#a408ea170f90240e986c998915a819968',1,'my_ntddcdrm.h']]],
+  ['rcontrols_2',['rControls',['../dc/d82/class_c_g_u_i_control_group.html#abbcc69f59e7b847254618edc93b3555a',1,'CGUIControlGroup']]],
+  ['readytodispose_3',['ReadyToDispose',['../dc/d64/_video_buffer_8h.html#af0a2b4138fb4e167e7b5a8036b1a4c6c',1,'ReadyToDispose:&#160;VideoBuffer.h'],['../d8/d70/namespace_v_a_a_p_i.html#a8e52947d442a779e9db1281710d4605f',1,'VAAPI::ReadyToDispose']]],
+  ['record_5fprop_4',['record_prop',['../d6/d8d/namespacedbiplus.html#a4edf5f9694b991571f01dfdfe5e98e0b',1,'dbiplus']]],
+  ['recordings_5',['Recordings',['../d3/daf/namespace_p_v_r_1_1_g_u_i.html#af94b87ea7f73743a93eb46cf729e9ba0',1,'PVR::GUI']]],
+  ['regexpcache_6',['RegExpCache',['../de/d76/namespace_k_o_d_i_1_1_r_e_g_e_x_p.html#a9a44ffb454985bac8c2d66a4ab52025a',1,'KODI::REGEXP']]],
+  ['registrationidentifiertype_7',['RegistrationIdentifierType',['../dd/dc7/namespace_k_o_d_i.html#a472b6bfc8d8141bf8970a64e1877d60d',1,'KODI']]],
+  ['registrytypes_8',['RegistryTypes',['../dc/dc3/_test_sub_tag_registry_types_8cpp.html#a7a4068ce1fc9d63efdf4b3a0b023814b',1,'RegistryTypes:&#160;TestSubTagRegistryTypes.cpp'],['../d7/d4e/_test_sub_tags_collection_8cpp.html#ac39a87429d1a29525de01d229d63f63d',1,'RegistryTypes:&#160;TestSubTagsCollection.cpp']]],
+  ['relative_5fpointer_5fdirection_9',['RELATIVE_POINTER_DIRECTION',['../d1/d5a/namespace_k_o_d_i_1_1_j_o_y_s_t_i_c_k.html#ab0cb541ff594c0e984bfbcbc96635c4a',1,'KODI::JOYSTICK']]],
+  ['removehandler_10',['RemoveHandler',['../d3/da0/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_registry.html#a67de8dec2dce026e9272bc9d4b73d426',1,'KODI::WINDOWING::WAYLAND::CRegistry']]],
+  ['renderbufferpoolptr_11',['RenderBufferPoolPtr',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#ade4340238e0a2186a91d8cda00594b9e',1,'KODI::RETRO']]],
+  ['renderbufferpoolvector_12',['RenderBufferPoolVector',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#ac84dbfc18ed150cfbd00f7824b48d71d',1,'KODI::RETRO']]],
+  ['repositorydirlist_13',['RepositoryDirList',['../d8/d83/namespace_a_d_d_o_n.html#a7ec406258596bf44bbc764432cc190c8',1,'ADDON']]],
+  ['repositoryptr_14',['RepositoryPtr',['../d8/d83/namespace_a_d_d_o_n.html#a258eca750eb9ec3f21e7d0367654ac89',1,'ADDON']]],
+  ['rssurls_15',['RssUrls',['../d8/d30/_rss_manager_8h.html#a99222d53b318f188acd26f0947e3345d',1,'RssManager.h']]]
+];
