@@ -1,0 +1,35 @@
+name: Preview docs
+
+# Temporary: builds the skinning reference and publishes it to this fork's
+# GitHub Pages so a branch can be reviewed rendered. Not for upstream.
+on:
+  workflow_dispatch:
+  push:
+    branches: [ doxygen-skinmaps-preview ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Point the output at the publish dir
+        run: |
+          mkdir -p ./build
+          sed -i 's|.*HTML_OUTPUT.*=.*|HTML_OUTPUT = ../build/kodi-base|' ./docs/doxygen/Doxyfile.doxy
+
+      - name: Doxygen
+        uses: mattnotmitt/doxygen-action@1.12.0
+        with:
+          doxyfile-path: "./Doxyfile.doxy"
+          working-directory: "./docs/doxygen"
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./build
