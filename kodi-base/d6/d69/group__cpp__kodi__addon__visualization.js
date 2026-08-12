@@ -1,0 +1,27 @@
+var group__cpp__kodi__addon__visualization =
+[
+    [ "Definitions, structures and enumerators", "df/d16/group__cpp__kodi__addon__visualization___defs.html", "df/d16/group__cpp__kodi__addon__visualization___defs" ],
+    [ "Information functions", "d0/d39/group__cpp__kodi__addon__visualization___c_b.html", "d0/d39/group__cpp__kodi__addon__visualization___c_b" ],
+    [ "kodi::addon::CInstanceVisualization::AudioData", "d6/d69/group__cpp__kodi__addon__visualization.html#ga92bd9c6e910578d9879a46c1419061b2", null ],
+    [ "kodi::addon::CInstanceVisualization::AudioGetSyncDelay", "d6/d69/group__cpp__kodi__addon__visualization.html#ga570c87bb5f080988444f3a68ffa90d02", null ],
+    [ "kodi::addon::CInstanceVisualization::AudioStart", "d6/d69/group__cpp__kodi__addon__visualization.html#ga1b514c2f5b0d5de678384c583bde5459", null ],
+    [ "kodi::addon::CInstanceVisualization::AudioStop", "d6/d69/group__cpp__kodi__addon__visualization.html#gad8a8beaf1153083b1ea90d41674590cb", null ],
+    [ "kodi::addon::CInstanceVisualization::CInstanceVisualization", "d6/d69/group__cpp__kodi__addon__visualization.html#ga1ff631a96fb7758fd78297cf5a970387", null ],
+    [ "kodi::addon::CInstanceVisualization::CInstanceVisualization", "d6/d69/group__cpp__kodi__addon__visualization.html#ga7efdea433f34b0fdcfb339e28d076ed2", null ],
+    [ "kodi::addon::CInstanceVisualization::DeInit", "d6/d69/group__cpp__kodi__addon__visualization.html#gac7f758e4bf41538415ff3973f26f5417", null ],
+    [ "kodi::addon::CInstanceVisualization::GetActivePreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga3a950403bf88f6b4dbf004b6dd7e6be6", null ],
+    [ "kodi::addon::CInstanceVisualization::GetPresets", "d6/d69/group__cpp__kodi__addon__visualization.html#ga5f27c8cab0b815a8bb6c7be97360e9ce", null ],
+    [ "kodi::addon::CInstanceVisualization::Init", "d6/d69/group__cpp__kodi__addon__visualization.html#ga5590b0a8eb3600bc288ceab1b8659821", null ],
+    [ "kodi::addon::CInstanceVisualization::IsDirty", "d6/d69/group__cpp__kodi__addon__visualization.html#ga8abbdef271f9c35b7c225133d3a02907", null ],
+    [ "kodi::addon::CInstanceVisualization::IsLocked", "d6/d69/group__cpp__kodi__addon__visualization.html#gaf1944571a16349a6d33d8812380f82b0", null ],
+    [ "kodi::addon::CInstanceVisualization::LoadPreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga45096814531ec08516f14f5de133ca39", null ],
+    [ "kodi::addon::CInstanceVisualization::LockPreset", "d6/d69/group__cpp__kodi__addon__visualization.html#gafe389de972cc78e9dd891ec2fc7500e8", null ],
+    [ "kodi::addon::CInstanceVisualization::NextPreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga19a313abd3a9587bf6300d14a3d5447f", null ],
+    [ "kodi::addon::CInstanceVisualization::PrevPreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga7446439921e2562579b2491880446a5c", null ],
+    [ "kodi::addon::CInstanceVisualization::RandomPreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga033ff61e833439d2a82913ad86fd7483", null ],
+    [ "kodi::addon::CInstanceVisualization::RatePreset", "d6/d69/group__cpp__kodi__addon__visualization.html#ga10577b5c5a6238d32e1baf7175e82e92", null ],
+    [ "kodi::addon::CInstanceVisualization::Render", "d6/d69/group__cpp__kodi__addon__visualization.html#ga112df6428b433e591806f55a4ce8803f", null ],
+    [ "kodi::addon::CInstanceVisualization::UpdateAlbumart", "d6/d69/group__cpp__kodi__addon__visualization.html#gab6cd8a24d09eae480692402c0408504d", null ],
+    [ "kodi::addon::CInstanceVisualization::UpdateTrack", "d6/d69/group__cpp__kodi__addon__visualization.html#ga3568ea7102cfc424b109e6a364914c2b", null ],
+    [ "kodi::addon::CInstanceVisualization::~CInstanceVisualization", "d6/d69/group__cpp__kodi__addon__visualization.html#ga61992a8885e1a32b4496276db50182a0", null ]
+];

@@ -1,0 +1,26 @@
+var class_c_g_u_i_window_music_nav =
+[
+    [ "CGUIWindowMusicNav", "de/dbf/class_c_g_u_i_window_music_nav.html#a8357b1fdb5fa9df2e3fc441ad857e0e7", null ],
+    [ "~CGUIWindowMusicNav", "de/dbf/class_c_g_u_i_window_music_nav.html#ab15330d22f3bc5660b7eeebc29b9c7a2", null ],
+    [ "AddSearchFolder", "de/dbf/class_c_g_u_i_window_music_nav.html#aac18a2e0a1cf613430b1a7ace0349a60", null ],
+    [ "FrameMove", "de/dbf/class_c_g_u_i_window_music_nav.html#aaeacab13c7f34807e236ed0a4929c8fd", null ],
+    [ "GetContextButtons", "de/dbf/class_c_g_u_i_window_music_nav.html#a42b9ab4bdfeade9d5baa0d8e7af086d8", null ],
+    [ "GetDirectory", "de/dbf/class_c_g_u_i_window_music_nav.html#a3e464ddca82589e4690f9693f3ae54ca", null ],
+    [ "GetSongsFromPlayList", "de/dbf/class_c_g_u_i_window_music_nav.html#a5ec1f8e398f263ce8d209aaf7b4a6a3e", null ],
+    [ "GetStartFolder", "de/dbf/class_c_g_u_i_window_music_nav.html#a2932479ec32d2b04e46ce559684b8bed", null ],
+    [ "ManageInfoProvider", "de/dbf/class_c_g_u_i_window_music_nav.html#adb3516a0ace9129163b3409f69996ebd", null ],
+    [ "OnAction", "de/dbf/class_c_g_u_i_window_music_nav.html#a3c55cabaeab5487521759a40bd11ade9", null ],
+    [ "OnClick", "de/dbf/class_c_g_u_i_window_music_nav.html#a7ec85704a0c4cf8b7b9a4aa065ac6dd8", null ],
+    [ "OnContextButton", "de/dbf/class_c_g_u_i_window_music_nav.html#a2ae169139a2177f128b8fca3df08c730", null ],
+    [ "OnItemLoaded", "de/dbf/class_c_g_u_i_window_music_nav.html#ae31d1e4a0b7b1b184cd5a72830df41ab", null ],
+    [ "OnMessage", "de/dbf/class_c_g_u_i_window_music_nav.html#aa6cceaa08f2173270e05239e5bd533ee", null ],
+    [ "OnPopupMenu", "de/dbf/class_c_g_u_i_window_music_nav.html#a8563ef8166032f685ed6af0d276a7335", null ],
+    [ "OnSearchUpdate", "de/dbf/class_c_g_u_i_window_music_nav.html#a3b2aeb5ac4a82084bd6f99a8fe9c3e03", null ],
+    [ "OnWindowLoaded", "de/dbf/class_c_g_u_i_window_music_nav.html#a347c31a43f89f9144d91eb645bd6cb63", null ],
+    [ "PlayItem", "de/dbf/class_c_g_u_i_window_music_nav.html#a18a23d38dbee4075ea3a3990a591a544", null ],
+    [ "Update", "de/dbf/class_c_g_u_i_window_music_nav.html#a3292a233c038efebc6705a55aa33ab72", null ],
+    [ "UpdateButtons", "de/dbf/class_c_g_u_i_window_music_nav.html#a048cc3b4093fc0ab9c92a80430a7e382", null ],
+    [ "m_searchTimer", "de/dbf/class_c_g_u_i_window_music_nav.html#a98910ae706df51e0da8518b3cfd00b7f", null ],
+    [ "m_searchWithEdit", "de/dbf/class_c_g_u_i_window_music_nav.html#a0afc18deb491954054751ea3c683e50e", null ],
+    [ "m_shares", "de/dbf/class_c_g_u_i_window_music_nav.html#a49f419ff353cd04dafe97785c79288e7", null ]
+];

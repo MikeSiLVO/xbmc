@@ -1,0 +1,27 @@
+var group__cpp__kodi__audioengine___c_a_e_stream =
+[
+    [ "kodi::audioengine::CAEStream::AddData", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gaafb6dc587a31d2d94fd67735532973ed", null ],
+    [ "kodi::audioengine::CAEStream::CAEStream", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gaf6d2745fd455c6b180e182adad38b4b7", null ],
+    [ "kodi::audioengine::CAEStream::Drain", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga91efa622fc6dac8956c4e7b4d2d6c61f", null ],
+    [ "kodi::audioengine::CAEStream::Flush", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga17c877dc1508f40f3d7d63ae85eae09f", null ],
+    [ "kodi::audioengine::CAEStream::GetAmplification", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga4b892b124d902e54ead79a35d502727f", null ],
+    [ "kodi::audioengine::CAEStream::GetCacheTime", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gae9d1e6b49566cfaa125e0a49f109dd3e", null ],
+    [ "kodi::audioengine::CAEStream::GetCacheTotal", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga6ff5f3393ebb9f8246e809b89dca6bbb", null ],
+    [ "kodi::audioengine::CAEStream::GetChannelCount", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga64a548c926b8174d8d02cdd133d1f97e", null ],
+    [ "kodi::audioengine::CAEStream::GetDataFormat", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga98928efa680afe6d24419937d3999239", null ],
+    [ "kodi::audioengine::CAEStream::GetDelay", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga10ccebb57e81ff1a2b3bc35fe7bb24f8", null ],
+    [ "kodi::audioengine::CAEStream::GetFrameSize", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga6fa869b68744990a6a34967c9e61498c", null ],
+    [ "kodi::audioengine::CAEStream::GetResampleRatio", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gaa5aecebd7afeb4bdbe80d57cdce1e7c6", null ],
+    [ "kodi::audioengine::CAEStream::GetSampleRate", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga32e43260cac454bf7315849c0332b0a0", null ],
+    [ "kodi::audioengine::CAEStream::GetSpace", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga09df05eea5676356930cd40b5e561869", null ],
+    [ "kodi::audioengine::CAEStream::GetVolume", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga5c2ce663e6cb0cedbc1fb696801e03a9", null ],
+    [ "kodi::audioengine::CAEStream::IsBuffering", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gad09988c8ffb980d2e50f998adcc27742", null ],
+    [ "kodi::audioengine::CAEStream::IsDrained", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gab44fcfb73be5494968cd57bd43d29f90", null ],
+    [ "kodi::audioengine::CAEStream::IsDraining", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gac527fa1951433af7701bc7d7832dc804", null ],
+    [ "kodi::audioengine::CAEStream::Pause", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga94fe8126fb5679ffe172cdabbe70b11c", null ],
+    [ "kodi::audioengine::CAEStream::Resume", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga14465737d230945568e59aa4098f683f", null ],
+    [ "kodi::audioengine::CAEStream::SetAmplification", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga46bffe03105b12ee7c679723082af471", null ],
+    [ "kodi::audioengine::CAEStream::SetResampleRatio", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gaae6bde824efcc6c5f106f0e6215e3c5c", null ],
+    [ "kodi::audioengine::CAEStream::SetVolume", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#ga3a6bcd01673bcc321e483b3a2c4195d0", null ],
+    [ "kodi::audioengine::CAEStream::~CAEStream", "d0/db0/group__cpp__kodi__audioengine___c_a_e_stream.html#gafc4d40f60fd81dcd204206810b054150", null ]
+];

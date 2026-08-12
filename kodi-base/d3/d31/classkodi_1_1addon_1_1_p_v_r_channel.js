@@ -1,0 +1,28 @@
+var classkodi_1_1addon_1_1_p_v_r_channel =
+[
+    [ "GetChannelName", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga7a93a815965d11b0382e9c0d1101e467", null ],
+    [ "GetChannelNumber", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga0989708888fb42b8ebc357a168ff6e2d", null ],
+    [ "GetClientProviderUid", "d3/d31/classkodi_1_1addon_1_1_p_v_r_channel.html#aae357e29e9319ac2657284639b0519e7", null ],
+    [ "GetEncryptionSystem", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaa4d5fcb9a4db2d72b8a57f66b5982c96", null ],
+    [ "GetHasArchive", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga4328b70e544bae6b10e9b8f7957ab3b6", null ],
+    [ "GetIconPath", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga7130dd7dd099d914d9d55f6866903169", null ],
+    [ "GetIsHidden", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga762c32c99679ca5ee03fbf22a8bb73cb", null ],
+    [ "GetIsRadio", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaa5fddcda5136f63c4010efa8b3cb8309", null ],
+    [ "GetMimeType", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga71c9fc0989e52cae09e93970e47b8081", null ],
+    [ "GetOrder", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gadfd3caf5ea24f18ae256a44879220fbc", null ],
+    [ "GetSubChannelNumber", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaaee6677ab63f09a35b815eba93c06582", null ],
+    [ "GetUniqueId", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga85b888d25d73fc72480da52a0b8aff52", null ],
+    [ "SetChannelName", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga160952e1fcc42bd702323b670c8d2e34", null ],
+    [ "SetChannelNumber", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga8ed08ca2b0e1517a0f77e7cd566ab3f9", null ],
+    [ "SetClientProviderUid", "d3/d31/classkodi_1_1addon_1_1_p_v_r_channel.html#afe732f4389a1eddeaf43b1a1de999e3b", null ],
+    [ "SetEncryptionSystem", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaaae43d54b6a7356db33b90c4c1415a2e", null ],
+    [ "SetHasArchive", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga8ca9c9e16b5fc866e202f66f3e78b46a", null ],
+    [ "SetIconPath", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gafa707f3427dcd5d2ac7a256417e13de6", null ],
+    [ "SetIsHidden", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga34b1665349408879f1c8dc3375329aad", null ],
+    [ "SetIsRadio", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga94e0aa86749ccc82dd2ecb7ee5cd2ebf", null ],
+    [ "SetMimeType", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaa98200fc1214650f76977e5a65dbf5d9", null ],
+    [ "SetOrder", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga04a086a7b35fd08602f422be309d4923", null ],
+    [ "SetSubChannelNumber", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#gaa36e9fd8327b1827f13c813e469cda92", null ],
+    [ "SetUniqueId", "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga550642f60e226e95825f8c923ec1e4d1", null ],
+    [ "CInstancePVRClient", "d3/d31/classkodi_1_1addon_1_1_p_v_r_channel.html#a8dbbe040f6564cca9eb0b589c8452128", null ]
+];

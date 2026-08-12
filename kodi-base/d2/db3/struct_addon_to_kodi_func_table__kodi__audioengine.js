@@ -1,0 +1,28 @@
+var struct_addon_to_kodi_func_table__kodi__audioengine =
+[
+    [ "aestream_add_data", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a4b90f229bb2e6b2024077a0daf07875c", null ],
+    [ "aestream_drain", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a1d179bca395fe9a8a3690074cbd4e904", null ],
+    [ "aestream_flush", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#aa74be2bcd42a685e958310247a8c0f1f", null ],
+    [ "aestream_get_amplification", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a057b8afaaac229e4de4c0521627b6871", null ],
+    [ "aestream_get_cache_time", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a9c9d82998c25bc7903418f3c00e695b1", null ],
+    [ "aestream_get_cache_total", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a77eb70f474115062ea4ca386f2e92718", null ],
+    [ "aestream_get_channel_count", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ab5be68e71d1a6ed5a16c51231220fda9", null ],
+    [ "aestream_get_data_format", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a04aa60a41554ac142cde1496e3f50237", null ],
+    [ "aestream_get_delay", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ac5aaf52de410d692222ab41c47d4a919", null ],
+    [ "aestream_get_frame_size", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a4a9ee5e133a01a2cb5f138d824074d6c", null ],
+    [ "aestream_get_resample_ratio", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a8a386bf73f126e22bf09fdc2b8cc32c6", null ],
+    [ "aestream_get_sample_rate", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a328673923b2e9d69c099429680bd1177", null ],
+    [ "aestream_get_space", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a1f05ee3a8197e02e3f4af3d2c7a8e2b7", null ],
+    [ "aestream_get_volume", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ab2592016175e0b8bd00b48d179ffdef8", null ],
+    [ "aestream_is_buffering", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ae10f1859ab330203466fc27122fc4dc2", null ],
+    [ "aestream_is_drained", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#af223d7939a900906cd1885342c4fa49d", null ],
+    [ "aestream_is_draining", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a07f61f654323f7195ce931e4094535e4", null ],
+    [ "aestream_pause", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ae0a28482e04e63a7be7eac77a27138b6", null ],
+    [ "aestream_resume", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#ae68a82ae55da5f29ebb152d8fe2a8aac", null ],
+    [ "aestream_set_amplification", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a52a2902a463d9994a1d60f8029abc37a", null ],
+    [ "aestream_set_resample_ratio", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#afc73d65a7ce5d89135c95747f5e9c62e", null ],
+    [ "aestream_set_volume", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a6c821a5bb04f99dd0b0fad22f1954318", null ],
+    [ "free_stream", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a79fe5e101cf005107c392b87fe0f5ee1", null ],
+    [ "get_current_sink_format", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a70129e402d003a6cf2541e746011a79e", null ],
+    [ "make_stream", "d2/db3/struct_addon_to_kodi_func_table__kodi__audioengine.html#a9201e3be49b66e0ff5d86fe94dd377d5", null ]
+];

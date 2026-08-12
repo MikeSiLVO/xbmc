@@ -1,0 +1,28 @@
+var class_c_web_socket_frame =
+[
+    [ "CWebSocketFrame", "d1/d95/class_c_web_socket_frame.html#aa8bddaaab1eac5c911fd37b23960cfbd", null ],
+    [ "CWebSocketFrame", "d1/d95/class_c_web_socket_frame.html#a1e0de8acc3ed00099e132fec8321b226", null ],
+    [ "~CWebSocketFrame", "d1/d95/class_c_web_socket_frame.html#a2b1bfba547020583cf7c6580a31406aa", null ],
+    [ "GetApplicationData", "d1/d95/class_c_web_socket_frame.html#a031093f89980c6b3ffec244bf122d534", null ],
+    [ "GetExtension", "d1/d95/class_c_web_socket_frame.html#adcfd71e3b3f8aafdda38bd4a345bad91", null ],
+    [ "GetFrameData", "d1/d95/class_c_web_socket_frame.html#ae1407c9f306f9f5ed827a9242c1f06c3", null ],
+    [ "GetFrameLength", "d1/d95/class_c_web_socket_frame.html#a3b7aad743a5c17de29966b891e858e02", null ],
+    [ "GetLength", "d1/d95/class_c_web_socket_frame.html#a27ed3e47a7416c9b22b901c38108a4ed", null ],
+    [ "GetMask", "d1/d95/class_c_web_socket_frame.html#af3f8999ed460d057f20682a7cbfdba12", null ],
+    [ "GetOpcode", "d1/d95/class_c_web_socket_frame.html#aae4d2320deb0391f6ec38e5fe9cad3d9", null ],
+    [ "IsControlFrame", "d1/d95/class_c_web_socket_frame.html#a3bb6177a622783f8be391cec60ae3139", null ],
+    [ "IsFinal", "d1/d95/class_c_web_socket_frame.html#a0ce7b71b4510a9ff302d5c40ae0476ec", null ],
+    [ "IsMasked", "d1/d95/class_c_web_socket_frame.html#acac531d272daefdf5efe9a9b6010c61e", null ],
+    [ "IsValid", "d1/d95/class_c_web_socket_frame.html#a36f9133531704399a505d50030abb7c7", null ],
+    [ "m_applicationData", "d1/d95/class_c_web_socket_frame.html#a9a0279cbab1fc8496ec0f3ef2b1df902", null ],
+    [ "m_data", "d1/d95/class_c_web_socket_frame.html#afa207718f8948199a135a327405d4c8b", null ],
+    [ "m_extension", "d1/d95/class_c_web_socket_frame.html#aef3371b9cb4b1171ba5f4219dda5327b", null ],
+    [ "m_final", "d1/d95/class_c_web_socket_frame.html#aefe41deed586325d846e047d9da94114", null ],
+    [ "m_free", "d1/d95/class_c_web_socket_frame.html#a4b1a549659999e46bf35020f3490adb4", null ],
+    [ "m_length", "d1/d95/class_c_web_socket_frame.html#abdabf2d80363af2ad830bc6951298fcb", null ],
+    [ "m_lengthFrame", "d1/d95/class_c_web_socket_frame.html#a3f0920f3a62cfd76ff308f6fded15f01", null ],
+    [ "m_mask", "d1/d95/class_c_web_socket_frame.html#aea97cd14f90e1b5659857c544144b769", null ],
+    [ "m_masked", "d1/d95/class_c_web_socket_frame.html#a1e89d9c4d21f3fe554487c9fb6dc6e77", null ],
+    [ "m_opcode", "d1/d95/class_c_web_socket_frame.html#abd17fcbd790cd1de0ef6effa386ef7f7", null ],
+    [ "m_valid", "d1/d95/class_c_web_socket_frame.html#ad79263ecaa0e4f3774f10bcf2e3ab4aa", null ]
+];

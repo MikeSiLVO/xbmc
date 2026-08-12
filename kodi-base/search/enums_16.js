@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['varianttype_0',['VariantType',['../dc/d06/class_c_variant.html#a796262f5cd771391a7cc1d972311c6f1',1,'CVariant']]],
+  ['vcreturn_1',['VCReturn',['../d4/d97/class_c_d_v_d_video_codec.html#a2595216650443333b5cc4b2ef11375ba',1,'CDVDVideoCodec']]],
+  ['version_2',['Version',['../d3/d8c/namespace_h_t_t_p.html#a1c8cb74462f162826b91c3c14afae23a',1,'HTTP']]],
+  ['versionconversionresult_3',['VersionConversionResult',['../d1/d2b/_video_manager_types_8h.html#a55eb40c7fb17645849256b69ff3559b7',1,'VideoManagerTypes.h']]],
+  ['videoassettype_4',['VideoAssetType',['../d1/d2b/_video_manager_types_8h.html#a6b0f679dfe79577130747957eacf61f1',1,'VideoManagerTypes.h']]],
+  ['videoassettypeowner_5',['VideoAssetTypeOwner',['../d1/d2b/_video_manager_types_8h.html#af24864de11ed90f23d9f910c36d12792',1,'VideoManagerTypes.h']]],
+  ['videocodec_5fformat_6',['VIDEOCODEC_FORMAT',['../d2/dbb/group__cpp__kodi__addon__videocodec___defs___video_codec_initdata.html#gab0b1f25d1429b3c487d46b53c53d0712',1,'video_codec.h']]],
+  ['videocodec_5fhdr_5ftype_7',['VIDEOCODEC_HDR_TYPE',['../dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html#gab19d377b2b83cf4cd39503d21bc00886',1,'video_codec.h']]],
+  ['videocodec_5fpicture_5fflag_8',['VIDEOCODEC_PICTURE_FLAG',['../dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html#ga3d32604183c9f5a31eeff6eee9ec5076',1,'video_codec.h']]],
+  ['videocodec_5fplane_9',['VIDEOCODEC_PLANE',['../dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html#gadad964ed3eac5457d9dc3cce3523c9f3',1,'video_codec.h']]],
+  ['videocodec_5fplatform_5fbuffer_5ftype_10',['VIDEOCODEC_PLATFORM_BUFFER_TYPE',['../d6/dac/group__cpp__kodi__addon__videocodec___defs.html#gafbe6e15ac04b11abbb464b18bc047acc',1,'video_codec.h']]],
+  ['videocodec_5fretval_11',['VIDEOCODEC_RETVAL',['../d6/dac/group__cpp__kodi__addon__videocodec___defs.html#ga04d2d16cda11704bd44448cee4a8de0b',1,'video_codec.h']]],
+  ['videocodec_5ftype_12',['VIDEOCODEC_TYPE',['../d2/dbb/group__cpp__kodi__addon__videocodec___defs___video_codec_initdata.html#ga738f95706f29677c1ff083607222fb4f',1,'video_codec.h']]],
+  ['videodb_5fepisode_5fids_13',['VIDEODB_EPISODE_IDS',['../d2/de9/_video_database_columns_8h.html#af36def8b2d28fc6e596892653d13f353',1,'VideoDatabaseColumns.h']]],
+  ['videodb_5fids_14',['VIDEODB_IDS',['../d2/de9/_video_database_columns_8h.html#a56a55bd9cfe647bc5f1d4c45f5659ff7',1,'VideoDatabaseColumns.h']]],
+  ['videodb_5fmusicvideo_5fids_15',['VIDEODB_MUSICVIDEO_IDS',['../d2/de9/_video_database_columns_8h.html#a5db5f354c819cacfab1fe8eef1c80bf3',1,'VideoDatabaseColumns.h']]],
+  ['videodb_5fseason_5fids_16',['VIDEODB_SEASON_IDS',['../d2/de9/_video_database_columns_8h.html#a519749b8111ae6286da1ae7cc36ed921',1,'VideoDatabaseColumns.h']]],
+  ['videodb_5fset_5fids_17',['VIDEODB_SET_IDS',['../d2/de9/_video_database_columns_8h.html#a0e01ed2d846dbb08904679a895459654',1,'VideoDatabaseColumns.h']]],
+  ['videodb_5ftv_5fids_18',['VIDEODB_TV_IDS',['../d2/de9/_video_database_columns_8h.html#af82aee36e29ed220c04a3b0847541564',1,'VideoDatabaseColumns.h']]],
+  ['videodbcontenttype_19',['VideoDbContentType',['../d9/d1c/_video_database_8h.html#af59cad2c66ba6f02919dc3acec382fcf',1,'VideoDatabase.h']]],
+  ['videodbdetails_20',['VideoDbDetails',['../d9/d1c/_video_database_8h.html#aa5c03b73b6c66163e99a15eda7a0e3f4',1,'VideoDatabase.h']]],
+  ['videorotation_21',['VideoRotation',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#a4b94707abd5ff60bce46992d0d7c0dfb',1,'KODI::RETRO']]],
+  ['view_5ftype_22',['VIEW_TYPE',['../d5/d52/_graphic_context_8h.html#a480a5da2b55aae9cfd39738e43cb07a1',1,'GraphicContext.h']]],
+  ['viewmode_23',['ViewMode',['../da/d67/_video_settings_8h.html#a38f29c0359c0338cfd228a7f47175ca9',1,'VideoSettings.h']]]
+];

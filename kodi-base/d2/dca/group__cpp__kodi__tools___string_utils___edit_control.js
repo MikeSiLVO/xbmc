@@ -1,0 +1,27 @@
+var group__cpp__kodi__tools___string_utils___edit_control =
+[
+    [ "kodi::tools::StringUtils::Left", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gad5e9a3fa2d48ebddfb866433fcb60c3f", null ],
+    [ "kodi::tools::StringUtils::MakeSafeString", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gac1fc690b0cbb4e1caf0e817652f3b74f", null ],
+    [ "kodi::tools::StringUtils::MakeSafeUrl", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga685c608f1ee7d7954d219064c866c0e0", null ],
+    [ "kodi::tools::StringUtils::Mid", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaf29f3fc4ef3dcbd53e8664297b10421d", null ],
+    [ "kodi::tools::StringUtils::Paramify", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga418dd9476951e51830ac669e9bccea2f", null ],
+    [ "kodi::tools::StringUtils::RemoveCRLF", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga0ae98b0af50a3971c48900b11ce3c51b", null ],
+    [ "kodi::tools::StringUtils::RemoveDuplicatedSpacesAndTabs", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaf9cf9b6d23c2cd45706a3affb4b2ea5d", null ],
+    [ "kodi::tools::StringUtils::RemoveMACAddress", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gad3a4bdc8f221251181d3e9eae8f9779b", null ],
+    [ "kodi::tools::StringUtils::Replace", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gae96ac8585689667debf6d84abf83003c", null ],
+    [ "kodi::tools::StringUtils::Replace", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga6701729e17aa8a14a190e3854bfca792", null ],
+    [ "kodi::tools::StringUtils::Replace", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaa0d9c8e3e2524bab07cb925f86b46f1e", null ],
+    [ "kodi::tools::StringUtils::ReturnDigits", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga47f44811ef174f07c33808e51633c951", null ],
+    [ "kodi::tools::StringUtils::Right", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaf8f1e79a4fba9e37174aeab5671f1705", null ],
+    [ "kodi::tools::StringUtils::ToLower", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga31e63710688009f6bdec09e3c7a7bdd3", null ],
+    [ "kodi::tools::StringUtils::ToLower", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga78dea63e5b05221d8039df42b59fe65e", null ],
+    [ "kodi::tools::StringUtils::ToUpper", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga8f31e9d15323b0582444168dccec0530", null ],
+    [ "kodi::tools::StringUtils::ToUpper", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga88719a600cb4e13238177e67120f2b86", null ],
+    [ "kodi::tools::StringUtils::Trim", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaaf815c8f38fc70e7a03e67d49d1e4d5a", null ],
+    [ "kodi::tools::StringUtils::Trim", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga26090c93c9ec1c07e2f978f21f4acddb", null ],
+    [ "kodi::tools::StringUtils::TrimLeft", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gaeff8549bf257304723288f28c7f6f1bf", null ],
+    [ "kodi::tools::StringUtils::TrimLeft", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gabd609b47ca2c85c03924603af7482171", null ],
+    [ "kodi::tools::StringUtils::TrimRight", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gadd471b592fb7ea36359a2caade97e5fc", null ],
+    [ "kodi::tools::StringUtils::TrimRight", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#ga64ba0533f68841abfa7711051ea702b5", null ],
+    [ "kodi::tools::StringUtils::WordToDigits", "d2/dca/group__cpp__kodi__tools___string_utils___edit_control.html#gafee0cefc24b9f7f74e3a15631d33a116", null ]
+];

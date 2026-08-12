@@ -1,0 +1,105 @@
+var group__jsonrpc =
+[
+    [ "JSONRPC::CJSONRPC", "de/dd6/class_j_s_o_n_r_p_c_1_1_c_j_s_o_n_r_p_c.html", null ],
+    [ "JSONRPC::JsonRpcStatusDescription", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html", [
+      [ "description", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html#a67a8eaa07663ba03716cc52443b4e84e", null ],
+      [ "hasData", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html#a49ef678772bc54968dad461ed1fdec9c", null ],
+      [ "message", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html#aeeefc62d9e58db63955dfd4e2b3fb281", null ],
+      [ "name", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html#af29f5d2ffc0b2f0e8e59ed6bf7df3197", null ],
+      [ "status", "d0/d8d/struct_j_s_o_n_r_p_c_1_1_json_rpc_status_description.html#aeb8c0a71a18ca9bec6b4c2ab999ebcf1", null ]
+    ] ],
+    [ "JSONRPC::JSONSchemaTypeDefinition", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html", [
+      [ "CJsonSchemaPropertiesMap", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html", [
+        [ "JSONSchemaPropertiesIterator", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#a8aa940a5e5b04e765c45617b3ab224a4", null ],
+        [ "CJsonSchemaPropertiesMap", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#aba0e3051e3fa29ce85f7ae058ca8b1c0", null ],
+        [ "add", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#a591aac98ff9824b484e24166ad006c49", null ],
+        [ "begin", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#ae7279db963d86a9f87eac5c93e06bec7", null ],
+        [ "end", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#ac1196af9179dfb57f04eef62a863baa4", null ],
+        [ "find", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#a15c232c0dbb4431057a30087a55cabdb", null ],
+        [ "size", "d8/d62/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition_1_1_c_json_schema_properties_map.html#a28c884cf00c4384e5a6d19d1deafc47e", null ]
+      ] ],
+      [ "JSONSchemaTypeDefinition", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#ad966ec051ab2ee66ac34b61f8d21f453", null ],
+      [ "Check", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a33724976edb770ed4c864657a460f3b5", null ],
+      [ "Parse", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a05275d243affbde0ec7caf6dc4b6f11f", null ],
+      [ "Print", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a2eac4345c3d6ccec76ff8bbf56dd7062", null ],
+      [ "ResolveReference", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aab8e21672d890404215469adf9bf42ef", null ],
+      [ "additionalItems", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a22d6db0f832978f56a0b0d0466baefb1", null ],
+      [ "additionalProperties", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a6f8b6dc68efd282b006ea44ba9ef122e", null ],
+      [ "defaultValue", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a7b202ce9864b6e58726dd46e09254f5e", null ],
+      [ "description", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a50ee53dd2a70483941717eef2340b4d8", null ],
+      [ "divisibleBy", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a0af9a5fbff24931565b6b641f84b7662", null ],
+      [ "enums", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a54475f6e0692a9824b5b9d4a8760a16a", null ],
+      [ "exclusiveMaximum", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#abca71da45abb923fdd711d0667c541b9", null ],
+      [ "exclusiveMinimum", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aa47b44369c40172d75a8fbb6ccdda2a5", null ],
+      [ "extends", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aaa0c9f5dc061625a2a96c915dd1e077e", null ],
+      [ "hasAdditionalProperties", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#afd4e90afa037b55aea8db1a9289b9121", null ],
+      [ "ID", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a28b2baeba08f8afacdfa790ab56e77ba", null ],
+      [ "items", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aba4c21d3a49cbe29e6ff21775bb169ef", null ],
+      [ "maximum", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a5afc2ef97c63c650546f9e695220b5a2", null ],
+      [ "maxItems", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a77560d6501051fe5393946458750ba19", null ],
+      [ "maxLength", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#ad97bb986d6de3ba1978d5e7da8e06e8b", null ],
+      [ "minimum", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a5def4fa5161a6ab9f313f82350eecae6", null ],
+      [ "minItems", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aa3b22e202acbffb79abd1837b8f16ed0", null ],
+      [ "minLength", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a41febe3dc21a4c0f14af5f481f484e09", null ],
+      [ "missingReference", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#aaaf7f9747bb1a02b98ae888da82909e9", null ],
+      [ "name", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#adf6d13a642e072dd7a34f9cec539f0f8", null ],
+      [ "optional", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#ada91bf5d11c8520d034e10cb00753b98", null ],
+      [ "properties", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a2b4745c1f26696dba8f86d9f1293dab9", null ],
+      [ "referencedType", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a6acb8969606bb85c34d5bbdd2e316543", null ],
+      [ "referencedTypeSet", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a519a71fab4d0b40c7f2ab95f9d822883", null ],
+      [ "type", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a01ed6067ae7b55032742d66d0381b776", null ],
+      [ "unionTypes", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#ac2ebc65e2f0f2c97490e9569ab41f9df", null ],
+      [ "uniqueItems", "d6/d9e/class_j_s_o_n_r_p_c_1_1_j_s_o_n_schema_type_definition.html#a6b95f33cf2b6beb2df5e5bf6e18bcff6", null ]
+    ] ],
+    [ "JSONRPC::JsonRpcMethod", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html", [
+      [ "JsonRpcMethod", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a7a0c3edcdb23130b03d79560eb89d0bf", null ],
+      [ "Check", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a271355dfcf9aa19b663bbb1cf7e4c408", null ],
+      [ "Parse", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#ade831347cd315b3f4faa82aa3870714a", null ],
+      [ "description", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a5d962e303177f9a41bc599a36b566452", null ],
+      [ "method", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#aff36c948e1b11c3d5cd29915c77e0b46", null ],
+      [ "missingReference", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a7e053fb372080dedd0a2cafc7016d69c", null ],
+      [ "name", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a3813fe98b6ba127053b2c83cb001f720", null ],
+      [ "parameters", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#ad6c515f6c308832cb4b9bfaecd9e2e1d", null ],
+      [ "permission", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a6086bcb9b04087acca6e051cb598a043", null ],
+      [ "returns", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a6b11cc3e5e807dac23b2fbf40f88a1f9", null ],
+      [ "transportneed", "d6/d0e/class_j_s_o_n_r_p_c_1_1_json_rpc_method.html#a6b039e65014239f18bb6c57554f207db", null ]
+    ] ],
+    [ "JSONRPC::JsonRpcMethodMap", "df/dc0/struct_j_s_o_n_r_p_c_1_1_json_rpc_method_map.html", [
+      [ "method", "df/dc0/struct_j_s_o_n_r_p_c_1_1_json_rpc_method_map.html#acfff1bd008c73183429aacc52bd214c3", null ],
+      [ "name", "df/dc0/struct_j_s_o_n_r_p_c_1_1_json_rpc_method_map.html#a660c1410662ac11037bc6c2f3ade7c22", null ]
+    ] ],
+    [ "JSONRPC::CJSONServiceDescription", "d5/dec/class_j_s_o_n_r_p_c_1_1_c_j_s_o_n_service_description.html", [
+      [ "JsonRpcMethod", "d5/dec/class_j_s_o_n_r_p_c_1_1_c_j_s_o_n_service_description.html#a1e582c98840c99c3c2846dbf5754e60e", null ],
+      [ "JSONSchemaTypeDefinition", "d5/dec/class_j_s_o_n_r_p_c_1_1_c_j_s_o_n_service_description.html#ae3c116f2c67e17d53902acbb36cc7037", null ]
+    ] ],
+    [ "JSONRPC::CJSONUtils", "da/dd5/class_j_s_o_n_r_p_c_1_1_c_j_s_o_n_utils.html", null ],
+    [ "JSONRPC::JSONRPC_STATUS", "de/d8f/group__jsonrpc.html#ga987a0829298bd564b4472c33cd44adb8", [
+      [ "JSONRPC::OK", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8ae77b8904f89cd6a40a72c9809db01663", null ],
+      [ "JSONRPC::ACK", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8aecbcebd1ffdd2a9de436d945f8ce2c9c", null ],
+      [ "JSONRPC::InvalidRequest", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8accd51e3b50b392fa98365d586beaf1ab", null ],
+      [ "JSONRPC::MethodNotFound", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8ad4f1dd2c421105f4cf649b47538e23a9", null ],
+      [ "JSONRPC::InvalidParams", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a15d39d3f2d6904efae00673aabcd0522", null ],
+      [ "JSONRPC::InternalError", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8abc7866011a67c960f3d5cd37de0f3b78", null ],
+      [ "JSONRPC::ParseError", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a464bc5310c022c259e18155781336fc8", null ],
+      [ "JSONRPC::BadPermission", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a1a8ae0dc3c863fb28ba8ffd06cda0ddf", null ],
+      [ "JSONRPC::NotFound", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a24abd39d34b6d9f9c436dd7ce0bd99d7", null ],
+      [ "JSONRPC::Unavailable", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a89de4ae9e31408be45c3bbdb15e103f5", null ],
+      [ "JSONRPC::FailedToExecute", "de/d8f/group__jsonrpc.html#gga987a0829298bd564b4472c33cd44adb8a13d1a32e6128ed1877f3fe78c6f42f8f", null ]
+    ] ],
+    [ "JSONRPC::OperationPermission", "de/d8f/group__jsonrpc.html#gafd1d3c8c25a8007b85ecb14fcedfbaf9", [
+      [ "JSONRPC::ReadData", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a019bb73908ce12677e6930e79c4425fe", null ],
+      [ "JSONRPC::ControlPlayback", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a3aa61eca006e811fa121f4960c429031", null ],
+      [ "JSONRPC::ControlNotify", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a94438f822604203f188f7c2e47fbb83e", null ],
+      [ "JSONRPC::ControlPower", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a07ae7205df4fe6c2dc321c4d842c9a02", null ],
+      [ "JSONRPC::UpdateData", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a2e310d3abea1067306a5de4bae45ada5", null ],
+      [ "JSONRPC::RemoveData", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a9ead48957ff439fff2ad693d6d8f5140", null ],
+      [ "JSONRPC::Navigate", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a9a0f65d78756cd28982aff7d61333098", null ],
+      [ "JSONRPC::WriteFile", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a5156cc1fa8c683875e0c744f2d814dd3", null ],
+      [ "JSONRPC::ControlSystem", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9adbc77c4a8f34907f0851a145d5c7cadf", null ],
+      [ "JSONRPC::ControlGUI", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9aeec5f660c3cc000ea7165ec27ef98e2a", null ],
+      [ "JSONRPC::ManageAddon", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a732ac6f3d5c63c6156dda99b8947f0ea", null ],
+      [ "JSONRPC::ExecuteAddon", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9a2edbdd7b61cfe1829cbdf062bf42a213", null ],
+      [ "JSONRPC::ControlPVR", "de/d8f/group__jsonrpc.html#ggafd1d3c8c25a8007b85ecb14fcedfbaf9ab3f47663dde2bf678a4687a5be376f98", null ]
+    ] ],
+    [ "JSONRPC::JSONRPC_STATUS_DESCRIPTIONS", "de/d8f/group__jsonrpc.html#ga9fa17b2e4aa7208ff8be0dbbcc787d81", null ]
+];

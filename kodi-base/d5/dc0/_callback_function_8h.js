@@ -1,0 +1,11 @@
+var _callback_function_8h =
+[
+    [ "XBMCAddon::Callback", "d3/d6f/class_x_b_m_c_addon_1_1_callback.html", "d3/d6f/class_x_b_m_c_addon_1_1_callback" ],
+    [ "XBMCAddon::cb_null_type", "dd/d93/struct_x_b_m_c_addon_1_1cb__null__type.html", null ],
+    [ "XBMCAddon::CallbackFunction< M, T1, T2, T3, T4, Extraneous >", "d3/d43/class_x_b_m_c_addon_1_1_callback_function.html", null ],
+    [ "XBMCAddon::CallbackFunction< M, cb_null_type, cb_null_type, cb_null_type, cb_null_type, cb_null_type >", "d4/d54/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01cb__null__type_00_01cb__null__type_00_01cbaca51358003f1d46a4c873f4840d98f7.html", "d4/d54/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01cb__null__type_00_01cb__null__type_00_01cbaca51358003f1d46a4c873f4840d98f7" ],
+    [ "XBMCAddon::CallbackFunction< M, P1, cb_null_type, cb_null_type, cb_null_type, cb_null_type >", "d9/da0/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01cb__null__type_00_01cb__null__typ2d2c60d23d5b869acde061452c3b2870.html", "d9/da0/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01cb__null__type_00_01cb__null__typ2d2c60d23d5b869acde061452c3b2870" ],
+    [ "XBMCAddon::CallbackFunction< M, AddonClass::Ref< P1 >, cb_null_type, cb_null_type, cb_null_type, cb_null_type >", "df/dd8/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_addon_class_1_1_ref_3_01_p1_01_4_00_01cb_ee995b319b509afbd1666dd0ee241e74.html", "df/dd8/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_addon_class_1_1_ref_3_01_p1_01_4_00_01cb_ee995b319b509afbd1666dd0ee241e74" ],
+    [ "XBMCAddon::CallbackFunction< M, P1, P2, cb_null_type, cb_null_type, cb_null_type >", "de/d39/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01_p2_00_01cb__null__type_00_01cb__f2f1fe0fec135db978f5e3af68b4df9f.html", "de/d39/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01_p2_00_01cb__null__type_00_01cb__f2f1fe0fec135db978f5e3af68b4df9f" ],
+    [ "XBMCAddon::CallbackFunction< M, P1, P2, P3, cb_null_type, cb_null_type >", "d4/d05/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01_p2_00_01_p3_00_01cb__null__type_00_01cb__null__type_01_4.html", "d4/d05/class_x_b_m_c_addon_1_1_callback_function_3_01_m_00_01_p1_00_01_p2_00_01_p3_00_01cb__null__type_00_01cb__null__type_01_4" ]
+];

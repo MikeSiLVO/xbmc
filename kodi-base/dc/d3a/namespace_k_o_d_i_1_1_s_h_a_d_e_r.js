@@ -1,0 +1,57 @@
+var namespace_k_o_d_i_1_1_s_h_a_d_e_r =
+[
+    [ "CRPWinOutputShader", "d9/df5/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_r_p_win_output_shader.html", "d9/df5/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_r_p_win_output_shader" ],
+    [ "CRPWinShader", "dd/d5a/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_r_p_win_shader.html", "dd/d5a/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_r_p_win_shader" ],
+    [ "CShaderDX", "d5/d8c/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_d_x.html", "d5/d8c/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_d_x" ],
+    [ "CShaderGL", "d4/d1c/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_g_l.html", "d4/d1c/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_g_l" ],
+    [ "CShaderGLES", "dd/da9/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_g_l_e_s.html", "dd/da9/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_g_l_e_s" ],
+    [ "CShaderLutDX", "df/dde/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_d_x.html", "df/dde/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_d_x" ],
+    [ "CShaderLutGL", "d0/dda/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_g_l.html", "d0/dda/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_g_l" ],
+    [ "CShaderLutGLES", "da/d92/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_g_l_e_s.html", "da/d92/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_lut_g_l_e_s" ],
+    [ "CShaderPreset", "db/da9/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset.html", "db/da9/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset" ],
+    [ "CShaderPresetDX", "df/d2e/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_d_x.html", "df/d2e/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_d_x" ],
+    [ "CShaderPresetFactory", "de/d73/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_factory.html", "de/d73/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_factory" ],
+    [ "CShaderPresetGL", "d6/df6/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_g_l.html", "d6/df6/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_g_l" ],
+    [ "CShaderPresetGLES", "d4/d71/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_g_l_e_s.html", "d4/d71/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_g_l_e_s" ],
+    [ "CShaderSamplerDX", "d3/d5b/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_sampler_d_x.html", "d3/d5b/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_sampler_d_x" ],
+    [ "CShaderTextureDX", "d8/db2/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_d_x.html", "d8/db2/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_d_x" ],
+    [ "CShaderTextureDXRef", "da/d86/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_d_x_ref.html", "da/d86/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_d_x_ref" ],
+    [ "CShaderTextureGL", "df/dad/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l.html", "df/dad/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l" ],
+    [ "CShaderTextureGLES", "d3/d15/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_e_s.html", "d3/d15/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_e_s" ],
+    [ "CShaderTextureGLESRef", "d2/d27/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_e_s_ref.html", "d2/d27/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_e_s_ref" ],
+    [ "CShaderTextureGLRef", "df/de3/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_ref.html", "df/de3/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_texture_g_l_ref" ],
+    [ "CShaderUtils", "d7/df4/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_utils.html", null ],
+    [ "CShaderUtilsDX", "d0/d90/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_utils_d_x.html", null ],
+    [ "CShaderUtilsGL", "da/d84/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_utils_g_l.html", null ],
+    [ "CShaderUtilsGLES", "db/db9/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_utils_g_l_e_s.html", null ],
+    [ "CUSTOMVERTEX", "d0/d66/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_u_s_t_o_m_v_e_r_t_e_x.html", "d0/d66/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_u_s_t_o_m_v_e_r_t_e_x" ],
+    [ "FboScale", "d0/d50/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_fbo_scale.html", "d0/d50/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_fbo_scale" ],
+    [ "FboScaleAxis", "de/d80/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_fbo_scale_axis.html", "de/d80/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_fbo_scale_axis" ],
+    [ "float2", "d8/d38/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1float2.html", "d8/d38/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1float2" ],
+    [ "IShader", "d9/d94/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader.html", "d9/d94/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader" ],
+    [ "IShaderLut", "dd/d25/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_lut.html", "dd/d25/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_lut" ],
+    [ "IShaderPreset", "d0/dd3/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_preset.html", "d0/dd3/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_preset" ],
+    [ "IShaderPresetLoader", "d4/d45/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_preset_loader.html", "d4/d45/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_preset_loader" ],
+    [ "IShaderSampler", "d8/d87/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_sampler.html", "d8/d87/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_sampler" ],
+    [ "IShaderTexture", "d8/d87/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_texture.html", "d8/d87/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_i_shader_texture" ],
+    [ "ShaderLut", "d1/da2/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_lut.html", "d1/da2/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_lut" ],
+    [ "ShaderParameter", "d6/dcf/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_parameter.html", "d6/dcf/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_parameter" ],
+    [ "ShaderPass", "d2/dd3/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_pass.html", "d2/dd3/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1_shader_pass" ],
+    [ "ShaderParameterMap", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#ae59da381807535c1654f8cd8ed371b89", null ],
+    [ "FilterType", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a4936868f93677f110a1c4b6b1b45e8d7", [
+      [ "NONE", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a4936868f93677f110a1c4b6b1b45e8d7ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "LINEAR", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a4936868f93677f110a1c4b6b1b45e8d7aaac544aacc3615aada24897a215f5046", null ],
+      [ "NEAREST", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a4936868f93677f110a1c4b6b1b45e8d7aad135772d7cf93dd0ccf9d2474b34e6a", null ]
+    ] ],
+    [ "ScaleType", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a58358d0ae5d0a8ccaf29e46517733cc8", [
+      [ "INPUT", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a58358d0ae5d0a8ccaf29e46517733cc8aa84cc046d48610b05c21fd3670d0c829", null ],
+      [ "ABSOLUTE_SCALE", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a58358d0ae5d0a8ccaf29e46517733cc8ad3baab43b1b55654c2771c73f787231d", null ],
+      [ "VIEWPORT", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#a58358d0ae5d0a8ccaf29e46517733cc8a7e3322f8eda2bd931d22ddb4ef14aeca", null ]
+    ] ],
+    [ "WrapType", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#afbb83ad6bebffd6a0edcbd9d1fa0744b", [
+      [ "BORDER", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#afbb83ad6bebffd6a0edcbd9d1fa0744baab279ad24b23820ab47758389353c178", null ],
+      [ "EDGE", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#afbb83ad6bebffd6a0edcbd9d1fa0744ba6563b7570ee4add31ffc4e94fa86b6fb", null ],
+      [ "REPEAT", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#afbb83ad6bebffd6a0edcbd9d1fa0744ba5be68175be14dfaa080165456c2e9555", null ],
+      [ "MIRRORED_REPEAT", "dc/d3a/namespace_k_o_d_i_1_1_s_h_a_d_e_r.html#afbb83ad6bebffd6a0edcbd9d1fa0744bacf6164235e7bfffb5c4c7c4b685f660a", null ]
+    ] ]
+];

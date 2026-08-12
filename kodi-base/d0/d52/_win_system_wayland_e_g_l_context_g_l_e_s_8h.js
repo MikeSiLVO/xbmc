@@ -1,0 +1,5 @@
+var _win_system_wayland_e_g_l_context_g_l_e_s_8h =
+[
+    [ "KODI::WINDOWING::WAYLAND::CWinSystemWaylandEGLContextGLES", "d2/d5d/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_win_system_wayland_e_g_l_context_g_l_e_s.html", "d2/d5d/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_win_system_wayland_e_g_l_context_g_l_e_s" ],
+    [ "KODI::WINDOWING::WAYLAND::CWinSystemWaylandEGLContextGLES::delete_CVaapiProxy", "da/dac/struct_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_win_system_wayland_e_g_l_context_g_l_e_s_1_1delete___c_vaapi_proxy.html", "da/dac/struct_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_win_system_wayland_e_g_l_context_g_l_e_s_1_1delete___c_vaapi_proxy" ]
+];

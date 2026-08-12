@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['validator_0',['Validator',['../db/dc6/class_string_validation.html#a6b43b36871a58125f52ae49b130c1a80',1,'StringValidation']]],
+  ['value_1',['Value',['../d6/d95/class_c_traited_setting.html#a62835ad61fa267690822224d3e8f2d08',1,'CTraitedSetting']]],
+  ['variant_2',['variant',['../d6/d8d/namespacedbiplus.html#a2a70f3b7d341437238e380eb36f8d5b8',1,'dbiplus']]],
+  ['vec_5fcurlsessions_3',['VEC_CURLSESSIONS',['../d3/dd9/class_x_c_u_r_l_1_1_dll_lib_curl_global.html#ac8df61849f30464980178e976913d7a4',1,'XCURL::DllLibCurlGlobal']]],
+  ['vecaddons_4',['VECADDONS',['../d8/d83/namespace_a_d_d_o_n.html#a69aa2188af95c0487a9e9ce8b2a39b68',1,'ADDON']]],
+  ['vecbookmarks_5',['VECBOOKMARKS',['../d3/d66/_bookmark_8h.html#a3097e60cd1cb34ae722c3740d43ff32f',1,'Bookmark.h']]],
+  ['vecoverlays_6',['VecOverlays',['../d0/d19/_d_v_d_overlay_8h.html#ac5d15b544b76755f31ff6fbf0807fbc7',1,'DVDOverlay.h']]],
+  ['vecsubtitlefiles_7',['VecSubtitleFiles',['../de/d8e/_d_v_d_factory_subtitle_8h.html#a2ddf31fbf299a0f8f676079aef95a595',1,'DVDFactorySubtitle.h']]],
+  ['vecsubtitlefilesiter_8',['VecSubtitleFilesIter',['../de/d8e/_d_v_d_factory_subtitle_8h.html#a3c078a5ed91bec4430c904e761493f56',1,'DVDFactorySubtitle.h']]],
+  ['vectext_9',['vecText',['../d0/d34/_g_u_i_font_8h.html#a08930b7e4fc405d6ff4fc5de977059f9',1,'vecText:&#160;GUIFont.h'],['../d7/d85/_g_u_i_font_t_t_f_8h.html#a08930b7e4fc405d6ff4fc5de977059f9',1,'vecText:&#160;GUIFontTTF.h'],['../d8/dbb/_g_u_i_text_layout_8h.html#a08930b7e4fc405d6ff4fc5de977059f9',1,'vecText:&#160;GUITextLayout.h'],['../d9/d02/_i_rss_observer_8h.html#a08930b7e4fc405d6ff4fc5de977059f9',1,'vecText:&#160;IRssObserver.h']]],
+  ['vectimerinfotag_10',['VecTimerInfoTag',['../df/dde/class_p_v_r_1_1_c_p_v_r_timers_container.html#a0bca929739096c8c35f356c52d967f08',1,'PVR::CPVRTimersContainer']]],
+  ['vfsentryptr_11',['VFSEntryPtr',['../d8/d83/namespace_a_d_d_o_n.html#a8b25692d252939ca1b90e0d3aad5f902',1,'ADDON']]],
+  ['vfsfilehandle_12',['VFSFileHandle',['../d2/d15/group__cpp__kodi__addon__vfs___defs.html#ga24fc2e788df183ac300942f06fdfca94',1,'kodi::addon']]],
+  ['vfsgetdirectorycallbacks_13',['VFSGetDirectoryCallbacks',['../d3/de4/c-api_2addon-instance_2_v_f_s_8h.html#a085437f605bd6f8ae4d7a363b492b5f6',1,'vfs.h']]],
+  ['video_5fshader_14',['video_shader',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a5e102333547e31b3adc4bfa3535eaafc',1,'shaderpreset.h']]],
+  ['video_5fshader_5flut_15',['video_shader_lut',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a51ef7dce5ed2f75b70cd074e975db4dc',1,'shaderpreset.h']]],
+  ['video_5fshader_5fparameter_16',['video_shader_parameter',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a4f7c2aeddf8283a3736812f9e3446eeb',1,'shaderpreset.h']]],
+  ['video_5fshader_5fpass_17',['video_shader_pass',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#ac3c9e11335f54a2c99b5c730e8c9e9ed',1,'shaderpreset.h']]],
+  ['viewportcoordinates_18',['ViewportCoordinates',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#ae9c673e5d6f4f2ed0767aaf55c9a8e3a',1,'KODI::RETRO']]]
+];
