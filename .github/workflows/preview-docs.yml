@@ -1,0 +1,38 @@
+name: Preview docs
+
+# Fork-only: builds the docs for any docs-* branch and publishes each one to its
+# own directory on this fork's Pages, so several versions can coexist.
+#   docs-daily   -> /docs-daily/kodi-base/
+#   docs-<topic> -> /docs-<topic>/kodi-base/
+on:
+  workflow_dispatch:
+  push:
+    branches: [ 'docs-*' ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Point the output at the publish dir
+        run: |
+          mkdir -p ./build
+          sed -i 's|.*HTML_OUTPUT.*=.*|HTML_OUTPUT = ../build/kodi-base|' ./docs/doxygen/Doxyfile.doxy
+
+      - name: Doxygen
+        uses: mattnotmitt/doxygen-action@1.12.0
+        with:
+          doxyfile-path: "./Doxyfile.doxy"
+          working-directory: "./docs/doxygen"
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./build
+          destination_dir: ${{ github.ref_name }}
