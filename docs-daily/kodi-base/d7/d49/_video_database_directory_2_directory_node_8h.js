@@ -1,0 +1,36 @@
+var _video_database_directory_2_directory_node_8h =
+[
+    [ "XFILE::VIDEODATABASEDIRECTORY::Node", "d9/d3a/struct_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_node.html", "d9/d3a/struct_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_node" ],
+    [ "XFILE::VIDEODATABASEDIRECTORY::CDirectoryNode", "d8/d07/class_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_c_directory_node.html", "d8/d07/class_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_c_directory_node" ],
+    [ "NodeType", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2", [
+      [ "NONE", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ab50339a10e1de285ac99d4c3990b8693", null ],
+      [ "MOVIES_OVERVIEW", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a5a294908d4d6a9b6c1a7076dc0bd78b5", null ],
+      [ "TVSHOWS_OVERVIEW", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2aeb9ce389397e0deb1c869b77579d7594", null ],
+      [ "GENRE", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2add491b2538cbf3a30c33edf37aa419db", null ],
+      [ "ACTOR", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2aedefd8a20cdf9bb855cc9df4a632f387", null ],
+      [ "ROOT", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2aea2adde5c377cb5e09d14b71935c6f32", null ],
+      [ "OVERVIEW", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a3b9ae4ee5ef6dced299692fd7b1ffc24", null ],
+      [ "TITLE_MOVIES", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a42734e49ca64431ea807b361ed8d61cd", null ],
+      [ "YEAR", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ad18101729d290479023d5eceeb29c9cf", null ],
+      [ "DIRECTOR", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a551191f395c53dc0ea80741af1205bea", null ],
+      [ "TITLE_TVSHOWS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2adb168f8e5b1aa17236332c88bb943d0e", null ],
+      [ "SEASONS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a8ea4fc5437269d5ae6f73eb229a165c7", null ],
+      [ "EPISODES", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a0844ce98de8c10f7571ab8981edabab2", null ],
+      [ "RECENTLY_ADDED_MOVIES", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a6961ea733e3139ee6bb4218eb38d5615", null ],
+      [ "RECENTLY_ADDED_EPISODES", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2aad23c1c0a3ee8c19ce1199b341d655a8", null ],
+      [ "STUDIO", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a34873cfb55ea349f1cf2cf8b6c0e4c25", null ],
+      [ "MUSICVIDEOS_OVERVIEW", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a061b04632707e9aa9897dc8574fdb705", null ],
+      [ "RECENTLY_ADDED_MUSICVIDEOS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2aa054dc4e7ba919e98a879bb0408abc07", null ],
+      [ "TITLE_MUSICVIDEOS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a9eb308199480aec2fcebf9e0fca916c3", null ],
+      [ "MUSICVIDEOS_ALBUM", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ae52043008242abe3306e04073fbd66a7", null ],
+      [ "SETS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a512759d72fc0f7ca90d3e84e30faf813", null ],
+      [ "COUNTRY", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a6ddc09dc456001d9854e9fe670374eb2", null ],
+      [ "TAGS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a4819dc9f2283ad2dac18ec754438428b", null ],
+      [ "INPROGRESS_TVSHOWS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a44b02d134d8107f12b8b27e9a2ea50b0", null ],
+      [ "VIDEOVERSIONS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ad3d5d67d640dd92d9dcdcccfaee8f1cb", null ],
+      [ "MOVIE_ASSET_TYPES", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ab579c7295e95f9d71645e2c916ccd6c7", null ],
+      [ "MOVIE_ASSETS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ae625b257ac17987122c6dc472ed1ce29", null ],
+      [ "MOVIE_ASSETS_VERSIONS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2a396036cd66860c487a163b7ee5f1c303", null ],
+      [ "MOVIE_ASSETS_EXTRAS", "d7/d49/_video_database_directory_2_directory_node_8h.html#ae362db6cad090016aee7bbeabe0baed2ab89d09c9294d738a40df73d3777219ec", null ]
+    ] ]
+];

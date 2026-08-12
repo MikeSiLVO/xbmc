@@ -1,0 +1,11 @@
+var group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n =
+[
+    [ "PVR_SETTING_READONLY_CONDITION", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#ga2220e4a63ab482e58ccae7e596565305", null ],
+    [ "PVR_SETTING_READONLY_CONDITION", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#ga8ce233923cd1a9e2471429c3b03058e4", [
+      [ "PVR_SETTING_READONLY_CONDITION_NONE", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#gga8ce233923cd1a9e2471429c3b03058e4a7a976a85aeea6895371f9b1a9ecbc22f", null ],
+      [ "PVR_SETTING_READONLY_CONDITION_TIMER_DISABLED", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#gga8ce233923cd1a9e2471429c3b03058e4ae2cb1e05545bd25ba47fcd8a91d3b756", null ],
+      [ "PVR_SETTING_READONLY_CONDITION_TIMER_SCHEDULED", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#gga8ce233923cd1a9e2471429c3b03058e4a1f19488f1f5da6d3326de232e85d6b35", null ],
+      [ "PVR_SETTING_READONLY_CONDITION_TIMER_RECORDING", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#gga8ce233923cd1a9e2471429c3b03058e4aeddc97e9fe27633fdf58756771578a7b", null ],
+      [ "PVR_SETTING_READONLY_CONDITION_TIMER_COMPLETED", "d7/df8/group__cpp__kodi__addon__pvr___defs___general___p_v_r___s_e_t_t_i_n_g___r_e_a_d_o_n_l_y___c_o_n_d_i_t_i_o_n.html#gga8ce233923cd1a9e2471429c3b03058e4ad052b21671affb8d644fb73f46f658a5", null ]
+    ] ]
+];

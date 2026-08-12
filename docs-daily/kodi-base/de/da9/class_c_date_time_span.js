@@ -1,0 +1,26 @@
+var class_c_date_time_span =
+[
+    [ "CDateTimeSpan", "de/da9/class_c_date_time_span.html#a93f65cc9ef6d48f480ab2fa7c026bf16", null ],
+    [ "CDateTimeSpan", "de/da9/class_c_date_time_span.html#acb5284612789708e8e1d280c8581d404", null ],
+    [ "CDateTimeSpan", "de/da9/class_c_date_time_span.html#a93c68cf48d510d3aea12acc20b5cac6e", null ],
+    [ "GetDays", "de/da9/class_c_date_time_span.html#a173285b51d63f79ba7d29f4640c476ab", null ],
+    [ "GetHours", "de/da9/class_c_date_time_span.html#a20eeae95f873162cc1f7a27aca9c000e", null ],
+    [ "GetMinutes", "de/da9/class_c_date_time_span.html#acf9ffca8f841e2940ab9e056370e62c7", null ],
+    [ "GetSeconds", "de/da9/class_c_date_time_span.html#a77580f21bc99ba403052b0752666f2ac", null ],
+    [ "GetSecondsTotal", "de/da9/class_c_date_time_span.html#a2f06979806c3da406b2c1a23b54ab007", null ],
+    [ "operator!=", "de/da9/class_c_date_time_span.html#a9a243347fa5a2b20325102cb124fcecc", null ],
+    [ "operator+", "de/da9/class_c_date_time_span.html#ac66c944d950a0a2f28d1a8bfa011c1e8", null ],
+    [ "operator+=", "de/da9/class_c_date_time_span.html#af6407317384e41d02fb1a16fc1755c0e", null ],
+    [ "operator-", "de/da9/class_c_date_time_span.html#a50de9cc4ab69af02f90cc654126ca5f4", null ],
+    [ "operator-=", "de/da9/class_c_date_time_span.html#aa8ac79b29bf6bd9fd8fdf86b8eeb6eba", null ],
+    [ "operator<", "de/da9/class_c_date_time_span.html#a9edbb75b8101c30ab52d0717b70b3e21", null ],
+    [ "operator<=", "de/da9/class_c_date_time_span.html#a7ff677afa37843356709fde4b1e4542e", null ],
+    [ "operator=", "de/da9/class_c_date_time_span.html#a2b1abd0d1614359b4081df684f6d0e9e", null ],
+    [ "operator==", "de/da9/class_c_date_time_span.html#a025b69756c63eae0ea552ff5a4b8ad8e", null ],
+    [ "operator>", "de/da9/class_c_date_time_span.html#a996abd1e4b274659795d659dcfa2f9ab", null ],
+    [ "operator>=", "de/da9/class_c_date_time_span.html#a6903a66703d7321c3a962f61456a4da1", null ],
+    [ "SetDateTimeSpan", "de/da9/class_c_date_time_span.html#a1ecbae687c58418021ced0962b85e6cb", null ],
+    [ "SetFromPeriod", "de/da9/class_c_date_time_span.html#af12a4e4c742834b5226d9ffccd175f13", null ],
+    [ "SetFromTimeString", "de/da9/class_c_date_time_span.html#a36acd7e2b25846cdc0e81470b4e69032", null ],
+    [ "CDateTime", "de/da9/class_c_date_time_span.html#a9777f1fbc37c185822e743c44783ed1d", null ]
+];

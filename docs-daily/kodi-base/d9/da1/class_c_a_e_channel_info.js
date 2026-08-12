@@ -1,0 +1,28 @@
+var class_c_a_e_channel_info =
+[
+    [ "CAEChannelInfo", "d9/da1/class_c_a_e_channel_info.html#ae4a058db280ec56b9a13877f7b30e3b7", null ],
+    [ "CAEChannelInfo", "d9/da1/class_c_a_e_channel_info.html#a0c43bb8367dbb47a554f69f4fcf7a62b", null ],
+    [ "CAEChannelInfo", "d9/da1/class_c_a_e_channel_info.html#a586fd6dd03001e27e97f1529f5c6915e", null ],
+    [ "~CAEChannelInfo", "d9/da1/class_c_a_e_channel_info.html#aa3bc576f7cd428c6bcb854a420622514", null ],
+    [ "CAEChannelInfo", "d9/da1/class_c_a_e_channel_info.html#a798f4616ca8d9570c34f7415e276cc93", null ],
+    [ "AddMissingChannels", "d9/da1/class_c_a_e_channel_info.html#af1beaaa3595f703dc5ec395082c84ac5", null ],
+    [ "BestMatch", "d9/da1/class_c_a_e_channel_info.html#a39592fe8768fe9889c78a454e9d91e51", null ],
+    [ "ContainsChannels", "d9/da1/class_c_a_e_channel_info.html#a77d8feebecfb914e04a3be03566df3ad", null ],
+    [ "Count", "d9/da1/class_c_a_e_channel_info.html#a80f6e5c2f262d70907f216aa13ee87a6", null ],
+    [ "HasChannel", "d9/da1/class_c_a_e_channel_info.html#a0e5de655f8afef539b2bb5f6abe01569", null ],
+    [ "IsChannelValid", "d9/da1/class_c_a_e_channel_info.html#aad59bed662855f19faee65cf947a16d3", null ],
+    [ "IsLayoutValid", "d9/da1/class_c_a_e_channel_info.html#a05b0129d16e6714abb2ef5febd8ef269", null ],
+    [ "operator std::string", "d9/da1/class_c_a_e_channel_info.html#a703230e4d75e11242e98546dc65818a3", null ],
+    [ "operator!=", "d9/da1/class_c_a_e_channel_info.html#a3419b346934cc0d7a927ac10c6578cb4", null ],
+    [ "operator+=", "d9/da1/class_c_a_e_channel_info.html#abbc27bbc94eabd8aa73fe04f085aaf07", null ],
+    [ "operator-=", "d9/da1/class_c_a_e_channel_info.html#a310a53591a75968734298920a0791608", null ],
+    [ "operator=", "d9/da1/class_c_a_e_channel_info.html#ac378ad7b0b46cfdb83ccdbfd84eaa820", null ],
+    [ "operator=", "d9/da1/class_c_a_e_channel_info.html#a222a28684285700677ed4a1bd0c476ab", null ],
+    [ "operator=", "d9/da1/class_c_a_e_channel_info.html#ac113f83fd4b696e7542f7bbcb9e72f86", null ],
+    [ "operator==", "d9/da1/class_c_a_e_channel_info.html#a91b64a43f11c8ad7d39439a265ee4c0c", null ],
+    [ "operator[]", "d9/da1/class_c_a_e_channel_info.html#a7aa56711ee6dd60677e8c275c3482771", null ],
+    [ "ReplaceChannel", "d9/da1/class_c_a_e_channel_info.html#a34ed63ef1792792b3d00d5c61532abe9", null ],
+    [ "Reset", "d9/da1/class_c_a_e_channel_info.html#a52ab14604a8d8c83364ced1bcc05470d", null ],
+    [ "ResolveChannels", "d9/da1/class_c_a_e_channel_info.html#aaf4dd45c34b6fb0b9833991afcf9004e", null ],
+    [ "CHelper_libKODI_audioengine", "d9/da1/class_c_a_e_channel_info.html#a011722fbb34aadc0a767153f350bedc6", null ]
+];

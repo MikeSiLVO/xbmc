@@ -1,0 +1,26 @@
+var class_c_application_volume_handling =
+[
+    [ "ReplayGainSettings", "db/dac/struct_c_application_volume_handling_1_1_replay_gain_settings.html", "db/dac/struct_c_application_volume_handling_1_1_replay_gain_settings" ],
+    [ "CacheReplayGainSettings", "d0/d9c/class_c_application_volume_handling.html#a33f5391f61c902a97e8763391fd5332b", null ],
+    [ "GetReplayGainSettings", "d0/d9c/class_c_application_volume_handling.html#acfdaa651dd48ff27ee71d9c44843e4b3", null ],
+    [ "GetVolumePercent", "d0/d9c/class_c_application_volume_handling.html#a57b3d17198c8e84ccc8c28450af9aa4b", null ],
+    [ "GetVolumeRatio", "d0/d9c/class_c_application_volume_handling.html#afd2013e3857effda4fb222f5156617f9", null ],
+    [ "IsMuted", "d0/d9c/class_c_application_volume_handling.html#a9ef690502f4e62fe1bdc2b66ff05244b", null ],
+    [ "IsMutedInternal", "d0/d9c/class_c_application_volume_handling.html#a07f8ca59eabaa5d2e134e93cd025f3c5", null ],
+    [ "Load", "d0/d9c/class_c_application_volume_handling.html#a6bebb0e5cd787ffbcaa7ebb886bfa1e2", null ],
+    [ "Mute", "d0/d9c/class_c_application_volume_handling.html#abb5b67338a9f65f538d3621754bbdb0e", null ],
+    [ "OnSettingChanged", "d0/d9c/class_c_application_volume_handling.html#a0ace427fe378273a9eee8064db49aff9", null ],
+    [ "Save", "d0/d9c/class_c_application_volume_handling.html#a6790afed29783447e65392279266c275", null ],
+    [ "SetHardwareVolume", "d0/d9c/class_c_application_volume_handling.html#a0b370f1379db1efad4c8b02e05a1cd85", null ],
+    [ "SetMute", "d0/d9c/class_c_application_volume_handling.html#ab8fb8a6683edff11663b6565294bd7d2", null ],
+    [ "SetVolume", "d0/d9c/class_c_application_volume_handling.html#a5e72b318eed46f36e07fb86b9006c263", null ],
+    [ "ShowVolumeBar", "d0/d9c/class_c_application_volume_handling.html#a73164ac6ce2d88c416203334a402dbc5", null ],
+    [ "ToggleMute", "d0/d9c/class_c_application_volume_handling.html#aa473c1f7825bc5438b3e8c760c732fd5", null ],
+    [ "UnMute", "d0/d9c/class_c_application_volume_handling.html#aa96454ba6cc1cf0f57c07eb1756212c7", null ],
+    [ "VolumeChanged", "d0/d9c/class_c_application_volume_handling.html#a39bdea6382a7a98777aeb475739c0b2e", null ],
+    [ "CApplication", "d0/d9c/class_c_application_volume_handling.html#a5bd8d748b0bdffde74e47e319a5c6174", null ],
+    [ "CApplicationMessageHandling", "d0/d9c/class_c_application_volume_handling.html#aa2699f8d154238adeedfa05c054526be", null ],
+    [ "m_muted", "d0/d9c/class_c_application_volume_handling.html#a95640f8b50e96d78122566327646e391", null ],
+    [ "m_replayGainSettings", "d0/d9c/class_c_application_volume_handling.html#a9bfbd49fefa3d7e65738593404cbd9c9", null ],
+    [ "m_volumeLevel", "d0/d9c/class_c_application_volume_handling.html#af2d9bfc75d5d927ffca13fedec31e349", null ]
+];

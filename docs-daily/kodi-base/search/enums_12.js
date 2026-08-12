@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['rangeselector_0',['RangeSelector',['../dc/d9e/class_c_g_u_i_slider_control.html#a1043488d00a9576561cc22c0845f037e',1,'CGUISliderControl']]],
+  ['rconsoleid_1',['RConsoleID',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#a2cdb95a2c1f9bf2c782befec5aafeb7a',1,'KODI::RETRO']]],
+  ['reactivate_2',['Reactivate',['../d7/dbc/_g_u_i_dialog_addon_info_8h.html#af3004ee1a6d236a735b2c1e4cc101f93',1,'GUIDialogAddonInfo.h']]],
+  ['recurseorphaned_3',['RecurseOrphaned',['../d8/d83/namespace_a_d_d_o_n.html#a826c96d24cb9dbd14c1ffbf7c3ff9add',1,'ADDON']]],
+  ['releasetype_4',['ReleaseType',['../d8/d58/_album_8h.html#a44acb3be292fa2a1f49b2bcb7f108bc1',1,'Album.h']]],
+  ['render_5fhandle_5',['RENDER_HANDLE',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#a2806f3ade17d62aa7ff6067a27936661',1,'KODI::RETRO']]],
+  ['render_5forder_6',['RENDER_ORDER',['../d5/d52/_graphic_context_8h.html#a4c1acd5554fdf474410340c47862e45c',1,'GraphicContext.h']]],
+  ['renderfeature_7',['RENDERFEATURE',['../df/dcc/namespace_k_o_d_i_1_1_r_e_t_r_o.html#ab33193bed6fbd3c7c8497968ddc87ea9',1,'KODI::RETRO']]],
+  ['rendermethod_8',['RenderMethod',['../d2/d9d/_linux_renderer_g_l_8h.html#a5fe24eb8283305ce3b9a1b3eb7866460',1,'RenderMethod:&#160;LinuxRendererGL.h'],['../d3/d63/_linux_renderer_g_l_e_s_8h.html#a5fe24eb8283305ce3b9a1b3eb7866460',1,'RenderMethod:&#160;LinuxRendererGLES.h'],['../df/def/_renderer_base_8h.html#a5fe24eb8283305ce3b9a1b3eb7866460',1,'RenderMethod:&#160;RendererBase.h']]],
+  ['rendermethods_9',['RenderMethods',['../d0/d1d/_base_renderer_8h.html#a1d709315636196dbcc752d85df454533',1,'BaseRenderer.h']]],
+  ['renderorder_10',['RenderOrder',['../d5/d0b/_g_u_i_window_8h.html#a739b531258250216de56a131024d13ba',1,'GUIWindow.h']]],
+  ['renderquality_11',['RenderQuality',['../d2/d9d/_linux_renderer_g_l_8h.html#a4f1ccaa1bf5a9f2eb01b28977be52960',1,'RenderQuality:&#160;LinuxRendererGL.h'],['../d3/d63/_linux_renderer_g_l_e_s_8h.html#a4f1ccaa1bf5a9f2eb01b28977be52960',1,'RenderQuality:&#160;LinuxRendererGLES.h']]],
+  ['renderstereomode_12',['RenderStereoMode',['../df/dda/_render_system_types_8h.html#af498c9034ec5e9a94ed55812b7da6727',1,'RenderSystemTypes.h']]],
+  ['renderstereoview_13',['RenderStereoView',['../df/dda/_render_system_types_8h.html#ab18582297bae2f5857e6f4cc67a17d81',1,'RenderSystemTypes.h']]],
+  ['renumbermode_14',['RenumberMode',['../dc/dc4/namespace_p_v_r.html#af24349e9a0cea940469d095b696956ab',1,'PVR']]],
+  ['repeatstate_15',['RepeatState',['../dc/d7e/namespace_k_o_d_i_1_1_p_l_a_y_l_i_s_t.html#ab021541f02630089526e76563ce3729e',1,'KODI::PLAYLIST']]],
+  ['resolution_16',['RESOLUTION',['../d9/dbb/_resolution_8h.html#abd0374c748530a64a72872c43b2cc828',1,'Resolution.h']]],
+  ['result_17',['Result',['../da/d9a/class_p_v_r_1_1_c_g_u_i_dialog_p_v_r_guide_search.html#aa7fb58bb91159981a1300d1ce5bc3f97',1,'PVR::CGUIDialogPVRGuideSearch']]],
+  ['resultcode_18',['ResultCode',['../d1/da4/struct_x_f_i_l_e_1_1_c_file_1_1_read_line_result.html#a78cd9c218833862f97f8aa924632e8d9',1,'XFILE::CFile::ReadLineResult::ResultCode'],['../df/dd8/struct_x_f_i_l_e_1_1_i_file_1_1_read_line_result.html#ab2187895a2accb70c6e3a2f161516ac1',1,'XFILE::IFile::ReadLineResult::ResultCode']]],
+  ['returnformat_19',['ReturnFormat',['../dc/dfa/class_c_date_time.html#adc432b4e926b7958b1dd4d015f9c29c8',1,'CDateTime']]]
+];

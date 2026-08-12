@@ -1,0 +1,26 @@
+var class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon =
+[
+    [ "CPeripheralBusAddon", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a282abc6cac8e882f6a4806280bad07a4", null ],
+    [ "~CPeripheralBusAddon", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a5d86b1d9c5899fc38d8c9a41d7fc3c0b", null ],
+    [ "EnableButtonMapping", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a53df5805c7af856c852930840de1a224", null ],
+    [ "GetAddonWithButtonMap", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a001655cf7569b9468d4f8986ef139201", null ],
+    [ "GetAddonWithButtonMap", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a3840db354b493a232cec2ae872968361", null ],
+    [ "GetByPath", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#ab2d8a904176447c1c542aa4c6dcb111d", null ],
+    [ "GetDirectory", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a6b1979fde158db50ed54f38c231a1997", null ],
+    [ "GetFeatures", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#ab4514ae4ffd812b549b400612f06f92c", null ],
+    [ "GetNumberOfPeripherals", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a9a07f4548e4b62158a8e787a07c330a5", null ],
+    [ "GetNumberOfPeripheralsWithId", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#abf44f2d39084c013d89d41dcd2493111", null ],
+    [ "GetPeripheral", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a75b43210534d5db48e70b0d364cf8ace", null ],
+    [ "GetPeripheralsWithFeature", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a4c13ed711050726a076cfb1c29f60bcb", null ],
+    [ "HasFeature", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a0a4dc9b76936f5229f93ba0438ff21c0", null ],
+    [ "InitializeProperties", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a7d7a97b045301f3cf472aff7a152ba0e", null ],
+    [ "PerformDeviceScan", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a70cbb58878b5445e9e6c9f97fbe6b600", null ],
+    [ "PowerOff", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a48d7969ad17f6d3616b95abe7232cee6", null ],
+    [ "ProcessEvents", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a6f99a8c752d99632b01aba749bedbcdb", null ],
+    [ "Register", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a69940474e6c2b4b6d939bef7e1a8b0bf", null ],
+    [ "SendRumbleEvent", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#ae1ece333e0f58d1207529944598cef09", null ],
+    [ "SplitLocation", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a5aaf17f743ac7c23bd4967dadeec03a8", null ],
+    [ "SupportsFeature", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a8be91b0ed2b150c60a0dcd9b5243ed7b", null ],
+    [ "UnregisterRemovedDevices", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#aa6186cd43747ffeab14fad04217cb649", null ],
+    [ "UpdateAddons", "d6/d15/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus_addon.html#a6f0e310f48b1a1e4b5e2ecc91b10db8f", null ]
+];

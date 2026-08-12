@@ -1,0 +1,37 @@
+var class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model =
+[
+    [ "DiscSelectionType", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a81a5a8af17a702f4821fd908e4236e4b", [
+      [ "Disc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a81a5a8af17a702f4821fd908e4236e4baabd562ba1cf0fd75dd2bf65f02d9bfca", null ],
+      [ "NoDisc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a81a5a8af17a702f4821fd908e4236e4baddf48df708d2d8f32ed0e00e7efb9dd0", null ]
+    ] ],
+    [ "AddDisc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a84a20d5ab703552e376160a260b642ec", null ],
+    [ "AddRemovedSlot", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a429801c0ed0fb2bc56d6c24ca309dbaa", null ],
+    [ "Clear", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a0419526d0874b4c28daba2925d173086", null ],
+    [ "Empty", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a6944666295d5e805077d2e5a0990eee2", null ],
+    [ "EraseDiscByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#afec0587cc27b1a08516d1559e59c9c96", null ],
+    [ "GetDiscByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#ab6ad6c08d8c19b686534dad8d6aadeab", null ],
+    [ "GetDiscIndexByBasename", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a15057f650b1ce73a4b79fce42889d0ca", null ],
+    [ "GetDiscIndexByPath", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a804c46d2c68dc9b19ad84d937cc8a924", null ],
+    [ "GetDiscs", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a574cad6c20bef7dcef019c14554d452c", null ],
+    [ "GetLabelByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a4db1d31202389ae3960809c72e3174e3", null ],
+    [ "GetLabelByPath", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a11e59b23353a2bd3a409135b9e0f9403", null ],
+    [ "GetPathByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a64bb213937c34046fffec1da783486cf", null ],
+    [ "GetSelectedDiscIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a4f57bcfa399c4c19d280d5010dcd4152", null ],
+    [ "GetSelectedDiscLabel", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a1639b074733b6ce65a6d33b1d2ddbf7c", null ],
+    [ "GetSelectedDiscPath", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#adf94178fd7055675285602b80330c900", null ],
+    [ "HasSelectedDisc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a91c8e8bcd5d41624c0b973d7fe073065", null ],
+    [ "IsEjected", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a77d2711efc921ab3198d25b71567823e", null ],
+    [ "IsRemovedSlotByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a0e5d891bb91804467e68619ebf1ae469", null ],
+    [ "IsSelectableSlotByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#ae0cf520e6a5ba1cbff6f4bca64457ccf", null ],
+    [ "IsSelectedNoDisc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#afa1f6c6df185d963b10a4a25f955fc03", null ],
+    [ "MarkRemovedByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#ab9c37fc98f50ab673b46f44b0cffc9d9", null ],
+    [ "RemoveDiscByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#aab060ea4b492cb93a668e75293313bc6", null ],
+    [ "RemoveDiscByPath", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a5a28937f7065605e861acfdde047dc53", null ],
+    [ "SetDiscs", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a8b1b714d98b19a770752d31e91d00192", null ],
+    [ "SetEjected", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a944bd3a997fc057c61f4bbff25e1aac4", null ],
+    [ "SetSelectedDiscByIndex", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a0f735f62bf3c7e016b27f54376d51327", null ],
+    [ "SetSelectedDiscByPath", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a9ba1f9c76a9d0ab8839103968fdb87c1", null ],
+    [ "SetSelectedNoDisc", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a56a666bfefe4e43aacc87ff387f5217e", null ],
+    [ "Size", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#ac8e2ca6a65e3af9dd6a16f558841b462", null ],
+    [ "UpdateCachedLabel", "d9/db6/class_k_o_d_i_1_1_g_a_m_e_1_1_c_game_client_disc_model.html#a8f78c46fa4e763a4a704387a3e60fe76", null ]
+];

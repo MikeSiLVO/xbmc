@@ -1,0 +1,28 @@
+var struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s =
+[
+    [ "bHandlesDemuxing", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#ab7c5964953e0c9e41de96e6ffcc5390a", null ],
+    [ "bHandlesInputStream", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#ac0c6d831026f21aecc2b0d8a2c3ed350", null ],
+    [ "bSupportsAsyncEPGTransfer", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a7ddc8976ef0faa3d6b1855b5b3db3d9f", null ],
+    [ "bSupportsChannelGroups", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a8279cbd831e94947101dc3a2500d8a01", null ],
+    [ "bSupportsChannelScan", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#af199c7e4542980bff9306d5398139d84", null ],
+    [ "bSupportsChannelSettings", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a20a147ab11d32f500b9c6ab915b239bd", null ],
+    [ "bSupportsDescrambleInfo", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#aa99b21fb0bf3df9d691264071b8f00c1", null ],
+    [ "bSupportsEPG", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a86f4afcfcf1edee108c1b6712b0e433c", null ],
+    [ "bSupportsEPGEdl", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a7d610c0612180b11a2ed142a0ad6f4e5", null ],
+    [ "bSupportsLastPlayedPosition", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a310b119a99aed5f435d372974ec4ecbf", null ],
+    [ "bSupportsMultipleRecordedStreams", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a8d9e071ba97d17ae7e3f54523214ee68", null ],
+    [ "bSupportsProviders", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a4b8e6763442b5675fa4e0f5b3c3e8f56", null ],
+    [ "bSupportsRadio", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a0773362c8619b43a00d1a732b812d0f6", null ],
+    [ "bSupportsRecordingEdl", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#af89512e6c051a2ab381ebe0027e12c1a", null ],
+    [ "bSupportsRecordingPlayCount", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a1ac970d36b8e61853afb5e0928eb6d63", null ],
+    [ "bSupportsRecordings", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a67fabfdd61c1fe47dcd23ac832f5ee37", null ],
+    [ "bSupportsRecordingsDelete", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#aff0f5b40bd6ad26bc441823dab71fd70", null ],
+    [ "bSupportsRecordingSize", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#aa8f91e525d7dec55916884549d1ab0fc", null ],
+    [ "bSupportsRecordingsLifetimeChange", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a301201307ecd85fe4f68fff72b4f1ac3", null ],
+    [ "bSupportsRecordingsRename", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#add509a8781519376a8169dce672280ae", null ],
+    [ "bSupportsRecordingsUndelete", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#acefb16cdbc2c92f0723572335e296f22", null ],
+    [ "bSupportsTimers", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a460c71cde19b4f2171a88b5d1ba90dc1", null ],
+    [ "bSupportsTV", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a7f84fee9fcf79f0e4b6e451adc270eb5", null ],
+    [ "iRecordingsLifetimesSize", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#af897b751b842716091c57c0f573a82d0", null ],
+    [ "recordingsLifetimeValues", "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#a66a5165f114f589b40041f5768061064", null ]
+];

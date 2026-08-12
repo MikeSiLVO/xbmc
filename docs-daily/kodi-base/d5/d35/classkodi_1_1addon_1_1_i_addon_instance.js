@@ -1,0 +1,26 @@
+var classkodi_1_1addon_1_1_i_addon_instance =
+[
+    [ "IAddonInstance", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#ac9fc1c8b50612b1e2c541d45c3c0e742", null ],
+    [ "~IAddonInstance", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#afb7a48487d1c7ae2804d7522548ae96a", null ],
+    [ "CheckInstanceSettingBoolean", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#aec52f77b6a7765f0f8a492e50b53916a", null ],
+    [ "CheckInstanceSettingEnum", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a546fb636c959d58f878451af21dc8f83", null ],
+    [ "CheckInstanceSettingFloat", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a7427146272e0d43b73bb310a40642512", null ],
+    [ "CheckInstanceSettingInt", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a44d81a1af703f35d451a9a4afd0cb537", null ],
+    [ "CheckInstanceSettingString", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a2643207436e2d5cd431db4255392f757", null ],
+    [ "CreateInstance", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#ae77ac8a190f4fad609d634f7edbba1da", null ],
+    [ "GetInstanceAPIVersion", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a81bb5aa68afe2d0d9c1e9dafe36401f1", null ],
+    [ "GetInstanceSettingBoolean", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#aa5bfd208dd17c681c59fcd99457f8123", null ],
+    [ "GetInstanceSettingEnum", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a6f05aebe473b0b15ae108caa7931f8d0", null ],
+    [ "GetInstanceSettingFloat", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#ae8f343d6623eb0dc12787020e30c3caf", null ],
+    [ "GetInstanceSettingInt", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#afd8f412ff7a8d5dd045b9e55d818d2b2", null ],
+    [ "GetInstanceSettingString", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#afb32e43b8011ceedfa8dd287d70bf75c", null ],
+    [ "GetInstanceUserPath", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a2b785e6763e233a0331b7bf417d7838c", null ],
+    [ "IsInstanceSettingUsingDefault", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a73210cbdebdd360b9ccc6442fc67e3eb", null ],
+    [ "SetInstanceSetting", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a8b7d477bc60a6b1e04a9fe4545bea6b5", null ],
+    [ "SetInstanceSettingBoolean", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a99f94c7467ff8397536b56518f424605", null ],
+    [ "SetInstanceSettingEnum", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a5dfc5361541ab66478c9bc6d3f03a186", null ],
+    [ "SetInstanceSettingFloat", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a077602a8203781af39a7e847910f0e22", null ],
+    [ "SetInstanceSettingInt", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a4c7b2dab8e5adbc706ac8ad21a442014", null ],
+    [ "SetInstanceSettingString", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#a97e50ad375b544dd596164a05db9abf4", null ],
+    [ "CAddonBase", "d5/d35/classkodi_1_1addon_1_1_i_addon_instance.html#aa3c7f5071ddadb6a0ff6d96bfd7e1eee", null ]
+];

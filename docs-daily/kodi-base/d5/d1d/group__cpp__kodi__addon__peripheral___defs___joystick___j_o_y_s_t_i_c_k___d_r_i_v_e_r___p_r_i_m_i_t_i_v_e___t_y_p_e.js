@@ -1,0 +1,14 @@
+var group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e =
+[
+    [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gaba49c77b8cfa66a55df856a9c7e5a198", null ],
+    [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#ga16d8583e62cf2e80fd93e8eb03f3c071", [
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_UNKNOWN", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a245b85b4bc39cc1616765386130a95c2", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_BUTTON", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a8b10d4e7f703585db2cfc403290d443a", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_HAT_DIRECTION", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a7ac132ffef62eb850e793334b1659f8a", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_SEMIAXIS", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a946918fd20667d96df51c06716bc1be7", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_MOTOR", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a0885a259731e932411c3cccd3d4d0045", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_KEY", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071ab4671c9926fe625586ecf5740b949e9d", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_MOUSE_BUTTON", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a095f787aaee7794b74a09b7891d2ce5a", null ],
+      [ "JOYSTICK_DRIVER_PRIMITIVE_TYPE_RELPOINTER_DIRECTION", "d5/d1d/group__cpp__kodi__addon__peripheral___defs___joystick___j_o_y_s_t_i_c_k___d_r_i_v_e_r___p_r_i_m_i_t_i_v_e___t_y_p_e.html#gga16d8583e62cf2e80fd93e8eb03f3c071a5cf0a438132ed54777a7c802bf84c0c0", null ]
+    ] ]
+];
