@@ -9,3 +9,10 @@
 table.kodi-table td {
     background-color: var(--page-background-color);
 }
+
+/* Cells carry no class, so doxygen's own table padding never reaches them and
+   the text sits against the border. Same values it uses for doxtable. */
+table.kodi-table th,
+table.kodi-table td {
+    padding: 3px 7px 2px;
+}
