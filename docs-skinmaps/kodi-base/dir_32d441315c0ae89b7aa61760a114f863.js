@@ -30,7 +30,7 @@ var dir_32d441315c0ae89b7aa61760a114f863 =
     [ "NetworkServices.cpp", "d5/d58/_network_services_8cpp.html", null ],
     [ "NetworkServices.h", "dc/d91/_network_services_8h.html", "dc/d91/_network_services_8h" ],
     [ "Socket.cpp", "d9/dab/_socket_8cpp.html", null ],
-    [ "Socket.h", "d9/dd2/network_2_socket_8h.html", "d9/dd2/network_2_socket_8h" ],
+    [ "Socket.h", "d7/d86/network_2socket_8h.html", "d7/d86/network_2socket_8h" ],
     [ "TCPServer.cpp", "dd/d79/_t_c_p_server_8cpp.html", "dd/d79/_t_c_p_server_8cpp" ],
     [ "TCPServer.h", "d4/d12/_t_c_p_server_8h.html", "d4/d12/_t_c_p_server_8h" ],
     [ "UdpClient.cpp", "dc/dfc/_udp_client_8cpp.html", "dc/dfc/_udp_client_8cpp" ],

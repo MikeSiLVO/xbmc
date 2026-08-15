@@ -36,7 +36,7 @@ var dir_f52f6c37d2d3c14ae0ab1e67ea54484a =
     [ "PlatformDefs.h", "d0/dd9/win32_2_platform_defs_8h.html", "d0/dd9/win32_2_platform_defs_8h" ],
     [ "PlatformWin32.cpp", "da/dfa/_platform_win32_8cpp.html", null ],
     [ "PlatformWin32.h", "de/d29/_platform_win32_8h.html", "de/d29/_platform_win32_8h" ],
-    [ "resource.h", "d9/d90/platform_2win32_2_resource_8h.html", "d9/d90/platform_2win32_2_resource_8h" ],
+    [ "resource.h", "db/d5f/platform_2win32_2resource_8h.html", "db/d5f/platform_2win32_2resource_8h" ],
     [ "SDK_26100.h", "d7/dee/_s_d_k__26100_8h.html", "d7/dee/_s_d_k__26100_8h" ],
     [ "unistd.h", "da/d6f/unistd_8h.html", null ],
     [ "WIN32Util.cpp", "dc/dc5/_w_i_n32_util_8cpp.html", "dc/dc5/_w_i_n32_util_8cpp" ],

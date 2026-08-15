@@ -1,5 +1,8 @@
 var NAVTREEINDEX229 =
 {
+"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html#a07a8bc4c43f557535c6bbbbfe4514ef9":[10,0,34,30,5,7,0],
+"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html#a07a8bc4c43f557535c6bbbbfe4514ef9":[11,0,24,25,3,7,0],
+"db/d81/struct_chapter_details.html":[11,0,762],
 "db/d81/struct_chapter_details.html#a04557b685a988c291b2065f2c1f95632":[11,0,762,2],
 "db/d81/struct_chapter_details.html#a17d8330346f746a5e92b743a7b6c994c":[11,0,762,1],
 "db/d81/struct_chapter_details.html#ae67e149cd02f7e1b6865a3364bc5da64":[11,0,762,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX229 =
 "db/d8c/struct_addon_to_kodi_func_table__kodi__gui__control__slider.html#aa7bad5fcc411abb70f153712d9724e39":[11,0,110,0],
 "db/d8c/struct_addon_to_kodi_func_table__kodi__gui__control__slider.html#ab427e03dbdc27a331ca15cb521e41e05":[11,0,110,7],
 "db/d8c/struct_addon_to_kodi_func_table__kodi__gui__control__slider.html#abaa239e9f4fa66641202071f3ab52511":[11,0,110,5],
-"db/d8c/struct_addon_to_kodi_func_table__kodi__gui__control__slider.html#af9b1ae27801599fc06fc3df6ab7ec96e":[11,0,110,6],
-"db/d8e/_renderer_h_q_8cpp.html":[12,0,1,4,6,9,2,4],
-"db/d8f/class_k_o_d_i_1_1_r_e_t_r_o_1_1_c_render_buffer_pool_d_m_a.html":[10,0,34,25,36],
-"db/d8f/class_k_o_d_i_1_1_r_e_t_r_o_1_1_c_render_buffer_pool_d_m_a.html":[11,0,24,20,35]
+"db/d8c/struct_addon_to_kodi_func_table__kodi__gui__control__slider.html#af9b1ae27801599fc06fc3df6ab7ec96e":[11,0,110,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX277 =
 {
+"dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#ae011f5ccab93d351054fa8c233a836b0":[10,0,44,26,12],
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#ae011f5ccab93d351054fa8c233a836b0":[11,0,32,26,12],
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#ae69fb69b26744d8cfd36cf604f88d791":[10,0,44,26,16],
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#ae69fb69b26744d8cfd36cf604f88d791":[11,0,32,26,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX277 =
 "de/d01/class_c_fallback_power_syscall.html#ab366b1264e095433a56ad6517a4a4483":[11,0,491,4],
 "de/d01/class_c_fallback_power_syscall.html#abcba2e4db72e1b33d7011b9cb2d158ba":[11,0,491,1],
 "de/d01/class_c_fallback_power_syscall.html#ad720f7e9dc994fd58092d334a65ac9ee":[11,0,491,0],
-"de/d01/class_c_fallback_power_syscall.html#aec640e8352243ac1c9bcf4626a3bde36":[11,0,491,6],
-"de/d01/class_c_fallback_power_syscall.html#af947ba2137660642d0032b6b23994a42":[11,0,491,5]
+"de/d01/class_c_fallback_power_syscall.html#aec640e8352243ac1c9bcf4626a3bde36":[11,0,491,6]
 };

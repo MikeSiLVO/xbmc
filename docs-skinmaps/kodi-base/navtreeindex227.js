@@ -1,5 +1,11 @@
 var NAVTREEINDEX227 =
 {
+"db/d5b/classkodi_1_1addon_1_1_c_instance_video_codec.html":[10,0,35,0,13],
+"db/d5b/classkodi_1_1addon_1_1_c_instance_video_codec.html":[11,0,25,0,13],
+"db/d5c/_setting_category_access_8h.html":[12,0,1,30,1,14],
+"db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html":[10,0,70,39],
+"db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html":[11,0,52,38],
+"db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html#a06c957b9cdb3655ceb24f5dfcdca2a20":[10,0,70,39,1],
 "db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html#a06c957b9cdb3655ceb24f5dfcdca2a20":[11,0,52,38,1],
 "db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html#a7caeef785b9ec0cbf2d057bb5104fcf4":[10,0,70,39,0],
 "db/d5c/class_x_f_i_l_e_1_1_c_h_t_t_p_directory.html#a7caeef785b9ec0cbf2d057bb5104fcf4":[11,0,52,38,0],
@@ -105,6 +111,8 @@ var NAVTREEINDEX227 =
 "db/d5f/classjni_1_1_c_j_n_i_x_b_m_c_main_view.html#acb077eb37206668417eca6018143028f":[11,0,22,7,8],
 "db/d5f/classjni_1_1_c_j_n_i_x_b_m_c_main_view.html#ae0aa0729ba542574357c3ee3af0c8c47":[10,0,32,7,4],
 "db/d5f/classjni_1_1_c_j_n_i_x_b_m_c_main_view.html#ae0aa0729ba542574357c3ee3af0c8c47":[11,0,22,7,4],
+"db/d5f/platform_2win32_2resource_8h.html":[12,0,1,22,7,36],
+"db/d5f/platform_2win32_2resource_8h.html#afde65d0398aef7aacc65dff6b0f47218":[12,0,1,22,7,36,0],
 "db/d60/addons_2kodi-dev-kit_2include_2kodi_2gui_2dialogs_2_keyboard_8h.html":[12,0,1,0,4,1,0,2,1,3],
 "db/d60/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_shell_surface_web_o_s_shell.html":[10,0,34,33,2,14],
 "db/d60/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_c_shell_surface_web_o_s_shell.html":[11,0,24,28,2,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX227 =
 "db/d67/struct_video_stream_info.html#a9433a1c2765a9e41e768bc32d7c48f0a":[11,0,1933,1],
 "db/d67/struct_video_stream_info.html#a9f1872b0558fb66be69adfcd84ff1936":[11,0,1933,9],
 "db/d67/struct_video_stream_info.html#aab38d2c178c569b307990fbf6d8b3193":[11,0,1933,3],
-"db/d67/struct_video_stream_info.html#aac16ce8e6121bcc4f80317b1dad06bfd":[11,0,1933,8],
-"db/d68/classkodi_1_1gui_1_1controls_1_1_c_label.html":[10,0,35,2,0,4],
-"db/d68/classkodi_1_1gui_1_1controls_1_1_c_label.html":[11,0,25,2,0,4],
-"db/d69/_debug_renderer_8cpp.html":[12,0,1,4,6,9,8],
-"db/d6a/c-api_2addon-instance_2_game_8h.html":[12,0,1,0,4,1,0,1,0,4],
-"db/d6a/c-api_2addon-instance_2_game_8h.html#a02d44f94bd3c06efade42b635bc81936":[12,0,1,0,4,1,0,1,0,4,56],
-"db/d6a/c-api_2addon-instance_2_game_8h.html#a1d347a04e8693bd740d4bc75c050b96b":[12,0,1,0,4,1,0,1,0,4,11],
-"db/d6a/c-api_2addon-instance_2_game_8h.html#a1d3c47216cd0097a414e7ff8dc2b9a38":[12,0,1,0,4,1,0,1,0,4,57],
-"db/d6a/c-api_2addon-instance_2_game_8h.html#a9f9664d8285afa535b5ec97f6f7be31d":[12,0,1,0,4,1,0,1,0,4,12]
+"db/d67/struct_video_stream_info.html#aac16ce8e6121bcc4f80317b1dad06bfd":[11,0,1933,8]
 };

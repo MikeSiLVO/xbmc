@@ -1,5 +1,7 @@
 var NAVTREEINDEX274 =
 {
+"dd/dc4/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_g_b_m_1_1_c_d_r_m_object.html#a9c14e989f93827e64974c5955c88ceec":[11,0,24,28,0,5,10],
+"dd/dc4/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_g_b_m_1_1_c_d_r_m_object.html#aa2f1672ddec69b9eb5b992ed18665cbb":[10,0,34,33,0,5,18],
 "dd/dc4/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_g_b_m_1_1_c_d_r_m_object.html#aa2f1672ddec69b9eb5b992ed18665cbb":[11,0,24,28,0,5,18],
 "dd/dc4/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_g_b_m_1_1_c_d_r_m_object.html#ab8c990cdcff1a39f9fa9a7ea62cab025":[10,0,34,33,0,5,7],
 "dd/dc4/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_g_b_m_1_1_c_d_r_m_object.html#ab8c990cdcff1a39f9fa9a7ea62cab025":[11,0,24,28,0,5,7],
@@ -17,7 +19,6 @@ var NAVTREEINDEX274 =
 "dd/dc5/group__cpp__kodi__addon__pvr__supports_channel_edit.html#ga9aef1b899cc61fb0fcc67030cc5d2d10":[9,0,2,1,6,4,3],
 "dd/dc5/group__cpp__kodi__addon__pvr__supports_channel_edit.html#gacf9e2b3718082ead99533e75a92c7e8a":[9,0,2,1,6,4,0],
 "dd/dc5/group__cpp__kodi__addon__pvr__supports_channel_edit.html#gad758c19e9c24ee92da85fdeeb318ae0d":[9,0,2,1,6,4,4],
-"dd/dc5/kodi-dev-kit_2include_2kodi_2addon-instance_2_image_decoder_8h.html":[12,0,1,0,4,1,0,0,6],
 "dd/dc6/_platform_darwin_8cpp.html":[12,0,1,22,2,14],
 "dd/dc7/_g_p_u_info_android_8cpp.html":[12,0,1,22,0,11],
 "dd/dc7/_renderer_v_d_p_a_u_8cpp.html":[12,0,1,4,6,9,0,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX274 =
 "dd/dd2/_i_r_remote_i_ds_8h.html#afd84862fd6ee595aa7654768f05f3fd7":[12,0,1,13,5,4,2,60],
 "dd/dd2/_i_r_remote_i_ds_8h.html#affe065eccf5ca3fac3626cb63f561074":[12,0,1,13,5,4,2,48],
 "dd/dd2/_t_v_o_s_e_a_g_l_view_8h.html":[12,0,1,22,2,6,8],
-"dd/dd3/win32_2_message_printer_8cpp.html":[12,0,1,22,7,27],
-"dd/dd4/_skin_resource_8cpp.html":[12,0,1,0,73]
+"dd/dd3/win32_2_message_printer_8cpp.html":[12,0,1,22,7,27]
 };

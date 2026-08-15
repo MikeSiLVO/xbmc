@@ -1,5 +1,6 @@
 var NAVTREEINDEX311 =
 {
+"df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ae1c0acc4201f21ae38b368cde2bf52a4":[11,0,99,46],
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ae7fb3c293da4fc1f80b09ba8c77dce51":[11,0,99,21],
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ae8d51e9b7daedd2abf139b1534e735db":[11,0,99,30],
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#aea63e9c176be0e9b9dcd8ad63d0e59d1":[11,0,99,25],
@@ -111,7 +112,6 @@ var NAVTREEINDEX311 =
 "df/da7/namespace_shaders_1_1_g_l_e_s.html":[10,0,47,1],
 "df/da8/_p_v_r_recording_8cpp.html":[12,0,1,27,7,0],
 "df/da8/_xbt_manager_8h.html":[12,0,1,9,159],
-"df/da8/addon-instance_2_v_f_s_8h.html":[12,0,1,0,4,1,0,0,12],
 "df/da8/class_k_o_d_i_1_1_p_l_a_y_l_i_s_t_1_1_c_play_list_x_m_l.html":[10,0,34,22,10],
 "df/da8/class_k_o_d_i_1_1_p_l_a_y_l_i_s_t_1_1_c_play_list_x_m_l.html":[11,0,24,17,10],
 "df/da8/class_k_o_d_i_1_1_p_l_a_y_l_i_s_t_1_1_c_play_list_x_m_l.html#a1c333b59e474a079692137d48c552945":[10,0,34,22,10,0],

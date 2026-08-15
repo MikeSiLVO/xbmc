@@ -13,7 +13,7 @@ var searchData=
   ['vectimerinfotag_10',['VecTimerInfoTag',['../df/dde/class_p_v_r_1_1_c_p_v_r_timers_container.html#a0bca929739096c8c35f356c52d967f08',1,'PVR::CPVRTimersContainer']]],
   ['vfsentryptr_11',['VFSEntryPtr',['../d8/d83/namespace_a_d_d_o_n.html#a8b25692d252939ca1b90e0d3aad5f902',1,'ADDON']]],
   ['vfsfilehandle_12',['VFSFileHandle',['../d2/d15/group__cpp__kodi__addon__vfs___defs.html#ga24fc2e788df183ac300942f06fdfca94',1,'kodi::addon']]],
-  ['vfsgetdirectorycallbacks_13',['VFSGetDirectoryCallbacks',['../d3/de4/c-api_2addon-instance_2_v_f_s_8h.html#a085437f605bd6f8ae4d7a363b492b5f6',1,'vfs.h']]],
+  ['vfsgetdirectorycallbacks_13',['VFSGetDirectoryCallbacks',['../d0/de0/c-api_2addon-instance_2vfs_8h.html#a085437f605bd6f8ae4d7a363b492b5f6',1,'vfs.h']]],
   ['video_5fshader_14',['video_shader',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a5e102333547e31b3adc4bfa3535eaafc',1,'shaderpreset.h']]],
   ['video_5fshader_5flut_15',['video_shader_lut',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a51ef7dce5ed2f75b70cd074e975db4dc',1,'shaderpreset.h']]],
   ['video_5fshader_5fparameter_16',['video_shader_parameter',['../d9/dd3/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_shader_preset_8h.html#a4f7c2aeddf8283a3736812f9e3446eeb',1,'shaderpreset.h']]],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX254 =
 {
+"dc/d83/class_k_o_d_i_1_1_r_e_n_d_e_r_i_n_g_1_1_c_a_p_t_u_r_e_1_1_i_capture_pixels.html#a1c9754fc083a2cec1e778556ba773554":[11,0,24,19,0,8,0],
+"dc/d83/class_k_o_d_i_1_1_r_e_n_d_e_r_i_n_g_1_1_c_a_p_t_u_r_e_1_1_i_capture_pixels.html#a89d382ff0ad95eac9906de516a9073c9":[10,0,34,24,0,8,1],
+"dc/d83/class_k_o_d_i_1_1_r_e_n_d_e_r_i_n_g_1_1_c_a_p_t_u_r_e_1_1_i_capture_pixels.html#a89d382ff0ad95eac9906de516a9073c9":[11,0,24,19,0,8,1],
+"dc/d83/class_k_o_d_i_1_1_r_e_n_d_e_r_i_n_g_1_1_c_a_p_t_u_r_e_1_1_i_capture_pixels.html#a9a0afbaf0ed58f4b459a40e09c67342d":[10,0,34,24,0,8,2],
+"dc/d83/class_k_o_d_i_1_1_r_e_n_d_e_r_i_n_g_1_1_c_a_p_t_u_r_e_1_1_i_capture_pixels.html#a9a0afbaf0ed58f4b459a40e09c67342d":[11,0,24,19,0,8,2],
 "dc/d83/class_shaders_1_1_g_l_s_l_output.html":[10,0,47,9],
 "dc/d83/class_shaders_1_1_g_l_s_l_output.html":[11,0,35,9],
 "dc/d83/class_shaders_1_1_g_l_s_l_output.html#a5358770d7c36a18d2a9a45f8a7535309":[10,0,47,9,0],
@@ -154,7 +159,6 @@ var NAVTREEINDEX254 =
 "dc/d90/_text__box.html#Text_Box_sect3":[4,0,28,2],
 "dc/d91/_network_services_8h.html":[12,0,1,19,28],
 "dc/d91/_posix_file_8h.html":[12,0,1,22,5,0,3],
-"dc/d91/addon-instance_2_game_8h.html":[12,0,1,0,4,1,0,0,5],
 "dc/d92/class_c_video_settings_locked.html":[11,0,1220],
 "dc/d92/class_c_video_settings_locked.html#a08d513026e8962faf28881548c4b5611":[11,0,1220,6],
 "dc/d92/class_c_video_settings_locked.html#a204802306a2b2626f7ad3fc276eb9b8e":[11,0,1220,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX254 =
 "dc/d9c/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_video_stream_buffer.html#af7c0d9bff7b33e0b62137893baecb572":[10,0,34,25,106,2],
 "dc/d9c/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_video_stream_buffer.html#af7c0d9bff7b33e0b62137893baecb572":[11,0,24,20,105,2],
 "dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html":[10,0,2,39],
-"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html":[11,0,2,39],
-"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html#a407efd1115c35ee12d4eacf2edcacfbf":[10,0,2,39,2],
-"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html#a407efd1115c35ee12d4eacf2edcacfbf":[11,0,2,39,2],
-"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html#abc40dcc2f904ece935fa3856f1e9463d":[10,0,2,39,1],
-"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html#abc40dcc2f904ece935fa3856f1e9463d":[11,0,2,39,1]
+"dc/d9d/class_a_d_d_o_n_1_1_c_repository_update_job.html":[11,0,2,39]
 };

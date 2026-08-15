@@ -113,10 +113,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ga38798710c8e9e8d608a6e801a54619a0" id="r_ga38798710c8e9e8d608a6e801a54619a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga38798710c8e9e8d608a6e801a54619a0">kodi::addon::CInstanceVFS::CVFSCallbacks::GetKeyboardInput</a> (const std::string &amp;heading, std::string &amp;input, <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a> hiddenInput=false)</td></tr>
 <tr class="memdesc:ga38798710c8e9e8d608a6e801a54619a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Require keyboard input.  <br /></td></tr>
 <tr class="separator:ga38798710c8e9e8d608a6e801a54619a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga888dab14712c8f4ec271f86ab391b21a" id="r_ga888dab14712c8f4ec271f86ab391b21a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga888dab14712c8f4ec271f86ab391b21a">kodi::addon::CInstanceVFS::CVFSCallbacks::SetErrorDialog</a> (const std::string &amp;heading, const std::string &amp;line1, const std::string &amp;line2=&quot;&quot;, const std::string &amp;line3=&quot;&quot;)</td></tr>
+<tr class="memitem:ga888dab14712c8f4ec271f86ab391b21a" id="r_ga888dab14712c8f4ec271f86ab391b21a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga888dab14712c8f4ec271f86ab391b21a">kodi::addon::CInstanceVFS::CVFSCallbacks::SetErrorDialog</a> (const std::string &amp;heading, const std::string &amp;line1, const std::string &amp;line2=&quot;&quot;, const std::string &amp;line3=&quot;&quot;)</td></tr>
 <tr class="memdesc:ga888dab14712c8f4ec271f86ab391b21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an error dialog.  <br /></td></tr>
 <tr class="separator:ga888dab14712c8f4ec271f86ab391b21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac9d34e962b01c40c1062adf8f4ce0b90" id="r_gac9d34e962b01c40c1062adf8f4ce0b90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9d34e962b01c40c1062adf8f4ce0b90">kodi::addon::CInstanceVFS::CVFSCallbacks::RequireAuthentication</a> (const std::string &amp;url)</td></tr>
+<tr class="memitem:gac9d34e962b01c40c1062adf8f4ce0b90" id="r_gac9d34e962b01c40c1062adf8f4ce0b90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac9d34e962b01c40c1062adf8f4ce0b90">kodi::addon::CInstanceVFS::CVFSCallbacks::RequireAuthentication</a> (const std::string &amp;url)</td></tr>
 <tr class="memdesc:gac9d34e962b01c40c1062adf8f4ce0b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompt the user for authentication of a URL.  <br /></td></tr>
 <tr class="separator:gac9d34e962b01c40c1062adf8f4ce0b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 <p>Callback functions on <a class="el" href="../../d4/d15/group__cpp__kodi__addon__vfs__general.html#gad872e85b12570d061a4bf16a89df9d94" title="List a directory.">GetDirectory()</a> </p>
 <p>This functions becomes available during call of <a class="el" href="../../d4/d15/group__cpp__kodi__addon__vfs__general.html#gad872e85b12570d061a4bf16a89df9d94" title="List a directory.">GetDirectory()</a> from Kodi.</p>
 <p>If <a class="el" href="../../d4/d15/group__cpp__kodi__addon__vfs__general.html#gad872e85b12570d061a4bf16a89df9d94" title="List a directory.">GetDirectory()</a> returns false becomes the parts from here used on next call of the function.</p>
-<p><b>Example:</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../df/da8/addon-instance_2_v_f_s_8h.html">kodi/addon-instance/VFS.h</a>&gt;</span></div>
+<p><b>Example:</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../d3/de8/addon-instance_2vfs_8h.html">kodi/addon-instance/VFS.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line">...</div>
 <div class="line"> </div>
@@ -141,8 +141,8 @@ Functions</h2></td></tr>
 <div class="line">  ...</div>
 <div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line">}</div>
-<div class="ttc" id="aaddon-instance_2_v_f_s_8h_html"><div class="ttname"><a href="../../df/da8/addon-instance_2_v_f_s_8h.html">VFS.h</a></div></div>
-<div class="ttc" id="aclasskodi_1_1addon_1_1_v_f_s_url_html"><div class="ttname"><a href="../../d0/dc7/classkodi_1_1addon_1_1_v_f_s_url.html">kodi::addon::VFSUrl</a></div><div class="ttdef"><b>Definition</b> addon-instance/VFS.h:51</div></div>
+<div class="ttc" id="aaddon-instance_2vfs_8h_html"><div class="ttname"><a href="../../d3/de8/addon-instance_2vfs_8h.html">VFS.h</a></div></div>
+<div class="ttc" id="aclasskodi_1_1addon_1_1_v_f_s_url_html"><div class="ttname"><a href="../../d0/dc7/classkodi_1_1addon_1_1_v_f_s_url.html">kodi::addon::VFSUrl</a></div><div class="ttdef"><b>Definition</b> addon-instance/vfs.h:51</div></div>
 </div><!-- fragment --> <h2 class="groupheader">Function Documentation</h2>
 <a id="ga38798710c8e9e8d608a6e801a54619a0" name="ga38798710c8e9e8d608a6e801a54619a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga38798710c8e9e8d608a6e801a54619a0">&#9670;&#160;</a></span>GetKeyboardInput()</h2>
@@ -200,7 +200,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceVFS::CVFSCallbacks::RequireAuthentication </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceVFS::CVFSCallbacks::RequireAuthentication </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
           <td></td>
@@ -233,7 +233,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceVFS::CVFSCallbacks::SetErrorDialog </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceVFS::CVFSCallbacks::SetErrorDialog </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>heading</em></span>, </td>
         </tr>
@@ -278,7 +278,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:02 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:26 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

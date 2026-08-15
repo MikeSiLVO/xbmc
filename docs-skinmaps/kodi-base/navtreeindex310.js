@@ -1,5 +1,6 @@
 var NAVTREEINDEX310 =
 {
+"df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a6944d60d0999275f3f113b6fbdd55dc5":[10,0,34,33,2,34,2],
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a6944d60d0999275f3f113b6fbdd55dc5":[11,0,24,28,2,34,2],
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a8b39dbd54f9e463d6d229807e5e13e0a":[10,0,34,33,2,34,4],
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a8b39dbd54f9e463d6d229807e5e13e0a":[11,0,24,28,2,34,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX310 =
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ac44069f184d23402346f911fcac8d710":[11,0,99,18],
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ad02212f6b4ee1b7476b93603c4106323":[11,0,99,48],
 "df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ad20fd4133869b1eddab410e0732859a4":[11,0,99,39],
-"df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ad760940575fee01eee59fcf569c17775":[11,0,99,6],
-"df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ae1c0acc4201f21ae38b368cde2bf52a4":[11,0,99,46]
+"df/d9e/struct_addon_to_kodi_func_table__kodi__filesystem.html#ad760940575fee01eee59fcf569c17775":[11,0,99,6]
 };

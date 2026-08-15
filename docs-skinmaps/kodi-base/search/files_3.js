@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['c_2dapi_2faddon_2dinstance_2faudioencoder_2eh_0',['audioencoder.h',['../d3/dd5/c-api_2addon-instance_2_audio_encoder_8h.html',1,'']]],
-  ['c_2dapi_2faddon_2dinstance_2fgame_2eh_1',['game.h',['../db/d6a/c-api_2addon-instance_2_game_8h.html',1,'']]],
-  ['c_2dapi_2faddon_2dinstance_2finputstream_2eh_2',['inputstream.h',['../db/d54/c-api_2addon-instance_2_inputstream_8h.html',1,'']]],
-  ['c_2dapi_2faddon_2dinstance_2fpvr_2eh_3',['pvr.h',['../d6/d97/c-api_2addon-instance_2_p_v_r_8h.html',1,'']]],
-  ['c_2dapi_2faddon_2dinstance_2fvfs_2eh_4',['vfs.h',['../d3/de4/c-api_2addon-instance_2_v_f_s_8h.html',1,'']]],
+  ['c_2dapi_2faddon_2dinstance_2faudioencoder_2eh_0',['audioencoder.h',['../d5/ddf/c-api_2addon-instance_2audioencoder_8h.html',1,'']]],
+  ['c_2dapi_2faddon_2dinstance_2fgame_2eh_1',['game.h',['../d7/d4b/c-api_2addon-instance_2game_8h.html',1,'']]],
+  ['c_2dapi_2faddon_2dinstance_2finputstream_2eh_2',['inputstream.h',['../d2/d85/c-api_2addon-instance_2inputstream_8h.html',1,'']]],
+  ['c_2dapi_2faddon_2dinstance_2fpvr_2eh_3',['pvr.h',['../db/dca/c-api_2addon-instance_2pvr_8h.html',1,'']]],
+  ['c_2dapi_2faddon_2dinstance_2fvfs_2eh_4',['vfs.h',['../d0/de0/c-api_2addon-instance_2vfs_8h.html',1,'']]],
   ['cachestrategy_2ecpp_5',['CacheStrategy.cpp',['../d4/dea/_cache_strategy_8cpp.html',1,'']]],
   ['cachestrategy_2eh_6',['CacheStrategy.h',['../dd/d0b/_cache_strategy_8h.html',1,'']]],
   ['cachingcodec_2eh_7',['CachingCodec.h',['../d7/ddc/_caching_codec_8h.html',1,'']]],

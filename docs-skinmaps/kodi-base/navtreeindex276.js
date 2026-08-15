@@ -1,5 +1,6 @@
 var NAVTREEINDEX276 =
 {
+"dd/de7/namespace_k_o_d_i_1_1_g_a_m_e.html#ab5f1b3c5befd0a2c688cb92dabf47c9f":[10,0,34,6,157],
 "dd/de7/namespace_k_o_d_i_1_1_g_a_m_e.html#abfb3c62205aed952f1055be589973468":[10,0,34,6,148],
 "dd/de7/namespace_k_o_d_i_1_1_g_a_m_e.html#ac17ea4d4cc3e718b8b25bfd03a6e3a37":[10,0,34,6,126],
 "dd/de7/namespace_k_o_d_i_1_1_g_a_m_e.html#ac98b663b56f24fd303973168fd151a6c":[10,0,34,6,162],
@@ -248,6 +249,5 @@ var NAVTREEINDEX276 =
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#adaccdba2b3e78f979959e90819ffc1d9":[10,0,44,26,35],
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#adaccdba2b3e78f979959e90819ffc1d9":[11,0,32,26,35],
 "dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#adefc121914e72a2db99f1d34f901c40c":[10,0,44,26,38],
-"dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#adefc121914e72a2db99f1d34f901c40c":[11,0,32,26,38],
-"dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#ae011f5ccab93d351054fa8c233a836b0":[10,0,44,26,12]
+"dd/df1/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_joystick.html#adefc121914e72a2db99f1d34f901c40c":[11,0,32,26,38]
 };

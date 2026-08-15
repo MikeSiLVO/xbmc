@@ -1,5 +1,13 @@
 var NAVTREEINDEX247 =
 {
+"dc/d19/class_c_native_window.html":[11,0,875],
+"dc/d19/class_c_native_window.html#a386f7ea94c740573659178b55dfb2104":[11,0,875,0],
+"dc/d19/class_c_native_window.html#a41b79d5d0518ce0cc18f44b2e556494e":[11,0,875,4],
+"dc/d19/class_c_native_window.html#a6102bdfc852d69991378b0c10741dd74":[11,0,875,1],
+"dc/d19/class_c_native_window.html#a983fe56a125a3aa7fbbe5d67403cd2df":[11,0,875,3],
+"dc/d19/class_c_native_window.html#aec890b25c4adaddd391a540a4bc72f6c":[11,0,875,2],
+"dc/d1a/_g_u_i_control_lookup_8cpp.html":[12,0,1,11,44],
+"dc/d1a/class_i_m_a_g_e___f_i_l_e_s_1_1_c_special_image_loader_factory.html":[10,0,30,3],
 "dc/d1a/class_i_m_a_g_e___f_i_l_e_s_1_1_c_special_image_loader_factory.html":[11,0,20,3],
 "dc/d1a/class_i_m_a_g_e___f_i_l_e_s_1_1_c_special_image_loader_factory.html#a6d5a0361eafca0e13d3375fd6fcd1e9d":[10,0,30,3,1],
 "dc/d1a/class_i_m_a_g_e___f_i_l_e_s_1_1_c_special_image_loader_factory.html#a6d5a0361eafca0e13d3375fd6fcd1e9d":[11,0,20,3,1],
@@ -126,6 +134,7 @@ var NAVTREEINDEX247 =
 "dc/d28/network_2_network_8cpp.html#ab20519b99b40cfa122806318a3571f61":[12,0,1,19,23,1],
 "dc/d28/network_2_network_8cpp.html#ac8c62ea91a9b0daaf82457733538d7e7":[12,0,1,19,23,0],
 "dc/d29/_p_v_r_operations_8cpp.html":[12,0,1,14,3,35],
+"dc/d29/addon-instance_2inputstream_8h.html":[12,0,1,0,4,1,0,0,7],
 "dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html":[9,0,2,1,9,0,1],
 "dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html#ga3d32604183c9f5a31eeff6eee9ec5076":[9,0,2,1,9,0,1,2],
 "dc/d29/group__cpp__kodi__addon__videocodec___defs___v_i_d_e_o_c_o_d_e_c___p_i_c_t_u_r_e.html#gab19d377b2b83cf4cd39503d21bc00886":[9,0,2,1,9,0,1,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX247 =
 "dc/d35/class_c_setting_path.html#a25587836be5efea55f63958e7ad5132b":[11,0,1060,9],
 "dc/d35/class_c_setting_path.html#a337b2ce8050446a7a8d6f66ec17f18a9":[11,0,1060,5],
 "dc/d35/class_c_setting_path.html#a37affc4bbad023e0ccb2c5d78ae7a714":[11,0,1060,13],
-"dc/d35/class_c_setting_path.html#a5103a92b933254c9f84e90d253c10d45":[11,0,1060,4],
-"dc/d35/class_c_setting_path.html#a607104f7ac207858e31380ae9d062d1f":[11,0,1060,8],
-"dc/d35/class_c_setting_path.html#a6319bce9b67bfe54ae21baae9978fac4":[11,0,1060,1],
-"dc/d35/class_c_setting_path.html#a8577c4dd22dac61908fd855df7fddb39":[11,0,1060,14],
-"dc/d35/class_c_setting_path.html#abe160fe1c07903629b67701ebd94f68f":[11,0,1060,0],
-"dc/d35/class_c_setting_path.html#ac03d1037588d6467248dd299632adae5":[11,0,1060,11],
-"dc/d35/class_c_setting_path.html#ada0a14998ee1bd780232d2ae5969742e":[11,0,1060,3],
-"dc/d35/class_c_setting_path.html#af8ea0e90d8a65f6c8c6b38235fc97e30":[11,0,1060,6],
-"dc/d35/class_c_setting_path.html#af93cc7ea7bc786641abf9fd31a455af3":[11,0,1060,7],
-"dc/d36/group__cpp__kodi__addon__pvr___defs___p_v_r_setting_definition.html":[9,0,2,1,6,0,0,5]
+"dc/d35/class_c_setting_path.html#a5103a92b933254c9f84e90d253c10d45":[11,0,1060,4]
 };

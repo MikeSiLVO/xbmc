@@ -1,6 +1,8 @@
 var NAVTREEINDEX228 =
 {
-"db/d6a/c-api_2addon-instance_2_game_8h.html#acc31e687d377fc186899e72c61005b7f":[12,0,1,0,4,1,0,1,0,4,13],
+"db/d68/classkodi_1_1gui_1_1controls_1_1_c_label.html":[10,0,35,2,0,4],
+"db/d68/classkodi_1_1gui_1_1controls_1_1_c_label.html":[11,0,25,2,0,4],
+"db/d69/_debug_renderer_8cpp.html":[12,0,1,4,6,9,8],
 "db/d6b/_p_o_utils_8cpp.html":[12,0,1,35,152],
 "db/d6b/struct_folder_test.html":[11,0,1376],
 "db/d6b/struct_folder_test.html#a70cf2d7423b75267fa6022a3f8260f7b":[11,0,1376,1],
@@ -211,6 +213,7 @@ var NAVTREEINDEX228 =
 "db/d7a/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_n_i_c.html#abaf04d8b5c0e73f4f0ce58133359be8c":[11,0,32,29,0],
 "db/d7a/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_n_i_c.html#aed787bd412372b647a5541c7ae0af0cb":[10,0,44,29,1],
 "db/d7a/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_n_i_c.html#aed787bd412372b647a5541c7ae0af0cb":[11,0,32,29,1],
+"db/d7a/kodi-dev-kit_2include_2kodi_2addon-instance_2screensaver_8h.html":[12,0,1,0,4,1,0,0,10],
 "db/d7b/cores_2_retro_player_2shaders_2_shader_preset_8cpp.html":[12,0,1,4,5,11,10],
 "db/d7b/struct_test_u_r_l_get_without_user_details_data.html":[11,0,1845],
 "db/d7b/struct_test_u_r_l_get_without_user_details_data.html#a211bbb192cc05666e5517d82b215ccd4":[11,0,1845,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX228 =
 "db/d7f/interfaces_2gui_2controls_2_radio_button_8h.html":[12,0,1,0,3,0,0,13],
 "db/d80/namespacemediapipeline.html":[10,0,38],
 "db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html":[10,0,34,30,5,7],
-"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html":[11,0,24,25,3,7],
-"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html#a07a8bc4c43f557535c6bbbbfe4514ef9":[10,0,34,30,5,7,0],
-"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html#a07a8bc4c43f557535c6bbbbfe4514ef9":[11,0,24,25,3,7,0],
-"db/d81/struct_chapter_details.html":[11,0,762]
+"db/d81/class_k_o_d_i_1_1_u_t_i_l_s_1_1_i18_n_1_1_c_iso639__2.html":[11,0,24,25,3,7]
 };

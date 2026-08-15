@@ -11,7 +11,7 @@ var searchData=
   ['verifyglstate_8',['VerifyGLState',['../db/d55/_g_l_utils_8h.html#a579d427da045368ddcd4c72444424f38',1,'GLUtils.h']]],
   ['vfr_5fdetection_5fthreshold_9',['VFR_DETECTION_THRESHOLD',['../d0/d5c/_p_t_s_tracker_8h.html#a322aeb1acf36207b1ef78148d5c49aa5',1,'PTSTracker.h']]],
   ['vfr_5fpattern_5fthreshold_10',['VFR_PATTERN_THRESHOLD',['../d0/d5c/_p_t_s_tracker_8h.html#a350cb0343deacd4dd886c291aee73ba8',1,'PTSTracker.h']]],
-  ['vfs_5ffile_5fhandle_11',['VFS_FILE_HANDLE',['../d3/de4/c-api_2addon-instance_2_v_f_s_8h.html#abf4df89e16b9b2d91df405928941d831',1,'vfs.h']]],
+  ['vfs_5ffile_5fhandle_11',['VFS_FILE_HANDLE',['../d0/de0/c-api_2addon-instance_2vfs_8h.html#abf4df89e16b9b2d91df405928941d831',1,'vfs.h']]],
   ['video_5ffilter_5fdefault_12',['VIDEO_FILTER_DEFAULT',['../d4/dc8/_render_video_settings_8cpp.html#afc0e466c53d9ff7a2703f2345120c8cc',1,'RenderVideoSettings.cpp']]],
   ['video_5ffilter_5flinear_13',['VIDEO_FILTER_LINEAR',['../d4/dc8/_render_video_settings_8cpp.html#a8e36a44218308212f747e3d00011df9a',1,'RenderVideoSettings.cpp']]],
   ['video_5ffilter_5fnearest_14',['VIDEO_FILTER_NEAREST',['../d4/dc8/_render_video_settings_8cpp.html#a2a6c962f20c7c445ac8e08964a754cdb',1,'RenderVideoSettings.cpp']]],

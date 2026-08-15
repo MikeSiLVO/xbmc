@@ -1,5 +1,6 @@
 var NAVTREEINDEX300 =
 {
+"df/d2b/class_c_advanced_settings.html#a2458f92508fefd320d655ab57a2332e1":[11,0,184,17],
 "df/d2b/class_c_advanced_settings.html#a245be279197fd4e87d7b3bf43f610f4f":[11,0,184,211],
 "df/d2b/class_c_advanced_settings.html#a24d7c6ac10d9299e21675e8acf9b37d2":[11,0,184,193],
 "df/d2b/class_c_advanced_settings.html#a2693d0fc82b9eb2407166f3a2ebe04ef":[11,0,184,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX300 =
 "df/d2e/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_d_x.html#aeffd024a8a453c9caaf5af89f9827714":[10,0,34,26,9,3],
 "df/d2e/class_k_o_d_i_1_1_s_h_a_d_e_r_1_1_c_shader_preset_d_x.html#aeffd024a8a453c9caaf5af89f9827714":[11,0,24,21,9,3],
 "df/d2f/_j_n_i_x_b_m_c_media_session_8cpp.html":[12,0,1,22,0,0,31],
-"df/d2f/namespacespeech.html":[10,0,50],
-"df/d30/_i_key_handler_8h.html":[12,0,1,13,5,1,1]
+"df/d2f/namespacespeech.html":[10,0,50]
 };

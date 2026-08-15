@@ -1,5 +1,6 @@
 var NAVTREEINDEX288 =
 {
+"de/d8f/_g_u_i_dialog_smart_playlist_rule_8cpp.html#a77414cc2d9f4c6964a5a05a96fabbee7":[12,0,1,6,52,2],
 "de/d8f/_g_u_i_dialog_smart_playlist_rule_8cpp.html#a9f07e4ad6199df6a2736c236520614d2":[12,0,1,6,52,3],
 "de/d8f/_g_u_i_dialog_smart_playlist_rule_8cpp.html#ae9548556f0d2beb287fc6b28cf7b24ec":[12,0,1,6,52,1],
 "de/d8f/_g_u_i_dialog_smart_playlist_rule_8cpp.html#afefc49e8ebebf1ecee9068aac5822123":[12,0,1,6,52,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX288 =
 "de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a2f634dbea364d5d08d0fc1a697896102":[11,0,1492,12],
 "de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a3078cc5ef13242252b11a4caaac58da0":[11,0,1492,24],
 "de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a46df9b7cc5915647330407cd8c8ec9e4":[11,0,1492,20],
-"de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a47c6508ae287a079b8a3f753347e67d1":[11,0,1492,26],
-"de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a522e4d5cd18f7371acae79cf3f92d96a":[11,0,1492,16]
+"de/d97/struct_i_n_p_u_t_s_t_r_e_a_m___i_n_f_o.html#a47c6508ae287a079b8a3f753347e67d1":[11,0,1492,26]
 };

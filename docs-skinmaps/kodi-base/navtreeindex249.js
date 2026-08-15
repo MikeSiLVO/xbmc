@@ -1,5 +1,13 @@
 var NAVTREEINDEX249 =
 {
+"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0aa86bc2b8802027f2f84249d1482dc179":[12,0,1,4,6,21,3,4],
+"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0ad8acd34449b92c726da16e6168b58e39":[12,0,1,4,6,21,3,2],
+"dc/d48/_h264_c_c_bitstream_parser_8h.html":[12,0,1,4,6,2,0,9],
+"dc/d48/_power_manager_8cpp.html":[12,0,1,24,4],
+"dc/d4a/_u_pn_p_renderer_8cpp.html":[12,0,1,19,4,7],
+"dc/d4c/_addon_input_handling_8h.html":[12,0,1,20,0,5],
+"dc/d4c/_game_client_stream_hw_framebuffer_8cpp.html":[12,0,1,10,0,3,2],
+"dc/d4c/class_c_static_context_menu_action.html":[11,0,1100],
 "dc/d4c/class_c_static_context_menu_action.html#ab36c9d05cbd353d336b07405294ef887":[11,0,1100,1],
 "dc/d4c/class_c_static_context_menu_action.html#ad406b8e5097f0516d377bcd81dd6e90a":[11,0,1100,2],
 "dc/d4c/class_c_static_context_menu_action.html#af29207953635763a5baae49400547f10":[11,0,1100,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX249 =
 "dc/d54/classkodi_1_1addon_1_1_peripheral.html":[9,0,2,1,5,1,1,0,0],
 "dc/d54/classkodi_1_1addon_1_1_peripheral.html#a5165f324df5d3f2227d475acd55e987f":[9,0,2,1,5,1,1,0,0,13],
 "dc/d54/classkodi_1_1addon_1_1_peripheral.html#ac6ae2be8109bd0b3b83f8b1a1a21f5e0":[9,0,2,1,5,1,1,0,0,2],
-"dc/d54/skinning_v13.html":[2,1,9],
-"dc/d56/class_c_d_v_d_msg_player_set_state.html":[11,0,427],
-"dc/d56/class_c_d_v_d_msg_player_set_state.html#aa2d10df1788d5f749c7dd38c2894fe46":[11,0,427,2],
-"dc/d56/class_c_d_v_d_msg_player_set_state.html#aa42c7c6f03cda7fb3325019ea752b2c9":[11,0,427,1],
-"dc/d56/class_c_d_v_d_msg_player_set_state.html#ab47e08e50cd4cc4f6b705ef94fa436f7":[11,0,427,0],
-"dc/d58/struct_c_render_info.html":[11,0,990],
-"dc/d58/struct_c_render_info.html#a64d61b1b0d879b99cab96a7a70dc267f":[11,0,990,5],
-"dc/d58/struct_c_render_info.html#abcf3be6e4fb901ad70001048463105c9":[11,0,990,0],
-"dc/d58/struct_c_render_info.html#ac5da0f1252f436f950555f9e3b61ed74":[11,0,990,1]
+"dc/d54/skinning_v13.html":[2,1,9]
 };

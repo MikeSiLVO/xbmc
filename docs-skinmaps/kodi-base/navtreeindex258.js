@@ -1,5 +1,9 @@
 var NAVTREEINDEX258 =
 {
+"dc/dca/kodi-dev-kit_2include_2kodi_2gui_2dialogs_2_text_viewer_8h.html":[12,0,1,0,4,1,0,2,1,8],
+"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html":[9,0,3,2,2],
+"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga1427bf791ffcd5fa2521b3620b9bbffb":[9,0,3,2,2,0],
+"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga37c35ee8cdc7623c0e91a286caee751d":[9,0,3,2,2,2],
 "dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga526b736d403553e61ee74749bae9ecf8":[9,0,3,2,2,1],
 "dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga96f8c5492aab6fd5279395ff7e75802e":[9,0,3,2,2,5],
 "dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#gad5970939da9dd3f144b09484b175203c":[9,0,3,2,2,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX258 =
 "dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ab6beeaff328f734b928a0b10d1adb2b5":[11,0,399,13],
 "dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ab6dfc80a427630679bb080f31ee8e049":[11,0,399,19],
 "dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ac999f4d559b3ddbe1ce0e92e3303fd8e":[11,0,399,38],
-"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ac9a612e11b04365f4abf5c6d73c5af1d":[11,0,399,43],
-"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#acb5a16f0760622c8f3cbe5b866338a79":[11,0,399,64],
-"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#acf8fc1b07b4d232f189ad032087a3c90":[11,0,399,29],
-"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ada0ce8513ca21b6a207b365d3935fec1":[11,0,399,5],
-"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#adc6cc396f640eadf62d56349b4fdbcdb":[11,0,399,71]
+"dc/dd3/class_c_d_v_d_demux_f_fmpeg.html#ac9a612e11b04365f4abf5c6d73c5af1d":[11,0,399,43]
 };

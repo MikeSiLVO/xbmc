@@ -40,7 +40,7 @@ var searchData=
   ['skinmap_37',['SkinMap',['../d0/dfa/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_c_skin_map_manager.html#a72344174555d1de7f23ff14ff8683db3',1,'KODI::GUILIB::CSkinMapManager']]],
   ['smbcctx_38',['SMBCCTX',['../de/d73/_s_m_b_file_8h.html#aaf9641c14389d2963b96b50139337f84',1,'SMBFile.h']]],
   ['socket_39',['SOCKET',['../d4/d0e/posix_2_platform_defs_8h.html#a8dc8083897335125630f1af5dafd5831',1,'PlatformDefs.h']]],
-  ['socklen_5ft_40',['socklen_t',['../d8/df8/platform_2win32_2sys_2_socket_8h.html#a6b82106923cc13b3a9734520ecc29514',1,'socket.h']]],
+  ['socklen_5ft_40',['socklen_t',['../d8/d3b/platform_2win32_2sys_2socket_8h.html#a6b82106923cc13b3a9734520ecc29514',1,'socket.h']]],
   ['sorter_41',['Sorter',['../dd/d94/class_sort_utils.html#acbd085e656fde1cd503532a440305c41',1,'SortUtils']]],
   ['sorterindirect_42',['SorterIndirect',['../dd/d94/class_sort_utils.html#aef0a6a06589b7d4434133b1f63d0812f',1,'SortUtils']]],
   ['sortitem_43',['SortItem',['../df/d63/_sort_utils_8h.html#a35e16ba6c33fe09213a96621786d2db7',1,'SortUtils.h']]],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX235 =
 {
+"db/dc0/class_c_u_disk_device.html#a4b24e9a286f5861b4568a9b08e50160b":[11,0,1162,7],
+"db/dc0/class_c_u_disk_device.html#a638a905f80f5d21fd714d9ea8ead79f6":[11,0,1162,9],
+"db/dc0/class_c_u_disk_device.html#a699faa429b3b259bf95b6e6357347c8d":[11,0,1162,4],
 "db/dc0/class_c_u_disk_device.html#a7dc6bd467de20fae69854474e09da584":[11,0,1162,11],
 "db/dc0/class_c_u_disk_device.html#a933a612b3700dd21040ede82f4b4cbc4":[11,0,1162,14],
 "db/dc0/class_c_u_disk_device.html#a93d2df6a8b7bfce98ba4e46152b1d749":[11,0,1162,2],
@@ -130,6 +133,11 @@ var NAVTREEINDEX235 =
 "db/dc9/struct_s_p_u_data.html#aa99d70aa6e79ccc352bb2c17ab96e32c":[11,0,1733,1],
 "db/dc9/struct_s_p_u_data.html#ab3fcd93a76036a0ef5580dcd0047369c":[11,0,1733,2],
 "db/dc9/struct_s_p_u_data.html#ad57223d304e0e9c896aa8e52b3e632f1":[11,0,1733,4],
+"db/dca/c-api_2addon-instance_2pvr_8h.html":[12,0,1,0,4,1,0,1,0,8],
+"db/dca/c-api_2addon-instance_2pvr_8h.html#a76c029b9cbbe5176ae809abf45456dff":[12,0,1,0,4,1,0,1,0,8,5],
+"db/dca/c-api_2addon-instance_2pvr_8h.html#a98318cdbeb1455acb715f98d43649dd4":[12,0,1,0,4,1,0,1,0,8,6],
+"db/dca/c-api_2addon-instance_2pvr_8h.html#a9d02f7081d273c33dfbcf9035d49e3cb":[12,0,1,0,4,1,0,1,0,8,4],
+"db/dca/c-api_2addon-instance_2pvr_8h.html#aea242c6b5d1101f1aec6132ef915a04d":[12,0,1,0,4,1,0,1,0,8,7],
 "db/dcb/_sub_tags_collection_8h.html":[12,0,1,35,1,0,11],
 "db/dcb/group__cpp__kodi__addon__audiodecoder___defs___a_u_d_i_o_d_e_c_o_d_e_r___r_e_a_d___r_e_t_u_r_n.html":[9,0,2,1,0,0,1],
 "db/dcb/group__cpp__kodi__addon__audiodecoder___defs___a_u_d_i_o_d_e_c_o_d_e_r___r_e_a_d___r_e_t_u_r_n.html#ga28ba41518c755227a066350a3de8853c":[9,0,2,1,0,0,1,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX235 =
 "db/dcc/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus.html#afefe3cc03cd18f2d7a6880611bb6cbf6":[11,0,32,14,6],
 "db/dcc/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus.html#afffb47396135e7a13cce02731af5a42a":[10,0,44,14,2],
 "db/dcc/class_p_e_r_i_p_h_e_r_a_l_s_1_1_c_peripheral_bus.html#afffb47396135e7a13cce02731af5a42a":[11,0,32,14,2],
-"db/dcc/struct_a_e_audio_format.html":[11,0,135],
-"db/dcc/struct_a_e_audio_format.html#a0ff49a230b5c222ed8edd001cc85ffa2":[11,0,135,1],
-"db/dcc/struct_a_e_audio_format.html#a5b0a1fbb4125e92f593f9fa0d84ef11f":[11,0,135,5],
-"db/dcc/struct_a_e_audio_format.html#a61373edfd90d049f9a2dd07b21c69353":[11,0,135,3],
-"db/dcc/struct_a_e_audio_format.html#a6ce401cf31bd53832a949f52fbc7c5bd":[11,0,135,7],
-"db/dcc/struct_a_e_audio_format.html#ab798f1b0baa9955dd7ecce78cd6a2593":[11,0,135,4],
-"db/dcc/struct_a_e_audio_format.html#ada119f26ef8df54294d8d828c8f3a422":[11,0,135,2],
-"db/dcc/struct_a_e_audio_format.html#adb19de70eb02ebfd5025ab93dd3a6d90":[11,0,135,0],
-"db/dcc/struct_a_e_audio_format.html#af8c71390de79436b2779dffd2e944335":[11,0,135,6]
+"db/dcc/struct_a_e_audio_format.html":[11,0,135]
 };

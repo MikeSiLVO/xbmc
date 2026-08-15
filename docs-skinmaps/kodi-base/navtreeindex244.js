@@ -1,5 +1,13 @@
 var NAVTREEINDEX244 =
 {
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a686d43b8e18dc2d925359829726ca19b":[11,0,629,24],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a70040401496f6a283f54f6d366c64dda":[11,0,629,38],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a72529af0aa5596578ce58912a77a7e86":[11,0,629,7],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a73808b5184f7622faa5d96f22186063d":[11,0,629,36],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a73d71f5d54e591d864cd83059a5f9b14":[11,0,629,0],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a7a7890bc704acb12b759ff2b7c28a26f":[11,0,629,21],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a8977919f8c45bff4f79cec11734cc93c":[11,0,629,32],
+"db/dfa/class_c_g_u_i_dialog_video_info.html#a9a11c5c093b52418f92020477a323a45":[11,0,629,9],
 "db/dfa/class_c_g_u_i_dialog_video_info.html#a9f263dd1443167a43131b54b7fe8150b":[11,0,629,3],
 "db/dfa/class_c_g_u_i_dialog_video_info.html#aaa9c76741dfbe1e89fe872d7649011c0":[11,0,629,4],
 "db/dfa/class_c_g_u_i_dialog_video_info.html#ab5b1e8651a1e5a73b806804617bc2b4b":[11,0,629,10],
@@ -241,13 +249,5 @@ var NAVTREEINDEX244 =
 "dc/d03/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_pointer_detector.html#ae2bd6f04e0addd006ceec2d749dbc18f":[9,21,2,33,1],
 "dc/d03/namespacewayland.html":[10,0,59],
 "dc/d04/_a_e_bitstream_packer_8cpp.html":[12,0,1,4,0,4,1],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html":[11,0,579],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a04dca53f3607fea1307722dd7f90961a":[11,0,579,9],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a097fb83770e4ae24cf7ec346034770fa":[11,0,579,3],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a151404e83f44b47f665fd5f6c89d0ba6":[11,0,579,6],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a2129f462c2d891256560bead7e7960cc":[11,0,579,10],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a30079d60e75b6b3a48821f6f6313b88a":[11,0,579,4],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a3a6caa8765b529ab6b068c4d5ff687b4":[11,0,579,11],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a444309558911147016c3907ea48c521a":[11,0,579,7],
-"dc/d04/class_c_g_u_i_dialog_audio_settings.html#a58a913dd226f23b9d020c6113a242e4f":[11,0,579,14]
+"dc/d04/class_c_g_u_i_dialog_audio_settings.html":[11,0,579]
 };

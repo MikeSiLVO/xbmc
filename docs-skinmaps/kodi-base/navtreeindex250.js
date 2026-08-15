@@ -1,5 +1,13 @@
 var NAVTREEINDEX250 =
 {
+"dc/d56/class_c_d_v_d_msg_player_set_state.html":[11,0,427],
+"dc/d56/class_c_d_v_d_msg_player_set_state.html#aa2d10df1788d5f749c7dd38c2894fe46":[11,0,427,2],
+"dc/d56/class_c_d_v_d_msg_player_set_state.html#aa42c7c6f03cda7fb3325019ea752b2c9":[11,0,427,1],
+"dc/d56/class_c_d_v_d_msg_player_set_state.html#ab47e08e50cd4cc4f6b705ef94fa436f7":[11,0,427,0],
+"dc/d58/struct_c_render_info.html":[11,0,990],
+"dc/d58/struct_c_render_info.html#a64d61b1b0d879b99cab96a7a70dc267f":[11,0,990,5],
+"dc/d58/struct_c_render_info.html#abcf3be6e4fb901ad70001048463105c9":[11,0,990,0],
+"dc/d58/struct_c_render_info.html#ac5da0f1252f436f950555f9e3b61ed74":[11,0,990,1],
 "dc/d58/struct_c_render_info.html#ace85fc4ab35a91e87375457657a240a5":[11,0,990,2],
 "dc/d58/struct_c_render_info.html#ad75f41658dcd00eddfa557ad09e08755":[11,0,990,3],
 "dc/d58/struct_c_render_info.html#af9c0181bbe5453b334124d4ed70ba915":[11,0,990,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX250 =
 "dc/d65/struct_peripheral_bus_g_c_controller_wrapper.html#a1affd607410d38e671b4a1b6ebb1ca8f":[11,0,1635,0],
 "dc/d65/struct_stereo_mode_conversion_map.html":[11,0,1740],
 "dc/d65/struct_stereo_mode_conversion_map.html#a15b76997a85fec3b1213097f751392f0":[11,0,1740,0],
-"dc/d65/struct_stereo_mode_conversion_map.html#ac20c660d53c619a8194b0d6528a30580":[11,0,1740,1],
-"dc/d66/_test_addon_version_8cpp.html":[12,0,1,0,6,3],
-"dc/d66/_test_addon_version_8cpp.html#a3c59b6d783f8f5eb9f51f9f93803d65a":[12,0,1,0,6,3,3],
-"dc/d66/_test_addon_version_8cpp.html#a8c0dc9641e2c564281d38c601a20b3b3":[12,0,1,0,6,3,4],
-"dc/d66/_test_addon_version_8cpp.html#aa81819ac281f5a86294912bab1e65c55":[12,0,1,0,6,3,1],
-"dc/d66/_test_addon_version_8cpp.html#af9a99ae5301d8189547098a5bee9794f":[12,0,1,0,6,3,2],
-"dc/d66/_test_addon_version_8cpp.html#afbdd49f177804a69666156820384c74f":[12,0,1,0,6,3,5],
-"dc/d66/class_p_v_r_1_1_c_p_v_r_client.html":[10,0,45,69],
-"dc/d66/class_p_v_r_1_1_c_p_v_r_client.html":[11,0,33,67]
+"dc/d65/struct_stereo_mode_conversion_map.html#ac20c660d53c619a8194b0d6528a30580":[11,0,1740,1]
 };

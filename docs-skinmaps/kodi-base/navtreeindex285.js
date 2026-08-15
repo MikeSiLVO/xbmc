@@ -1,5 +1,6 @@
 var NAVTREEINDEX285 =
 {
+"de/d60/class_w_s_discovery_1_1_c_w_s_discovery_posix.html#ada55b62fba0be47f7553f8a7da0d321e":[11,0,45,2,8],
 "de/d60/class_w_s_discovery_1_1_c_w_s_discovery_posix.html#af1e3762fd042b18d37531a062267d630":[10,0,63,2,1],
 "de/d60/class_w_s_discovery_1_1_c_w_s_discovery_posix.html#af1e3762fd042b18d37531a062267d630":[11,0,45,2,1],
 "de/d60/class_x_f_i_l_e_1_1_m_u_s_i_c_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_c_directory_node_album_top100.html":[10,0,70,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX285 =
 "de/d72/kodi-dev-kit_2include_2kodi_2c-api_2gui_2controls_2_button_8h.html#a9692f9aa56b0585e5a17913d87e91edc":[12,0,1,0,4,1,0,1,1,0,0,1],
 "de/d72/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream_1_1_memory_frame.html":[10,0,34,25,10,1],
 "de/d72/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream_1_1_memory_frame.html":[11,0,24,20,9,1],
-"de/d72/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream_1_1_memory_frame.html#a282fa4885a39720a15ffc099a8996c5a":[10,0,34,25,10,1,1],
-"de/d72/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream_1_1_memory_frame.html#a282fa4885a39720a15ffc099a8996c5a":[11,0,24,20,9,1,1]
+"de/d72/struct_k_o_d_i_1_1_r_e_t_r_o_1_1_c_delta_pair_memory_stream_1_1_memory_frame.html#a282fa4885a39720a15ffc099a8996c5a":[10,0,34,25,10,1,1]
 };

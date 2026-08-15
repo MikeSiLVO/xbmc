@@ -129,17 +129,17 @@ Functions</h2></td></tr>
 <tr class="memitem:ga762c4bf2b6a2b98245d272d213f067bb" id="r_ga762c4bf2b6a2b98245d272d213f067bb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga762c4bf2b6a2b98245d272d213f067bb">kodi::addon::CInstanceScreensaver::Start</a> ()</td></tr>
 <tr class="memdesc:ga762c4bf2b6a2b98245d272d213f067bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to notify the screensaver that it has been started.  <br /></td></tr>
 <tr class="separator:ga762c4bf2b6a2b98245d272d213f067bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6e9b06a842b9fddb032d9103d82d1026" id="r_ga6e9b06a842b9fddb032d9103d82d1026"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e9b06a842b9fddb032d9103d82d1026">kodi::addon::CInstanceScreensaver::Stop</a> ()</td></tr>
+<tr class="memitem:ga6e9b06a842b9fddb032d9103d82d1026" id="r_ga6e9b06a842b9fddb032d9103d82d1026"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e9b06a842b9fddb032d9103d82d1026">kodi::addon::CInstanceScreensaver::Stop</a> ()</td></tr>
 <tr class="memdesc:ga6e9b06a842b9fddb032d9103d82d1026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to inform the screensaver that the rendering control was stopped.  <br /></td></tr>
 <tr class="separator:ga6e9b06a842b9fddb032d9103d82d1026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae1ad7bb8d7300c821bd0ac4657a4d01b" id="r_gae1ad7bb8d7300c821bd0ac4657a4d01b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1ad7bb8d7300c821bd0ac4657a4d01b">kodi::addon::CInstanceScreensaver::Render</a> ()</td></tr>
+<tr class="memitem:gae1ad7bb8d7300c821bd0ac4657a4d01b" id="r_gae1ad7bb8d7300c821bd0ac4657a4d01b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae1ad7bb8d7300c821bd0ac4657a4d01b">kodi::addon::CInstanceScreensaver::Render</a> ()</td></tr>
 <tr class="memdesc:gae1ad7bb8d7300c821bd0ac4657a4d01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to indicate when the add-on should render.  <br /></td></tr>
 <tr class="separator:gae1ad7bb8d7300c821bd0ac4657a4d01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p> <h4><code><span style="font-style: italic;">Class: </span><span style="font-style: bold;"><font color=31363b><big> kodi::addon::CInstanceScreensaver </big></font></span></code></h4>  <b>Screensaver add-on instance</b> </p>
 <p>A screensaver is a Kodi addon that fills the screen with moving images or patterns when the computer is not in use. Initially designed to prevent phosphor burn-in on CRT and plasma computer monitors (hence the name), screensavers are now used primarily for entertainment, security or to display system status information.</p>
-<p>Include the header <a class="el" href="../../df/dc5/_screensaver_8h.html">#include &lt;kodi/addon-instance/ScreenSaver.h&gt;</a> to use this class.</p>
+<p>Include the header <a class="el" href="../../d8/d3b/screensaver_8h.html">#include &lt;kodi/addon-instance/ScreenSaver.h&gt;</a> to use this class.</p>
 <p>This interface allows the creating of screensavers for Kodi, based upon <b>DirectX</b> or/and <b>OpenGL</b> rendering with <code>C++</code> code.</p>
 <p>The interface is small and easy usable. It has three functions:</p>
 <ul>
@@ -177,7 +177,7 @@ At all addon types and for this kind always <b>"xbmc.ui.screensaver"</b>.    </t
 </table>
 <dl class="section remark"><dt>Remarks</dt><dd>For more detailed description of the <b><code>addon.xml</code></b>, see also <a href="https://kodi.wiki/view/Addon.xml">https://kodi.wiki/view/Addon.xml</a>.</dd></dl>
 <hr  />
-<p><b>Here is an example of the minimum required code to start a screensaver:</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../d0/d28/kodi-dev-kit_2include_2kodi_2addon-instance_2_screensaver_8h.html">kodi/addon-instance/Screensaver.h</a>&gt;</span></div>
+<p><b>Here is an example of the minimum required code to start a screensaver:</b> </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../db/d7a/kodi-dev-kit_2include_2kodi_2addon-instance_2screensaver_8h.html">kodi/addon-instance/Screensaver.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">class </span>CMyScreenSaver : <span class="keyword">public</span> <a class="code hl_class" href="../../d3/dc4/classkodi_1_1addon_1_1_c_addon_base.html">kodi::addon::CAddonBase</a>,</div>
 <div class="line">                       <span class="keyword">public</span> <a class="code hl_class" href="../../d6/d30/classkodi_1_1addon_1_1_c_instance_screensaver.html">kodi::addon::CInstanceScreensaver</a></div>
@@ -207,14 +207,14 @@ At all addon types and for this kind always <b>"xbmc.ui.screensaver"</b>.    </t
 <div class="line"> </div>
 <div class="line"><a class="code hl_define" href="../../d7/d69/kodi-dev-kit_2include_2kodi_2_addon_base_8h.html#a5f1c50ebedb9311c80643dd91005ce33">ADDONCREATOR</a>(CMyScreenSaver)</div>
 <div class="ttc" id="aclasskodi_1_1addon_1_1_c_addon_base_html"><div class="ttname"><a href="../../d3/dc4/classkodi_1_1addon_1_1_c_addon_base.html">kodi::addon::CAddonBase</a></div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/AddonBase.h:776</div></div>
-<div class="ttc" id="aclasskodi_1_1addon_1_1_c_instance_screensaver_html"><div class="ttname"><a href="../../d6/d30/classkodi_1_1addon_1_1_c_instance_screensaver.html">kodi::addon::CInstanceScreensaver</a></div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/Screensaver.h:188</div></div>
-<div class="ttc" id="agroup__cpp__kodi__addon__screensaver_html_ga762c4bf2b6a2b98245d272d213f067bb"><div class="ttname"><a href="#ga762c4bf2b6a2b98245d272d213f067bb">kodi::addon::CInstanceScreensaver::Start</a></div><div class="ttdeci">virtual bool Start()</div><div class="ttdoc">Used to notify the screensaver that it has been started.</div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/Screensaver.h:272</div></div>
-<div class="ttc" id="agroup__cpp__kodi__addon__screensaver_html_gae1ad7bb8d7300c821bd0ac4657a4d01b"><div class="ttname"><a href="#gae1ad7bb8d7300c821bd0ac4657a4d01b">kodi::addon::CInstanceScreensaver::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">Used to indicate when the add-on should render.</div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/Screensaver.h:287</div></div>
+<div class="ttc" id="aclasskodi_1_1addon_1_1_c_instance_screensaver_html"><div class="ttname"><a href="../../d6/d30/classkodi_1_1addon_1_1_c_instance_screensaver.html">kodi::addon::CInstanceScreensaver</a></div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/screensaver.h:188</div></div>
+<div class="ttc" id="agroup__cpp__kodi__addon__screensaver_html_ga762c4bf2b6a2b98245d272d213f067bb"><div class="ttname"><a href="#ga762c4bf2b6a2b98245d272d213f067bb">kodi::addon::CInstanceScreensaver::Start</a></div><div class="ttdeci">virtual bool Start()</div><div class="ttdoc">Used to notify the screensaver that it has been started.</div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/screensaver.h:272</div></div>
+<div class="ttc" id="agroup__cpp__kodi__addon__screensaver_html_gae1ad7bb8d7300c821bd0ac4657a4d01b"><div class="ttname"><a href="#gae1ad7bb8d7300c821bd0ac4657a4d01b">kodi::addon::CInstanceScreensaver::Render</a></div><div class="ttdeci">virtual void Render()</div><div class="ttdoc">Used to indicate when the add-on should render.</div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/addon-instance/screensaver.h:287</div></div>
 <div class="ttc" id="akodi-dev-kit_2include_2kodi_2_addon_base_8h_html_a5f1c50ebedb9311c80643dd91005ce33"><div class="ttname"><a href="../../d7/d69/kodi-dev-kit_2include_2kodi_2_addon_base_8h.html#a5f1c50ebedb9311c80643dd91005ce33">ADDONCREATOR</a></div><div class="ttdeci">#define ADDONCREATOR(AddonClass)</div><div class="ttdef"><b>Definition</b> kodi-dev-kit/include/kodi/AddonBase.h:2048</div></div>
-<div class="ttc" id="akodi-dev-kit_2include_2kodi_2addon-instance_2_screensaver_8h_html"><div class="ttname"><a href="../../d0/d28/kodi-dev-kit_2include_2kodi_2addon-instance_2_screensaver_8h.html">Screensaver.h</a></div></div>
+<div class="ttc" id="akodi-dev-kit_2include_2kodi_2addon-instance_2screensaver_8h_html"><div class="ttname"><a href="../../db/d7a/kodi-dev-kit_2include_2kodi_2addon-instance_2screensaver_8h.html">Screensaver.h</a></div></div>
 </div><!-- fragment --><hr  />
 <p><b>Here is another example where the screensaver is used together with other instance types:</b></p>
-<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../d0/d28/kodi-dev-kit_2include_2kodi_2addon-instance_2_screensaver_8h.html">kodi/addon-instance/Screensaver.h</a>&gt;</span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="../../db/d7a/kodi-dev-kit_2include_2kodi_2addon-instance_2screensaver_8h.html">kodi/addon-instance/Screensaver.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keyword">class </span>CMyScreenSaver : <span class="keyword">public</span> <a class="code hl_class" href="../../d6/d30/classkodi_1_1addon_1_1_c_instance_screensaver.html">kodi::addon::CInstanceScreensaver</a></div>
 <div class="line">{</div>
@@ -383,7 +383,7 @@ At all addon types and for this kind always <b>"xbmc.ui.screensaver"</b>.    </t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceScreensaver::Render </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceScreensaver::Render </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -438,7 +438,7 @@ At all addon types and for this kind always <b>"xbmc.ui.screensaver"</b>.    </t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceScreensaver::Stop </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> kodi::addon::CInstanceScreensaver::Stop </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -487,7 +487,7 @@ At all addon types and for this kind always <b>"xbmc.ui.screensaver"</b>.    </t
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:01 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:25 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

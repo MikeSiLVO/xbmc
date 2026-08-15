@@ -2,7 +2,7 @@ var searchData=
 [
   ['t_5fspdt_5fsbuf_0',['T_SPDT_SBUF',['../de/da3/my__ntddscsi_8h.html#a655dd3c9cda7212d78cdf297c4093de6',1,'my_ntddscsi.h']]],
   ['t_5fspt_5fbufs_1',['T_SPT_BUFS',['../de/da3/my__ntddscsi_8h.html#a656d754c96eee52807328bc30e452777',1,'my_ntddscsi.h']]],
-  ['tag_2',['tag',['../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a6b93eb0b3be787f6ee57ad974bce0e93',1,'tag:&#160;audiodecoder.h'],['../d3/dd5/c-api_2addon-instance_2_audio_encoder_8h.html#aac5fc72cf35b4dc49855b93e0307424e',1,'tag:&#160;audioencoder.h']]],
+  ['tag_2',['tag',['../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a6b93eb0b3be787f6ee57ad974bce0e93',1,'tag:&#160;audiodecoder.h'],['../d5/ddf/c-api_2addon-instance_2audioencoder_8h.html#aac5fc72cf35b4dc49855b93e0307424e',1,'tag:&#160;audioencoder.h']]],
   ['tagtypes_3',['TagTypes',['../d0/d36/_test_tag_loader_tag_lib_8cpp.html#ac883cb20d1b94eb4181b07584f03c647',1,'TestTagLoaderTagLib.cpp']]],
   ['textcachestruct_5ft_4',['TextCacheStruct_t',['../d3/da9/_teletext_defines_8h.html#afc26886df48faf04581ecfe06073a2a5',1,'TeletextDefines.h']]],
   ['textsearchdefault_5',['TextSearchDefault',['../d6/db6/_text_search_8h.html#abe92d5ec7f084839097e4da401b2555f',1,'TextSearch.h']]],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX248 =
 {
+"dc/d35/class_c_setting_path.html#a607104f7ac207858e31380ae9d062d1f":[11,0,1060,8],
+"dc/d35/class_c_setting_path.html#a6319bce9b67bfe54ae21baae9978fac4":[11,0,1060,1],
+"dc/d35/class_c_setting_path.html#a8577c4dd22dac61908fd855df7fddb39":[11,0,1060,14],
+"dc/d35/class_c_setting_path.html#abe160fe1c07903629b67701ebd94f68f":[11,0,1060,0],
+"dc/d35/class_c_setting_path.html#ac03d1037588d6467248dd299632adae5":[11,0,1060,11],
+"dc/d35/class_c_setting_path.html#ada0a14998ee1bd780232d2ae5969742e":[11,0,1060,3],
+"dc/d35/class_c_setting_path.html#af8ea0e90d8a65f6c8c6b38235fc97e30":[11,0,1060,6],
+"dc/d35/class_c_setting_path.html#af93cc7ea7bc786641abf9fd31a455af3":[11,0,1060,7],
+"dc/d36/group__cpp__kodi__addon__pvr___defs___p_v_r_setting_definition.html":[9,0,2,1,6,0,0,5],
 "dc/d36/group__cpp__kodi__addon__pvr___defs___p_v_r_setting_definition.html#ga020d6e84a15f00cece20900ce1d0ef8c":[9,0,2,1,6,0,0,5,4],
 "dc/d36/group__cpp__kodi__addon__pvr___defs___p_v_r_setting_definition.html#ga0b17e12b1c35d7166e302d9ef8d0dd96":[9,0,2,1,6,0,0,5,9],
 "dc/d36/group__cpp__kodi__addon__pvr___defs___p_v_r_setting_definition.html#ga19f424130cf12da83349324f669991cf":[9,0,2,1,6,0,0,5,12],
@@ -240,14 +249,5 @@ var NAVTREEINDEX248 =
 "dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0a27551957a2322d21871acadb1438034d":[12,0,1,4,6,21,3,3],
 "dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0a47d6d07415c4b8044b1950050c387c3a":[12,0,1,4,6,21,3,1],
 "dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0a75a303c25e7534a8fadca814f5f2636e":[12,0,1,4,6,21,3,0],
-"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0a90b1b5499bf6abb61f8a271468437652":[12,0,1,4,6,21,3,5],
-"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0aa86bc2b8802027f2f84249d1482dc179":[12,0,1,4,6,21,3,4],
-"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0ad8acd34449b92c726da16e6168b58e39":[12,0,1,4,6,21,3,2],
-"dc/d48/_h264_c_c_bitstream_parser_8h.html":[12,0,1,4,6,2,0,9],
-"dc/d48/_power_manager_8cpp.html":[12,0,1,24,4],
-"dc/d49/addon-instance_2_inputstream_8h.html":[12,0,1,0,4,1,0,0,7],
-"dc/d4a/_u_pn_p_renderer_8cpp.html":[12,0,1,19,4,7],
-"dc/d4c/_addon_input_handling_8h.html":[12,0,1,20,0,5],
-"dc/d4c/_game_client_stream_hw_framebuffer_8cpp.html":[12,0,1,10,0,3,2],
-"dc/d4c/class_c_static_context_menu_action.html":[11,0,1100]
+"dc/d48/_d_v_d_message_queue_8h.html#abde92b1b196ea81f5b625e685a04bfb0a90b1b5499bf6abb61f8a271468437652":[12,0,1,4,6,21,3,5]
 };

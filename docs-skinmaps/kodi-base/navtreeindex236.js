@@ -1,5 +1,13 @@
 var NAVTREEINDEX236 =
 {
+"db/dcc/struct_a_e_audio_format.html#a0ff49a230b5c222ed8edd001cc85ffa2":[11,0,135,1],
+"db/dcc/struct_a_e_audio_format.html#a5b0a1fbb4125e92f593f9fa0d84ef11f":[11,0,135,5],
+"db/dcc/struct_a_e_audio_format.html#a61373edfd90d049f9a2dd07b21c69353":[11,0,135,3],
+"db/dcc/struct_a_e_audio_format.html#a6ce401cf31bd53832a949f52fbc7c5bd":[11,0,135,7],
+"db/dcc/struct_a_e_audio_format.html#ab798f1b0baa9955dd7ecce78cd6a2593":[11,0,135,4],
+"db/dcc/struct_a_e_audio_format.html#ada119f26ef8df54294d8d828c8f3a422":[11,0,135,2],
+"db/dcc/struct_a_e_audio_format.html#adb19de70eb02ebfd5025ab93dd3a6d90":[11,0,135,0],
+"db/dcc/struct_a_e_audio_format.html#af8c71390de79436b2779dffd2e944335":[11,0,135,6],
 "db/dcd/_image_metadata_parser_8h.html":[12,0,1,21,1,4],
 "db/dce/_addons_directory_8cpp.html":[12,0,1,9,4],
 "db/dce/_addons_directory_8cpp.html#a3079599c3324d83eaa160c8ff5981fda":[12,0,1,9,4,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX236 =
 "db/dd7/struct_p_v_r___a_d_d_o_n___c_a_p_a_b_i_l_i_t_i_e_s.html#aff0f5b40bd6ad26bc441823dab71fd70":[11,0,1653,16],
 "db/dd8/class_c_udp_client.html":[11,0,1166],
 "db/dd8/class_c_udp_client.html#a0b9f9fed7d4a8fc164d1247a24f4cb4a":[11,0,1166,11],
-"db/dd8/class_c_udp_client.html#a125cd153b9e3dc01420833f8c9f2406f":[11,0,1166,3],
-"db/dd8/class_c_udp_client.html#a240bb3851daaae6a24962b0f1a6b9e01":[11,0,1166,7],
-"db/dd8/class_c_udp_client.html#a244eb22fb827528d979d09deaacd0f44":[11,0,1166,14],
-"db/dd8/class_c_udp_client.html#a296fc5658cfd6d81aa80d03b064ccacc":[11,0,1166,4],
-"db/dd8/class_c_udp_client.html#a3271fd4b8de91b089c70f7de81b94388":[11,0,1166,2],
-"db/dd8/class_c_udp_client.html#a59eea0f37f5f83f0dff652851e030665":[11,0,1166,13],
-"db/dd8/class_c_udp_client.html#a71c0f7e5ae0601775479536ea0684509":[11,0,1166,16],
-"db/dd8/class_c_udp_client.html#a7d78c98b7190573dd5fa0e4132d9ada3":[11,0,1166,10],
-"db/dd8/class_c_udp_client.html#aaee50c2dfa00ead68b62b67598b14bca":[11,0,1166,5]
+"db/dd8/class_c_udp_client.html#a125cd153b9e3dc01420833f8c9f2406f":[11,0,1166,3]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX257 =
 {
+"dc/dbf/_video_action_8h.html#aaf33a9493a29926c1da49219c82fe273acbb044aace38ca79df505de6ac863310":[12,0,1,36,1,0,0,0],
+"dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html":[10,0,22,0],
+"dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html":[11,0,15,0],
+"dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html#a13f4ff1e0db53a9ed888cf77f38d32eb":[10,0,22,0,20],
 "dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html#a13f4ff1e0db53a9ed888cf77f38d32eb":[11,0,15,0,20],
 "dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html#a171701138f3516673e027be9437b8017":[10,0,22,0,12],
 "dc/dbf/class_e_v_e_n_t_s_e_r_v_e_r_1_1_c_event_server.html#a171701138f3516673e027be9437b8017":[11,0,15,0,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX257 =
 "dc/dc9/struct_audio_classify_test.html#a94455c559b9eb83a7618d2044060c5c0":[11,0,151,0],
 "dc/dc9/struct_audio_classify_test.html#abdc282fe04f44ea58dcb679dabc4919d":[11,0,151,3],
 "dc/dc9/struct_audio_classify_test.html#ace18b464708edb3fc27bd9b00f339bb5":[11,0,151,1],
-"dc/dca/_screenshot_surface_windows_8h.html":[12,0,1,28,1,8],
-"dc/dca/kodi-dev-kit_2include_2kodi_2gui_2dialogs_2_text_viewer_8h.html":[12,0,1,0,4,1,0,2,1,8],
-"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html":[9,0,3,2,2],
-"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga1427bf791ffcd5fa2521b3620b9bbffb":[9,0,3,2,2,0],
-"dc/dcb/group__cpp__kodi__gui__dialogs___file_browser.html#ga37c35ee8cdc7623c0e91a286caee751d":[9,0,3,2,2,2]
+"dc/dca/_screenshot_surface_windows_8h.html":[12,0,1,28,1,8]
 };

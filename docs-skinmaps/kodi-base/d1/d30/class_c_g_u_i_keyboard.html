@@ -129,16 +129,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae4e68db60caf989b0878f076b38433b6" id="r_ae4e68db60caf989b0878f076b38433b6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4e68db60caf989b0878f076b38433b6">ShowAndGetInput</a> (<a class="el" href="../../d9/d9b/_g_u_i_keyboard_8h.html#a67c79cda5014072d533654237c261466">char_callback_t</a> pCallback, const std::string &amp;initialString, std::string &amp;typedString, const std::string &amp;heading, <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a> bHiddenInput=false)=0</td></tr>
 <tr class="memdesc:ae4e68db60caf989b0878f076b38433b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">each native keyboard needs to implement this function with the following behaviour:  <br /></td></tr>
 <tr class="separator:ae4e68db60caf989b0878f076b38433b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1394e25dc9ef6a5278d3d1fc6b00d66a" id="r_a1394e25dc9ef6a5278d3d1fc6b00d66a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1394e25dc9ef6a5278d3d1fc6b00d66a">Cancel</a> ()=0</td></tr>
+<tr class="memitem:a1394e25dc9ef6a5278d3d1fc6b00d66a" id="r_a1394e25dc9ef6a5278d3d1fc6b00d66a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1394e25dc9ef6a5278d3d1fc6b00d66a">Cancel</a> ()=0</td></tr>
 <tr class="memdesc:a1394e25dc9ef6a5278d3d1fc6b00d66a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This call should cancel a currently shown keyboard dialog. The implementation should return false from the modal ShowAndGetInput once anyone calls this method.  <br /></td></tr>
 <tr class="separator:a1394e25dc9ef6a5278d3d1fc6b00d66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a282f060049e8a86efea29d484cdf30" id="r_a7a282f060049e8a86efea29d484cdf30"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/df1/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_visualization_8h.html#a0832153a8b372b76773317b799e5f51a">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a282f060049e8a86efea29d484cdf30">GetWindowId</a> () const</td></tr>
 <tr class="separator:a7a282f060049e8a86efea29d484cdf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8326cb59307b34f480b2e0580a5ef353" id="r_a8326cb59307b34f480b2e0580a5ef353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8326cb59307b34f480b2e0580a5ef353">OnTimeout</a> () override</td></tr>
+<tr class="memitem:a8326cb59307b34f480b2e0580a5ef353" id="r_a8326cb59307b34f480b2e0580a5ef353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8326cb59307b34f480b2e0580a5ef353">OnTimeout</a> () override</td></tr>
 <tr class="separator:a8326cb59307b34f480b2e0580a5ef353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8ef7cef45f02a4aa6f6ec97199370b" id="r_a8b8ef7cef45f02a4aa6f6ec97199370b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8ef7cef45f02a4aa6f6ec97199370b">startAutoCloseTimer</a> (unsigned <a class="el" href="../../df/df1/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_visualization_8h.html#a0832153a8b372b76773317b799e5f51a">int</a> autoCloseMs)</td></tr>
+<tr class="memitem:a8b8ef7cef45f02a4aa6f6ec97199370b" id="r_a8b8ef7cef45f02a4aa6f6ec97199370b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8ef7cef45f02a4aa6f6ec97199370b">startAutoCloseTimer</a> (unsigned <a class="el" href="../../df/df1/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_visualization_8h.html#a0832153a8b372b76773317b799e5f51a">int</a> autoCloseMs)</td></tr>
 <tr class="separator:a8b8ef7cef45f02a4aa6f6ec97199370b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563ee0984a4291abc7450f44009a43f5" id="r_a563ee0984a4291abc7450f44009a43f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563ee0984a4291abc7450f44009a43f5">resetAutoCloseTimer</a> ()</td></tr>
+<tr class="memitem:a563ee0984a4291abc7450f44009a43f5" id="r_a563ee0984a4291abc7450f44009a43f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a563ee0984a4291abc7450f44009a43f5">resetAutoCloseTimer</a> ()</td></tr>
 <tr class="separator:a563ee0984a4291abc7450f44009a43f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a031b960d9fb4e53872e6932eb473fe" id="r_a6a031b960d9fb4e53872e6932eb473fe"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a031b960d9fb4e53872e6932eb473fe">SetTextToKeyboard</a> (const std::string &amp;<a class="el" href="../../d4/d39/_speech_recognition_darwin_8mm.html#a34710a06f8d45c8629e5628fc241f376">text</a>, <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a> closeKeyboard=false)</td></tr>
 <tr class="separator:a6a031b960d9fb4e53872e6932eb473fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +208,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::Cancel </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::Cancel </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -264,7 +264,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::OnTimeout </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::OnTimeout </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -291,7 +291,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::resetAutoCloseTimer </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::resetAutoCloseTimer </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -406,7 +406,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::startAutoCloseTimer </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CGUIKeyboard::startAutoCloseTimer </td>
           <td>(</td>
           <td class="paramtype">unsigned <a class="el" href="../../df/df1/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_visualization_8h.html#a0832153a8b372b76773317b799e5f51a">int</a></td>          <td class="paramname"><span class="paramname"><em>autoCloseMs</em></span></td><td>)</td>
           <td></td>
@@ -430,7 +430,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d30/class_c_g_u_i_keyboard.html">CGUIKeyboard</a></li>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:06 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:30 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

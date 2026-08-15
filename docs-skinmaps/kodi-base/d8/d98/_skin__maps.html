@@ -140,8 +140,23 @@ $(function(){initNavTree('d8/d98/_skin__maps.html','../../'); initResizable(true
 Description</h1>
 <p>Skin maps let a skin replace the raw value of an infolabel with a string of its own choosing. A map is a list of key/value pairs; at runtime <a class="el" href="../../d5/d11/modules__infolabels_boolean_conditions.html"><b>an infolabel</b></a> is resolved to its current value, that value is looked up as a key, and the mapped string is displayed instead. Keys that the map does not define are displayed unchanged, so a map only has to list the values it wants to rewrite.</p>
 <p>Typical uses are turning short technical values into presentable text, such as an audio codec <code>eac3</code> into <code>Dolby Digital+</code>, or a two letter country code into a full country name, without needing a python script or a chain of <code>String.IsEqual</code> conditions.</p>
-<p>Maps are defined in any includes file, alongside <code>&lt;include&gt;</code>, <code>&lt;variable&gt;</code>, <code>&lt;constant&gt;</code>, <code>&lt;expression&gt;</code> and <code>&lt;default&gt;</code>:</p>
-<div class="fragment"><div class="line">&lt;<span class="keywordtype">includes</span>&gt;</div>
+<p>Maps must be defined in <code>Includes.xml</code> or descendants pulled in with <code>&lt;include file="..."/&gt;</code>, alongside the other definitions that file carries:</p>
+<div class="fragment"><div class="line"><span class="comment">&lt;!-- Includes.xml --&gt;</span></div>
+<div class="line">&lt;<span class="keywordtype">includes</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">constant</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;...&lt;/<span class="keywordtype">constant</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">variable</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;...&lt;/<span class="keywordtype">variable</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">map</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;</div>
+<div class="line">        &lt;<span class="keywordtype">entry</span> <span class="keyword">key</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;...&lt;/<span class="keywordtype">entry</span>&gt;</div>
+<div class="line">    &lt;/<span class="keywordtype">map</span>&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">includes</span>&gt;</div>
+</div><!-- fragment --><p>Or keep them in their own file and pull that in:</p>
+<div class="fragment"><div class="line"><span class="comment">&lt;!-- Includes.xml --&gt;</span></div>
+<div class="line">&lt;<span class="keywordtype">includes</span>&gt;</div>
+<div class="line">    &lt;<span class="keywordtype">include</span> <span class="keyword">file</span>=<span class="stringliteral">&quot;Includes_Maps.xml&quot;</span>/&gt;</div>
+<div class="line">&lt;/<span class="keywordtype">includes</span>&gt;</div>
+<div class="line"> </div>
+<div class="line"><span class="comment">&lt;!-- Includes_Maps.xml --&gt;</span></div>
+<div class="line">&lt;<span class="keywordtype">includes</span>&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">map</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;</div>
 <div class="line">        &lt;<span class="keywordtype">entry</span> <span class="keyword">key</span>=<span class="stringliteral">&quot;...&quot;</span>&gt;...&lt;/<span class="keywordtype">entry</span>&gt;</div>
 <div class="line">    &lt;/<span class="keywordtype">map</span>&gt;</div>
@@ -208,7 +223,7 @@ Development:</h4>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/de7/skin_parts.html">Skin Development</a></li>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:01 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:25 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

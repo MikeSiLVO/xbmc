@@ -1,5 +1,6 @@
 var NAVTREEINDEX297 =
 {
+"df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga0989708888fb42b8ebc357a168ff6e2d":[9,0,2,1,6,0,1,0,4],
 "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga160952e1fcc42bd702323b670c8d2e34":[9,0,2,1,6,0,1,0,14],
 "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga34b1665349408879f1c8dc3375329aad":[9,0,2,1,6,0,1,0,19],
 "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga4328b70e544bae6b10e9b8f7957ab3b6":[9,0,2,1,6,0,1,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX297 =
 "df/d13/class_c_application.html#aa8df13ab6944b89ffb4db7464309883a":[11,0,230,56],
 "df/d13/class_c_application.html#aa93d8c72a17e231b2dc5d287ff76f8bb":[11,0,230,78],
 "df/d13/class_c_application.html#aab1b20f338ff051600c04e57fcec5dd6":[11,0,230,8],
-"df/d13/class_c_application.html#aaed2cab8fb0789ba8ef34e262398e3dc":[11,0,230,50],
-"df/d13/class_c_application.html#ab4c42efbff3486fdd84d366fd7a6d3ba":[11,0,230,59]
+"df/d13/class_c_application.html#aaed2cab8fb0789ba8ef34e262398e3dc":[11,0,230,50]
 };

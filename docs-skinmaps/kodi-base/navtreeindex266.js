@@ -1,5 +1,8 @@
 var NAVTREEINDEX266 =
 {
+"dd/d49/_agent_keyboard_8cpp.html":[12,0,1,10,1,0,6],
+"dd/d4a/_test_date_time_span_8cpp.html":[12,0,1,33,6],
+"dd/d4a/_test_date_time_span_8cpp.html#a1018bdcb88ebd57f9b01b05570bb62cb":[12,0,1,33,6,3],
 "dd/d4a/_test_date_time_span_8cpp.html#a2d4b22ece4b6f9e1be38f9ebd6ffbad1":[12,0,1,33,6,2],
 "dd/d4a/_test_date_time_span_8cpp.html#a69e27b2f746592760f97c68c04197cf4":[12,0,1,33,6,1],
 "dd/d4a/_test_date_time_span_8cpp.html#ad39c0f225220be2dc3eb8c0920375fe2":[12,0,1,33,6,4],
@@ -101,7 +104,6 @@ var NAVTREEINDEX266 =
 "dd/d4f/_spin__control.html#Spin_Control_sect2":[4,0,27,1],
 "dd/d4f/_spin__control.html#Spin_Control_sect3":[4,0,27,2],
 "dd/d4f/class_dll_lib_s_s_e4.html":[11,0,1344],
-"dd/d50/addons_2interfaces_2gui_2dialogs_2_select_8h.html":[12,0,1,0,3,0,1,15],
 "dd/d50/class_k_o_d_i_1_1_k_e_y_m_a_p_1_1_c_keymap_handler.html":[10,0,34,12,12],
 "dd/d50/class_k_o_d_i_1_1_k_e_y_m_a_p_1_1_c_keymap_handler.html":[11,0,24,11,12],
 "dd/d50/class_k_o_d_i_1_1_k_e_y_m_a_p_1_1_c_keymap_handler.html#a20cc764e0b62a093d3355fc97bf5d645":[10,0,34,12,12,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX266 =
 "dd/d55/_so_loader_8cpp.html":[12,0,1,4,1,7],
 "dd/d55/group__cpp__kodi__addon__inputstream___defs___interface___inputstream_mastering_metadata___help.html":[9,0,2,1,4,0,0,2,0],
 "dd/d56/_i_mouse_input_handler_8h.html":[12,0,1,13,6,1,1],
-"dd/d57/group__cpp__kodi__addon__inputstream___defs___interface___i_n_p_u_t_s_t_r_e_a_m___c_o_l_o_r_r_a_n_g_e.html":[9,0,2,1,4,0,0,12],
-"dd/d57/group__cpp__kodi__addon__inputstream___defs___interface___i_n_p_u_t_s_t_r_e_a_m___c_o_l_o_r_r_a_n_g_e.html#gad4d9d17bbf458027afadde81b5162f29":[9,0,2,1,4,0,0,12,0],
-"dd/d57/group__cpp__kodi__addon__inputstream___defs___interface___i_n_p_u_t_s_t_r_e_a_m___c_o_l_o_r_r_a_n_g_e.html#ggad4d9d17bbf458027afadde81b5162f29a1dd681c6353656c746f7dc0cb5939599":[9,0,2,1,4,0,0,12,0,0]
+"dd/d57/group__cpp__kodi__addon__inputstream___defs___interface___i_n_p_u_t_s_t_r_e_a_m___c_o_l_o_r_r_a_n_g_e.html":[9,0,2,1,4,0,0,12]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX307 =
 {
+"df/d79/class_c_file_item.html#a7f0a3011dfaa2a8ff13433edb70d6dc6":[11,0,499,158],
 "df/d79/class_c_file_item.html#a7fc2cb92f447f668ff2cbb6306b28b20":[11,0,499,8],
 "df/d79/class_c_file_item.html#a809549df180ee5374ffca401e5fcb36b":[11,0,499,138],
 "df/d79/class_c_file_item.html#a809b27cdb4174ab64be5bf72ee3d630d":[11,0,499,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX307 =
 "df/d7f/class_c_base_renderer.html#aff5272394550d7a94f8e1ebe37cc641e":[11,0,259,30],
 "df/d80/_favourites_operations_8h.html":[12,0,1,14,3,10],
 "df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html":[10,0,34,25,97],
-"df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html":[11,0,24,20,96],
-"df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html#a0cd376471983b086848b35fe4e40c1cf":[10,0,34,25,97,2]
+"df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html":[11,0,24,20,96]
 };

@@ -3663,7 +3663,7 @@ var searchData=
   ['mime_5ftype_3660',['MIME_TYPE',['../dc/d52/namespace_x_f_i_l_e.html#a50e7c7630d624f961d78024af28e3ad7aba6f76468d5a59e729d3678614078f57',1,'XFILE']]],
   ['mimetype_3661',['MimeType',['../d9/dcb/class_p_v_r_1_1_c_p_v_r_channel.html#a12d47ea91fe45972e7920fea4f3910f5',1,'PVR::CPVRChannel']]],
   ['mimetype_3662',['Mimetype',['../db/dac/namespace_k_o_d_i_1_1_a_d_d_o_n_s.html#a4dea82e50e47ab974105ce820ede8f8aa529701d5ccccf8a1c604c27f48ce7d82',1,'KODI::ADDONS']]],
-  ['mimetype_3663',['mimetype',['../d7/d44/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_image_decoder_8h.html#a8ceb2a59c9da1f771baacef72ff13900',1,'imagedecoder.h']]],
+  ['mimetype_3663',['mimetype',['../d0/d3b/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2imagedecoder_8h.html#a8ceb2a59c9da1f771baacef72ff13900',1,'imagedecoder.h']]],
   ['min_3664',['Min',['../d8/d38/struct_k_o_d_i_1_1_s_h_a_d_e_r_1_1float2.html#a34a96958fc95a36d942af8a22ab8d33d',1,'KODI::SHADER::float2']]],
   ['min_3665',['min',['../d1/de6/struct_c_d_d_b_1_1toc.html#aa61f39198baf2b2b62f095b8b2a87063',1,'CDDB::toc::min'],['../df/d8e/_exif_parse_8cpp.html#ac6afabdc09a49a433ee19d8a9486056d',1,'min:&#160;ExifParse.cpp']]],
   ['min_5fdisplay_5fmastering_5fluminance_3666',['min_display_mastering_luminance',['../de/d3b/structhdr__metadata__infoframe.html#a857a2aa2482e64eb60af37b740f675e8',1,'hdr_metadata_infoframe']]],

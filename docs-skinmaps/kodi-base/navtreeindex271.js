@@ -1,5 +1,7 @@
 var NAVTREEINDEX271 =
 {
+"dd/d98/_setting_definitions_8h.html#ad26b6608108cae378ed05f29bc334ee5":[12,0,1,30,1,17,34],
+"dd/d98/_setting_definitions_8h.html#ad393e1eaffab30e4ce54e5353a4e5033":[12,0,1,30,1,17,7],
 "dd/d98/_setting_definitions_8h.html#ad574b26d036978a1e0ee715fdd1fbc10":[12,0,1,30,1,17,48],
 "dd/d98/_setting_definitions_8h.html#ad5d81aed50569566f03cc253262f04ed":[12,0,1,30,1,17,44],
 "dd/d98/_setting_definitions_8h.html#ad74592466c1896206e8a657712a295ac":[12,0,1,30,1,17,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX271 =
 "dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0a48b829902de761cc0f47c6b1dc988d39":[9,0,5,2,0,0,0,7],
 "dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0a68ab7c135eaf400283ae342b71dc7e89":[9,0,5,2,0,0,0,10],
 "dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0a7e227327cf5e84bf8eae26ffd6c6bd8a":[9,0,5,2,0,0,0,11],
-"dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0a8c0bc3797388957394f0f524109d1ad0":[9,0,5,2,0,0,0,12],
-"dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0aa4fa8a6112353ba625cb2fb6f227abfb":[9,0,5,2,0,0,0,0],
-"dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0aa7919172e7a7b4c90bb75c4ca63d1622":[9,0,5,2,0,0,0,13]
+"dd/da5/group__cpp__kodi__tools___string_utils___defs___t_i_m_e___f_o_r_m_a_t.html#ggabcaad145959e6b4779de32598cc2cdd0a8c0bc3797388957394f0f524109d1ad0":[9,0,5,2,0,0,0,12]
 };

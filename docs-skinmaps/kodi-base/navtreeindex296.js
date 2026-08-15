@@ -1,5 +1,6 @@
 var NAVTREEINDEX296 =
 {
+"de/dfb/class_shaders_1_1_g_l_1_1_base_y_u_v2_r_g_b_g_l_s_l_shader.html#ac65b2c7e03d9392e73356616d9c8ae8b":[10,0,47,0,1,56],
 "de/dfb/class_shaders_1_1_g_l_1_1_base_y_u_v2_r_g_b_g_l_s_l_shader.html#ac65b2c7e03d9392e73356616d9c8ae8b":[11,0,35,0,1,56],
 "de/dfb/class_shaders_1_1_g_l_1_1_base_y_u_v2_r_g_b_g_l_s_l_shader.html#acc43e618011d40a008cbae736ef2c644":[10,0,47,0,1,0],
 "de/dfb/class_shaders_1_1_g_l_1_1_base_y_u_v2_r_g_b_g_l_s_l_shader.html#acc43e618011d40a008cbae736ef2c644":[11,0,35,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX296 =
 "df/d03/class_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_c_directory_node_episodes.html#acf1d75c84d1b7bcdb180dab618f86eb5":[10,0,70,2,1,1],
 "df/d03/class_x_f_i_l_e_1_1_v_i_d_e_o_d_a_t_a_b_a_s_e_d_i_r_e_c_t_o_r_y_1_1_c_directory_node_episodes.html#acf1d75c84d1b7bcdb180dab618f86eb5":[11,0,52,1,1,1],
 "df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html":[9,0,2,1,6,0,1,0],
-"df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga04a086a7b35fd08602f422be309d4923":[9,0,2,1,6,0,1,0,22],
-"df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga0989708888fb42b8ebc357a168ff6e2d":[9,0,2,1,6,0,1,0,4]
+"df/d03/group__cpp__kodi__addon__pvr___defs___channel___p_v_r_channel.html#ga04a086a7b35fd08602f422be309d4923":[9,0,2,1,6,0,1,0,22]
 };

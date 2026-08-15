@@ -128,19 +128,19 @@ Inheritance diagram for IBufferObject:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2485e1848897fe0ba8abc0df3606fa01" id="r_a2485e1848897fe0ba8abc0df3606fa01"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2485e1848897fe0ba8abc0df3606fa01">~IBufferObject</a> ()=default</td></tr>
 <tr class="separator:a2485e1848897fe0ba8abc0df3606fa01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a862d3645e8f1955f06032908d3bfa715" id="r_a862d3645e8f1955f06032908d3bfa715"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a862d3645e8f1955f06032908d3bfa715">CreateBufferObject</a> (uint32_t <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#ac53d22cabe81239ea92b8103ca392a96">format</a>, uint32_t <a class="el" href="../../d7/d44/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_image_decoder_8h.html#ae7cec55283f55141a572358f21aca0fa">width</a>, uint32_t <a class="el" href="../../d7/d44/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_image_decoder_8h.html#ab65f561b32b759efc5d06baeb384eefb">height</a>)=0</td></tr>
+<tr class="memitem:a862d3645e8f1955f06032908d3bfa715" id="r_a862d3645e8f1955f06032908d3bfa715"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a862d3645e8f1955f06032908d3bfa715">CreateBufferObject</a> (uint32_t <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#ac53d22cabe81239ea92b8103ca392a96">format</a>, uint32_t <a class="el" href="../../d0/d3b/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2imagedecoder_8h.html#ae7cec55283f55141a572358f21aca0fa">width</a>, uint32_t <a class="el" href="../../d0/d3b/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2imagedecoder_8h.html#ab65f561b32b759efc5d06baeb384eefb">height</a>)=0</td></tr>
 <tr class="memdesc:a862d3645e8f1955f06032908d3bfa715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a BufferObject based on the format, width, and height of the desired buffer.  <br /></td></tr>
 <tr class="separator:a862d3645e8f1955f06032908d3bfa715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4ec05f6a871e74f5d22fe8dbaf29317" id="r_ad4ec05f6a871e74f5d22fe8dbaf29317"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4ec05f6a871e74f5d22fe8dbaf29317">CreateBufferObject</a> (uint64_t <a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a893e0eec076c26432e648d67c8b3c9ce">size</a>)=0</td></tr>
 <tr class="memdesc:ad4ec05f6a871e74f5d22fe8dbaf29317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a BufferObject based only on the size of the desired buffer. Not all <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> implementations may support this. This method is required for use with the <a class="el" href="../../d8/dc4/class_c_addon_video_codec.html">CAddonVideoCodec</a> as it only knows the decoded buffer size.  <br /></td></tr>
 <tr class="separator:ad4ec05f6a871e74f5d22fe8dbaf29317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d502717988419c99f6eb3e4fb4a3b9f" id="r_a9d502717988419c99f6eb3e4fb4a3b9f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d502717988419c99f6eb3e4fb4a3b9f">DestroyBufferObject</a> ()=0</td></tr>
+<tr class="memitem:a9d502717988419c99f6eb3e4fb4a3b9f" id="r_a9d502717988419c99f6eb3e4fb4a3b9f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d502717988419c99f6eb3e4fb4a3b9f">DestroyBufferObject</a> ()=0</td></tr>
 <tr class="memdesc:a9d502717988419c99f6eb3e4fb4a3b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy a BufferObject.  <br /></td></tr>
 <tr class="separator:a9d502717988419c99f6eb3e4fb4a3b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7b302e638558600390a7c048f37bacd" id="r_ac7b302e638558600390a7c048f37bacd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d54/_direct_x_graphics_8h.html#a9a941819355e6f658991890ff66b4b0e">uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7b302e638558600390a7c048f37bacd">GetMemory</a> ()=0</td></tr>
 <tr class="memdesc:ac7b302e638558600390a7c048f37bacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Memory location of the BufferObject. This method needs to be called to be able to copy data into the BufferObject.  <br /></td></tr>
 <tr class="separator:ac7b302e638558600390a7c048f37bacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6d002b3dc34a48d504675165be1869" id="r_a2d6d002b3dc34a48d504675165be1869"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6d002b3dc34a48d504675165be1869">ReleaseMemory</a> ()=0</td></tr>
+<tr class="memitem:a2d6d002b3dc34a48d504675165be1869" id="r_a2d6d002b3dc34a48d504675165be1869"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6d002b3dc34a48d504675165be1869">ReleaseMemory</a> ()=0</td></tr>
 <tr class="memdesc:a2d6d002b3dc34a48d504675165be1869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the mapped memory of the BufferObject. After calling this the memory location pointed to by <a class="el" href="#ac7b302e638558600390a7c048f37bacd" title="Get the Memory location of the BufferObject. This method needs to be called to be able to copy data i...">GetMemory()</a> will be invalid.  <br /></td></tr>
 <tr class="separator:a2d6d002b3dc34a48d504675165be1869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aecabc20c682343d6e30979e5574971" id="r_a3aecabc20c682343d6e30979e5574971"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/df1/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_visualization_8h.html#a0832153a8b372b76773317b799e5f51a">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3aecabc20c682343d6e30979e5574971">GetFd</a> ()=0</td></tr>
@@ -152,10 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abb9070c6c922cd116b749557fcfa984d" id="r_abb9070c6c922cd116b749557fcfa984d"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb9070c6c922cd116b749557fcfa984d">GetModifier</a> ()=0</td></tr>
 <tr class="memdesc:abb9070c6c922cd116b749557fcfa984d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Modifier of the BufferObject. Format Modifiers further describe the buffer's format such as for tiling or compression. see <a href="https://github.com/torvalds/linux/blob/master/include/uapi/drm/drm_fourcc.h">https://github.com/torvalds/linux/blob/master/include/uapi/drm/drm_fourcc.h</a>.  <br /></td></tr>
 <tr class="separator:abb9070c6c922cd116b749557fcfa984d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5abc8a065fce7a65b73f0bc0db9e060" id="r_af5abc8a065fce7a65b73f0bc0db9e060"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5abc8a065fce7a65b73f0bc0db9e060">SyncStart</a> ()=0</td></tr>
+<tr class="memitem:af5abc8a065fce7a65b73f0bc0db9e060" id="r_af5abc8a065fce7a65b73f0bc0db9e060"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5abc8a065fce7a65b73f0bc0db9e060">SyncStart</a> ()=0</td></tr>
 <tr class="memdesc:af5abc8a065fce7a65b73f0bc0db9e060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called before reading/writing data to the BufferObject.  <br /></td></tr>
 <tr class="separator:af5abc8a065fce7a65b73f0bc0db9e060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81985491ed4bff0879b0debb928d315e" id="r_a81985491ed4bff0879b0debb928d315e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81985491ed4bff0879b0debb928d315e">SyncEnd</a> ()=0</td></tr>
+<tr class="memitem:a81985491ed4bff0879b0debb928d315e" id="r_a81985491ed4bff0879b0debb928d315e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81985491ed4bff0879b0debb928d315e">SyncEnd</a> ()=0</td></tr>
 <tr class="memdesc:a81985491ed4bff0879b0debb928d315e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Must be called after reading/writing data to the BufferObject.  <br /></td></tr>
 <tr class="separator:a81985491ed4bff0879b0debb928d315e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c4db200e8bc2d064ee433bcf0d9f2b" id="r_a76c4db200e8bc2d064ee433bcf0d9f2b"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76c4db200e8bc2d064ee433bcf0d9f2b">GetName</a> () const =0</td></tr>
@@ -308,7 +308,7 @@ false BufferObject creation was unsuccessful. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::DestroyBufferObject </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::DestroyBufferObject </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -487,7 +487,7 @@ false BufferObject creation was unsuccessful. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::ReleaseMemory </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::ReleaseMemory </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -516,7 +516,7 @@ false BufferObject creation was unsuccessful. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::SyncEnd </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::SyncEnd </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -545,7 +545,7 @@ false BufferObject creation was unsuccessful. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::SyncStart </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> IBufferObject::SyncStart </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -573,7 +573,7 @@ false BufferObject creation was unsuccessful. </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d9a/class_i_buffer_object.html">IBufferObject</a></li>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:10 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:35 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

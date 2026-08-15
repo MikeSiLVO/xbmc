@@ -1,5 +1,6 @@
 var NAVTREEINDEX309 =
 {
+"df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a79e788cf286fa7fc17de93c71c172d10":[11,0,1586,25],
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a7cc5595b24545b8e64d85e8597e06664":[11,0,1586,20],
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a7e3166298d26ef6d1d8cd056940a990d":[11,0,1586,37],
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a80c52475530baa96a2a59cbb30578667":[11,0,1586,50],
@@ -248,6 +249,5 @@ var NAVTREEINDEX309 =
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html":[10,0,34,33,2,34],
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html":[11,0,24,28,2,34],
 "df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a636bc645fddbdb6f6702464d030747b3":[10,0,34,33,2,34,1],
-"df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a636bc645fddbdb6f6702464d030747b3":[11,0,24,28,2,34,1],
-"df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a6944d60d0999275f3f113b6fbdd55dc5":[10,0,34,33,2,34,2]
+"df/d95/class_k_o_d_i_1_1_w_i_n_d_o_w_i_n_g_1_1_w_a_y_l_a_n_d_1_1_i_raw_input_handler_touch.html#a636bc645fddbdb6f6702464d030747b3":[11,0,24,28,2,34,1]
 };

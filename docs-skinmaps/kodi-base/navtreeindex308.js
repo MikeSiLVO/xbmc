@@ -1,5 +1,6 @@
 var NAVTREEINDEX308 =
 {
+"df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html#a0cd376471983b086848b35fe4e40c1cf":[10,0,34,25,97,2],
 "df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html#a0cd376471983b086848b35fe4e40c1cf":[11,0,24,20,96,2],
 "df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html#a4f3f20598ccffa5b5ce6f5f54916ddb3":[10,0,34,25,97,0],
 "df/d80/class_k_o_d_i_1_1_r_e_t_r_o_1_1_i_render_callback.html#a4f3f20598ccffa5b5ce6f5f54916ddb3":[11,0,24,20,96,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX308 =
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a679615fefe64d8f6ae719837bf5f34cb":[11,0,1586,24],
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a67f81c101a8da941687a4161a035805f":[11,0,1586,30],
 "df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a70516d96aaa9c57b49d09e3d1eae38f7":[11,0,1586,28],
-"df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a73fba75b81c4ff3c2a927d5d497877b6":[11,0,1586,13],
-"df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a79e788cf286fa7fc17de93c71c172d10":[11,0,1586,25]
+"df/d8d/struct_kodi_to_addon_func_table___input_stream.html#a73fba75b81c4ff3c2a927d5d497877b6":[11,0,1586,13]
 };

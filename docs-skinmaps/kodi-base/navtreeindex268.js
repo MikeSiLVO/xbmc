@@ -1,5 +1,7 @@
 var NAVTREEINDEX268 =
 {
+"dd/d68/class_c_player_core_config.html":[11,0,940],
+"dd/d68/class_c_player_core_config.html#a15de577d2f659ccba6c03d58595ce095":[11,0,940,13],
 "dd/d68/class_c_player_core_config.html#a257434cea99e9f3392d2ffc0bfb9210e":[11,0,940,1],
 "dd/d68/class_c_player_core_config.html#a3bbc1264b036885e7e67548e2f4c8e11":[11,0,940,12],
 "dd/d68/class_c_player_core_config.html#a440dfa14935b8e415d159d20fe473b86":[11,0,940,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX268 =
 "dd/d85/_g_u_i_dialog_numeric_8h.html#ab61f66fcbed75a962e7a6ee2c11d48ddad0749aaba8b833466dfcbb0428e4f89c":[12,0,1,6,31,1,2],
 "dd/d85/_g_u_i_dialog_numeric_8h.html#ab61f66fcbed75a962e7a6ee2c11d48ddad4539bffb6062bdcbd7e7cc1b1228926":[12,0,1,6,31,1,0],
 "dd/d85/_weather_builtins_8h.html":[12,0,1,14,0,33],
-"dd/d86/_dirty_region_8h.html":[12,0,1,11,11],
-"dd/d86/_dirty_region_8h.html#aaf4fc59578acbb3299d96de4bc95e1f3":[12,0,1,11,11,1],
-"dd/d86/_i_screenshot_surface_8h.html":[12,0,1,35,117]
+"dd/d86/_dirty_region_8h.html":[12,0,1,11,11]
 };

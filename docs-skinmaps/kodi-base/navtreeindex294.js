@@ -1,5 +1,6 @@
 var NAVTREEINDEX294 =
 {
+"de/dd9/class_i_setting_callback.html#ad5d9edab07573534489ec4c8fd6d5475":[11,0,1524,1],
 "de/dda/_win_library_file_8h.html":[12,0,1,22,6,0,3],
 "de/dda/class_c_emu_file_wrapper.html":[11,0,478],
 "de/dda/class_c_emu_file_wrapper.html#a0201e9cd1a7bf9a4b0fa7fa0e61d8d16":[11,0,478,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX294 =
 "de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html":[11,0,24,6,0,1],
 "de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html#a0e973a497d92d0c85a46f150274ed8d7":[10,0,34,7,0,1,1],
 "de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html#a0e973a497d92d0c85a46f150274ed8d7":[11,0,24,6,0,1,1],
-"de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html#a1c118f5a5c4bc7c29e69debcd37f8431":[10,0,34,7,0,1,2],
-"de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html#a1c118f5a5c4bc7c29e69debcd37f8431":[11,0,24,6,0,1,2]
+"de/def/class_k_o_d_i_1_1_g_u_i_l_i_b_1_1_g_u_i_i_n_f_o_1_1_c_games_g_u_i_info.html#a1c118f5a5c4bc7c29e69debcd37f8431":[10,0,34,7,0,1,2]
 };

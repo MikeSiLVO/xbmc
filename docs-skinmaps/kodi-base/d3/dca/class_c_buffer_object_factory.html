@@ -117,10 +117,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abfc3f7b06791f3baf4aa1006399e4e52" id="r_abfc3f7b06791f3baf4aa1006399e4e52"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="../../d8/dd0/class_c_buffer_object.html">CBufferObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc3f7b06791f3baf4aa1006399e4e52">CreateBufferObject</a> (<a class="el" href="../../d5/da2/addons_2kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_audio_decoder_8h.html#a9fafe4872cbd63c0ecb0074211163830">bool</a> needsCreateBySize)</td></tr>
 <tr class="memdesc:abfc3f7b06791f3baf4aa1006399e4e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> from the registered BufferObject types. In the future this may include some criteria for selecting a specific <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> derived type. Currently it returns the <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> implementation that was registered last.  <br /></td></tr>
 <tr class="separator:abfc3f7b06791f3baf4aa1006399e4e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d4c3df4ac09dfccd1fd821a044443f4" id="r_a9d4c3df4ac09dfccd1fd821a044443f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4c3df4ac09dfccd1fd821a044443f4">RegisterBufferObject</a> (const std::function&lt; std::unique_ptr&lt; <a class="el" href="../../d8/dd0/class_c_buffer_object.html">CBufferObject</a> &gt;()&gt; &amp;)</td></tr>
+<tr class="memitem:a9d4c3df4ac09dfccd1fd821a044443f4" id="r_a9d4c3df4ac09dfccd1fd821a044443f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d4c3df4ac09dfccd1fd821a044443f4">RegisterBufferObject</a> (const std::function&lt; std::unique_ptr&lt; <a class="el" href="../../d8/dd0/class_c_buffer_object.html">CBufferObject</a> &gt;()&gt; &amp;)</td></tr>
 <tr class="memdesc:a9d4c3df4ac09dfccd1fd821a044443f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> class to class to the factory.  <br /></td></tr>
 <tr class="separator:a9d4c3df4ac09dfccd1fd821a044443f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a223dd43c004f1faf308a762bcf83cbdd" id="r_a223dd43c004f1faf308a762bcf83cbdd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a223dd43c004f1faf308a762bcf83cbdd">ClearBufferObjects</a> ()</td></tr>
+<tr class="memitem:a223dd43c004f1faf308a762bcf83cbdd" id="r_a223dd43c004f1faf308a762bcf83cbdd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a223dd43c004f1faf308a762bcf83cbdd">ClearBufferObjects</a> ()</td></tr>
 <tr class="memdesc:a223dd43c004f1faf308a762bcf83cbdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the list of registered <a class="el" href="../../d8/dd0/class_c_buffer_object.html" title="base class for using the IBufferObject interface. Derived classes should be based on this class.">CBufferObject</a> types.  <br /></td></tr>
 <tr class="separator:a223dd43c004f1faf308a762bcf83cbdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -142,7 +142,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CBufferObjectFactory::ClearBufferObjects </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CBufferObjectFactory::ClearBufferObjects </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -197,7 +197,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d43/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2_screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CBufferObjectFactory::RegisterBufferObject </td>
+          <td class="memname"><a class="el" href="../../d2/d40/kodi-dev-kit_2include_2kodi_2c-api_2addon-instance_2screensaver_8h.html#a653496008fd882b0eefab76a6f1c3a11">void</a> CBufferObjectFactory::RegisterBufferObject </td>
           <td>(</td>
           <td class="paramtype">const std::function&lt; std::unique_ptr&lt; <a class="el" href="../../d8/dd0/class_c_buffer_object.html">CBufferObject</a> &gt;()&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>createFunc</em></span></td><td>)</td>
           <td></td>
@@ -247,7 +247,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d3/dca/class_c_buffer_object_factory.html">CBufferObjectFactory</a></li>
-    <li class="footer">Generated on Wed Aug 12 2026 22:45:03 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sat Aug 15 2026 13:15:27 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>

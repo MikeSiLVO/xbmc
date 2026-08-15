@@ -1,5 +1,9 @@
 var NAVTREEINDEX261 =
 {
+"dc/df6/class_p_v_r_1_1_c_p_v_r_client_1_1_c_p_v_r_addon_instance_holder.html":[10,0,45,69,0],
+"dc/df6/class_p_v_r_1_1_c_p_v_r_client_1_1_c_p_v_r_addon_instance_holder.html":[11,0,33,67,0],
+"dc/df6/class_p_v_r_1_1_c_p_v_r_client_1_1_c_p_v_r_addon_instance_holder.html#acbf23ffd3e6af2276de698f7c0a9dcf8":[10,0,45,69,0,0],
+"dc/df6/class_p_v_r_1_1_c_p_v_r_client_1_1_c_p_v_r_addon_instance_holder.html#acbf23ffd3e6af2276de698f7c0a9dcf8":[11,0,33,67,0,0],
 "dc/df7/class_desc_negative_tests.html":[11,0,1332],
 "dc/df7/skin__button_control.html":[4,0,1],
 "dc/df7/skin__button_control.html#skin_Button_control_sect1":[4,0,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX261 =
 "dd/d03/_peripheral_bus_c_e_c_8cpp.html":[12,0,1,20,1,0,4],
 "dd/d03/_win_events_o_s_x_8mm.html":[12,0,1,39,4,8],
 "dd/d04/_video_buffer_starfish_8cpp.html":[12,0,1,4,6,0,8],
-"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html":[9,21,2,32],
-"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html#a01333574c6ffa74b89c33146c26cfd18":[9,21,2,32,1],
-"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html#a0c2d37ea828f3a4de2728a44e1834fc5":[9,21,2,32,0],
-"dd/d05/class_audio_test.html":[11,0,153],
-"dd/d05/namespace_x_b_m_c_addon.html":[10,0,64]
+"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html":[9,21,2,32]
 };

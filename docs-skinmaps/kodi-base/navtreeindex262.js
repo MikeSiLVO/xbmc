@@ -1,5 +1,9 @@
 var NAVTREEINDEX262 =
 {
+"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html#a01333574c6ffa74b89c33146c26cfd18":[9,21,2,32,1],
+"dd/d04/class_k_o_d_i_1_1_j_o_y_s_t_i_c_k_1_1_c_mouse_button_detector.html#a0c2d37ea828f3a4de2728a44e1834fc5":[9,21,2,32,0],
+"dd/d05/class_audio_test.html":[11,0,153],
+"dd/d05/namespace_x_b_m_c_addon.html":[10,0,64],
 "dd/d05/namespace_x_b_m_c_addon.html#a0977dfbb4d26e82fa8d5bd53d4cfed9d":[10,0,64,41],
 "dd/d05/namespace_x_b_m_c_addon.html#a0977dfbb4d26e82fa8d5bd53d4cfed9da8aeb11cc20528f5d7a69331f45258af7":[10,0,64,41,1],
 "dd/d05/namespace_x_b_m_c_addon.html#a0977dfbb4d26e82fa8d5bd53d4cfed9dab35724de7b9f45ff39afa519112df400":[10,0,64,41,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX262 =
 "dd/d18/class_c_g_u_i_visualisation_control.html#af050464da51566dea9958afa82984a19":[11,0,725,9],
 "dd/d18/class_c_g_u_i_visualisation_control.html#af6d7cb818bda27f16008171d35b7156c":[11,0,725,16],
 "dd/d18/class_c_g_u_i_visualisation_control.html#afbebff7da4f90a21ec39dd07c0b305f1":[11,0,725,3],
-"dd/d18/group__python___dialog_progress_b_g.html":[9,1,1,1,0,0],
-"dd/d18/group__python___dialog_progress_b_g.html#ga11a3dc6edee9d61d0c6ee7efb798d5e1":[9,1,1,1,0,0,12],
-"dd/d18/group__python___dialog_progress_b_g.html#ga125938028f5dcff6529bf5bf0789fc3a":[9,1,1,1,0,0,1],
-"dd/d18/group__python___dialog_progress_b_g.html#ga494d328d8ab8bc0f47795cc57f1c2762":[9,1,1,1,0,0,3],
-"dd/d18/group__python___dialog_progress_b_g.html#ga6917e85041fba495427bd8e5b56825f3":[9,1,1,1,0,0,11]
+"dd/d18/group__python___dialog_progress_b_g.html":[9,1,1,1,0,0]
 };
