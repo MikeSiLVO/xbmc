@@ -171,13 +171,13 @@ Description</h1>
 Usage</h1>
 <p>A map is read with <code>$MAP[mapname, infolabel]</code>. Both are required and both are trimmed of surrounding whitespace:</p>
 <div class="fragment"><div class="line">&lt;<span class="keywordtype">label</span>&gt;$<span class="keyword">MAP</span>[<span class="keyword">AudioCodecs</span>, <span class="keyword">ListItem.AudioCodec</span>]&lt;/<span class="keywordtype">label</span>&gt;</div>
-</div><!-- fragment --><p>Being a label format, it is not limited to <code>&lt;label&gt;</code>. It works wherever <code>$<a class="el" href="../../d9/d25/namespace_i_n_f_o.html">INFO</a>[]</code> and <code>$VAR[]</code> do, including inside a <code>&lt;variable&gt;</code> value:</p>
+</div><!-- fragment --><p>Being a label format, it is not limited to <code>&lt;label&gt;</code>. It works wherever <code>$INFO[]</code> and <code>$VAR[]</code> do, including inside a <code>&lt;variable&gt;</code> value:</p>
 <div class="fragment"><div class="line">&lt;<span class="keywordtype">variable</span> <span class="keyword">name</span>=<span class="stringliteral">&quot;AudioCodecLabel&quot;</span>&gt;</div>
 <div class="line">    &lt;<span class="keywordtype">value</span>&gt;$<span class="keyword">MAP</span>[<span class="keyword">AudioCodecs</span>, <span class="keyword">ListItem.AudioCodec</span>]&lt;/<span class="keywordtype">value</span>&gt;</div>
 <div class="line">&lt;/<span class="keywordtype">variable</span>&gt;</div>
-</div><!-- fragment --><p>Like <code>$<a class="el" href="../../d9/d25/namespace_i_n_f_o.html">INFO</a>[]</code> and <code>$VAR[]</code>, two further optional arguments set a prefix and a postfix. They are added only when the infolabel resolves to a value, so a separator never appears on its own:</p>
+</div><!-- fragment --><p>Like <code>$INFO[]</code> and <code>$VAR[]</code>, two further optional arguments set a prefix and a postfix. They are added only when the infolabel resolves to a value, so a separator never appears on its own:</p>
 <div class="fragment"><div class="line">&lt;<span class="keywordtype">label</span>&gt;$<span class="keyword">MAP</span>[<span class="keyword">HdrTypes</span>, <span class="keyword">ListItem.Property</span>(<span class="keyword">stream.hdrtype</span>), | ]&lt;/<span class="keywordtype">label</span>&gt;</div>
-</div><!-- fragment --><p><code>$ESCMAP[]</code> behaves identically but escapes the result, in the same way <code>$ESCINFO[]</code> and <code>$ESCVAR[]</code> relate to <code>$<a class="el" href="../../d9/d25/namespace_i_n_f_o.html">INFO</a>[]</code> and <code>$VAR[]</code>. Use it where the mapped value is passed on to something that parses it again, such as a builtin function argument.</p>
+</div><!-- fragment --><p><code>$ESCMAP[]</code> behaves identically but escapes the result, in the same way <code>$ESCINFO[]</code> and <code>$ESCVAR[]</code> relate to <code>$INFO[]</code> and <code>$VAR[]</code>. Use it where the mapped value is passed on to something that parses it again, such as a builtin function argument.</p>
 <dl class="section note"><dt>Note</dt><dd><code>$MAP[]</code> is a label format. It is not valid inside a boolean condition.</dd></dl>
 <hr  />
  <h1><a class="anchor" id="Skin_Maps_sect3"></a>
@@ -230,7 +230,7 @@ Development:</h4>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/de7/skin_parts.html">Skin Development</a></li>
-    <li class="footer">Generated on Sun Aug 16 2026 12:13:00 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
+    <li class="footer">Generated on Sun Aug 16 2026 12:18:53 for Kodi Documentation by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
 </body>
