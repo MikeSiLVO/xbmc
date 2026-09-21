@@ -20,6 +20,7 @@
 #include <functional>
 #include <map>
 #include <memory>
+#include <set>
 #include <vector>
 
 class CFileItem;
@@ -85,6 +86,14 @@ public:
    * \param devicePath The optical drive path, empty for every drive
    */
   void ResetDriveCaches(const std::string& devicePath = "");
+
+#if defined(TARGET_WINDOWS) && defined(HAS_OPTICAL_DRIVE)
+  /*! \brief Ask the drive for its state and wait for the answer
+   * Blocks for as long as the drive takes, so only from a job. \sa GetDriveStatus
+   * \param devicePath The optical drive path
+   */
+  DriveState GetDriveStatusNow(const std::string& devicePath = "");
+#endif
 #ifdef HAS_OPTICAL_DRIVE
   /*! \brief Get the disc TOC, reusing successful reads.
    * \param allowCachedFailure Allow GUI polling to reuse a recent failed read on Windows.
@@ -198,6 +207,15 @@ private:
 
   bool IsOpticalDrivePresent();
 
+#ifdef HAS_OPTICAL_DRIVE
+  /*! \brief Identify a newly inserted disc and act on it
+   * Runs as a job - reading the disc is slow enough to be seen as a GUI freeze if done on the
+   * thread OnStorageAdded() is called from. \sa OnStorageAdded
+   * \param device the optical storage device
+   */
+  void ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::StorageDevice& device);
+#endif
+
   struct DiscInfoCacheEntry
   {
     /*! What the disc reported about itself, exactly as GetDiscInfo() returned it */
@@ -245,7 +263,15 @@ private:
   /*! Bumped by every ResetDriveCaches() so a probe that was invalidated while it was in
       flight can discard its now stale result instead of caching it - see GetDriveStatus */
   uint64_t m_driveStatusGeneration{0};
+  /*! Drives with a probe already queued, so only one job is submitted per drive */
+  std::set<std::string> m_refreshingDrives;
   CCriticalSection m_driveStatusSection;
+
+  /*! \brief Ask the drive for its state and cache it, blocking until it answers
+   * \param translatedDevicePath The optical drive device path (e.g. "\\\\.\\D:")
+   * \return The state the drive reported
+   */
+  DriveState RefreshDriveStatus(const std::string& translatedDevicePath);
   /*! Drives whose disc yielded no CdInfo, and when to try reading it again. Guarded by
       m_muAutoSource like m_mapCdInfo - see GetCdInfo */
   std::map<std::string, std::chrono::steady_clock::time_point> m_cdInfoUnavailable;
