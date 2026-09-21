@@ -1125,9 +1125,8 @@ void CMediaManager::EjectTray(const bool bEject, const std::string& devicePath)
       [](IDiscDriveHandler& handler, const std::string& path, bool eject)
       {
         if (eject)
-          handler.EjectDriveTray(path);
-        else
-          handler.CloseDriveTray(path);
+          return handler.EjectDriveTray(path);
+        return handler.CloseDriveTray(path);
       },
       bEject);
 #endif
@@ -1137,7 +1136,7 @@ void CMediaManager::CloseTray(const std::string& devicePath)
 {
 #ifdef HAS_OPTICAL_DRIVE
   OperateTray(devicePath, [](IDiscDriveHandler& handler, const std::string& path, bool)
-              { handler.CloseDriveTray(path); });
+              { return handler.CloseDriveTray(path); });
 #endif
 }
 
@@ -1145,14 +1144,14 @@ void CMediaManager::ToggleTray(const std::string& devicePath)
 {
 #ifdef HAS_OPTICAL_DRIVE
   OperateTray(devicePath, [](IDiscDriveHandler& handler, const std::string& path, bool)
-              { handler.ToggleDriveTray(path); });
+              { return handler.ToggleDriveTray(path); });
 #endif
 }
 
 #ifdef HAS_OPTICAL_DRIVE
 void CMediaManager::OperateTray(
     const std::string& devicePath,
-    const std::function<void(IDiscDriveHandler&, const std::string&, bool)>& operation,
+    const std::function<bool(IDiscDriveHandler&, const std::string&, bool)>& operation,
     bool eject)
 {
   if (!m_platformDiscDriveHander)
@@ -1166,10 +1165,13 @@ void CMediaManager::OperateTray(
   CServiceBroker::GetJobManager()->Submit(
       [this, handler, trayDevicePath, operation, eject]()
       {
-        operation(*handler, trayDevicePath, eject);
-        BumpDiscGeneration(trayDevicePath);
-        RunOnAppThread([this]() { ResetBlurayPlaylistStatus(); });
-        ResetDriveCaches(trayDevicePath);
+        // Only when the drive actually moved - a rejected eject leaves the disc where it was
+        if (operation(*handler, trayDevicePath, eject))
+        {
+          BumpDiscGeneration(trayDevicePath);
+          RunOnAppThread([this]() { ResetBlurayPlaylistStatus(); });
+          ResetDriveCaches(trayDevicePath);
+        }
       },
       CJob::PRIORITY_HIGH);
 }
