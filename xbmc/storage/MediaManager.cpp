@@ -1120,50 +1120,60 @@ bool CMediaManager::Eject(const std::string& mountpath)
 void CMediaManager::EjectTray(const bool bEject, const std::string& devicePath)
 {
 #ifdef HAS_OPTICAL_DRIVE
-  if (m_platformDiscDriveHander)
-  {
-#ifdef HAVE_LIBBLURAY
-    m_hasBlurayPlaylist = HasBlurayPlaylist::UNKNOWN;
-#endif
-    const std::string trayDevicePath{TranslateDevicePath(devicePath)};
-    if (bEject)
-      m_platformDiscDriveHander->EjectDriveTray(trayDevicePath);
-    else
-      m_platformDiscDriveHander->CloseDriveTray(trayDevicePath);
-    ResetDriveCaches(trayDevicePath);
-  }
+  OperateTray(
+      devicePath,
+      [](IDiscDriveHandler& handler, const std::string& path, bool eject)
+      {
+        if (eject)
+          handler.EjectDriveTray(path);
+        else
+          handler.CloseDriveTray(path);
+      },
+      bEject);
 #endif
 }
 
 void CMediaManager::CloseTray(const std::string& devicePath)
 {
 #ifdef HAS_OPTICAL_DRIVE
-  if (m_platformDiscDriveHander)
-  {
-#ifdef HAVE_LIBBLURAY
-    m_hasBlurayPlaylist = HasBlurayPlaylist::UNKNOWN;
-#endif
-    const std::string trayDevicePath{TranslateDevicePath(devicePath)};
-    m_platformDiscDriveHander->CloseDriveTray(trayDevicePath);
-    ResetDriveCaches(trayDevicePath);
-  }
+  OperateTray(devicePath, [](IDiscDriveHandler& handler, const std::string& path, bool)
+              { handler.CloseDriveTray(path); });
 #endif
 }
 
 void CMediaManager::ToggleTray(const std::string& devicePath)
 {
 #ifdef HAS_OPTICAL_DRIVE
-  if (m_platformDiscDriveHander)
-  {
-#ifdef HAVE_LIBBLURAY
-    m_hasBlurayPlaylist = HasBlurayPlaylist::UNKNOWN;
-#endif
-    const std::string trayDevicePath{TranslateDevicePath(devicePath)};
-    m_platformDiscDriveHander->ToggleDriveTray(trayDevicePath);
-    ResetDriveCaches(trayDevicePath);
-  }
+  OperateTray(devicePath, [](IDiscDriveHandler& handler, const std::string& path, bool)
+              { handler.ToggleDriveTray(path); });
 #endif
 }
+
+#ifdef HAS_OPTICAL_DRIVE
+void CMediaManager::OperateTray(
+    const std::string& devicePath,
+    const std::function<void(IDiscDriveHandler&, const std::string&, bool)>& operation,
+    bool eject)
+{
+  if (!m_platformDiscDriveHander)
+    return;
+
+  // Working a tray asks the drive what state it is in and then tells it to move. Both wait on
+  // the hardware, and a drive that is loading media does not answer for tens of seconds.
+  const std::string trayDevicePath{TranslateDevicePath(devicePath)};
+  const std::shared_ptr<IDiscDriveHandler> handler{m_platformDiscDriveHander};
+
+  CServiceBroker::GetJobManager()->Submit(
+      [this, handler, trayDevicePath, operation, eject]()
+      {
+        operation(*handler, trayDevicePath, eject);
+        BumpDiscGeneration(trayDevicePath);
+        RunOnAppThread([this]() { ResetBlurayPlaylistStatus(); });
+        ResetDriveCaches(trayDevicePath);
+      },
+      CJob::PRIORITY_HIGH);
+}
+#endif
 
 void CMediaManager::ProcessEvents()
 {
