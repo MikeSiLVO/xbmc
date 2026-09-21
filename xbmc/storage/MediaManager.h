@@ -68,8 +68,9 @@ public:
   /*! \brief Build and register an optical-disc auto source for the given device path.
    * Adds the source WITHOUT triggering autorun.
    * \param devicePath The optical drive path (e.g. "D:")
+   * \param generation What the drive was on when the caller looked, \sa IsDiscCurrent
    */
-  void AddOpticalSource(const std::string& devicePath);
+  void AddOpticalSource(const std::string& devicePath, uint64_t generation);
 #endif
 
   bool IsDiscInDrive(const std::string& devicePath="");
@@ -93,6 +94,28 @@ public:
    * \param devicePath The optical drive path
    */
   DriveState GetDriveStatusNow(const std::string& devicePath = "");
+#endif
+
+#ifdef HAS_OPTICAL_DRIVE
+  /*! \brief Note that the disc in a drive has changed
+   * \param devicePath The optical drive path
+   * \return The generation the drive is now on
+   */
+  uint64_t BumpDiscGeneration(const std::string& devicePath);
+
+  /*! \brief What a drive is on now, or 0 for one nothing has happened to yet
+   * \param devicePath The optical drive path
+   */
+  uint64_t DiscGeneration(const std::string& devicePath);
+
+  /*! \brief Whether a drive still holds the disc it did when a job was queued
+   * Reading a disc takes seconds and a job cannot be cancelled, so one can still be running
+   * after its disc has been ejected or swapped. Its findings describe a disc that is no longer
+   * there and must not be applied.
+   * \param devicePath The optical drive path
+   * \param generation The generation the caller was queued on
+   */
+  bool IsDiscCurrent(const std::string& devicePath, uint64_t generation);
 #endif
 #ifdef HAS_OPTICAL_DRIVE
   /*! \brief Get the disc TOC, reusing successful reads.
@@ -213,7 +236,15 @@ private:
    * thread OnStorageAdded() is called from. \sa OnStorageAdded
    * \param device the optical storage device
    */
-  void ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::StorageDevice& device);
+  void ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::StorageDevice& device,
+                                 uint64_t generation);
+
+  /*! \brief The generation of a drive, for a caller already holding m_muAutoSource
+   * \param translatedDevicePath The optical drive path, as TranslateDevicePath() returns it
+   */
+  uint64_t DiscGenerationLocked(const std::string& translatedDevicePath) const;
+
+  std::map<std::string, uint64_t> m_discGeneration;
 #endif
 
   struct DiscInfoCacheEntry

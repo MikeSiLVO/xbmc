@@ -145,11 +145,18 @@ void RunOnAppThread(std::function<void()> work)
  * CAutorun::RunDisc() reaches CApplication::PlayFile() directly rather than through the
  * messenger, so it has to be marshalled back rather than run on the job thread.
  */
-void ExecuteAutorunOnAppThread(const std::string& path, const std::string& label, bool audio)
+void ExecuteAutorunOnAppThread(const std::string& path,
+                               const std::string& label,
+                               bool audio,
+                               uint64_t generation)
 {
   RunOnAppThread(
-      [path, label, audio]()
+      [path, label, audio, generation]()
       {
+        // The disc may have gone while this waited for the application thread
+        if (!CServiceBroker::GetMediaManager().IsDiscCurrent(path, generation))
+          return;
+
         if (MEDIA_DETECT::CAutorun::ExecuteAutorun(path))
           return;
 
@@ -705,6 +712,35 @@ DriveState CMediaManager::GetDriveStatusNow(const std::string& devicePath)
 }
 #endif
 
+#ifdef HAS_OPTICAL_DRIVE
+uint64_t CMediaManager::BumpDiscGeneration(const std::string& devicePath)
+{
+  const std::string strDevice{TranslateDevicePath(devicePath, false)};
+
+  std::unique_lock lock(m_muAutoSource);
+  return ++m_discGeneration[strDevice];
+}
+
+uint64_t CMediaManager::DiscGeneration(const std::string& devicePath)
+{
+  const std::string strDevice{TranslateDevicePath(devicePath, false)};
+
+  std::unique_lock lock(m_muAutoSource);
+  return DiscGenerationLocked(strDevice);
+}
+
+uint64_t CMediaManager::DiscGenerationLocked(const std::string& translatedDevicePath) const
+{
+  const auto it{m_discGeneration.find(translatedDevicePath)};
+  return it != m_discGeneration.end() ? it->second : 0;
+}
+
+bool CMediaManager::IsDiscCurrent(const std::string& devicePath, uint64_t generation)
+{
+  return DiscGeneration(devicePath) == generation;
+}
+#endif
+
 bool CMediaManager::IsOpticalDrivePresent()
 {
   std::unique_lock waitLock(m_muAutoSource);
@@ -1176,7 +1212,7 @@ std::vector<std::string> CMediaManager::GetDiskUsage()
 }
 
 #if defined(TARGET_WINDOWS) && defined(HAS_OPTICAL_DRIVE)
-void CMediaManager::AddOpticalSource(const std::string& devicePath)
+void CMediaManager::AddOpticalSource(const std::string& devicePath, uint64_t generation)
 {
   CMediaSource share;
   share.strPath = devicePath;
@@ -1195,7 +1231,14 @@ void CMediaManager::AddOpticalSource(const std::string& devicePath)
 
   share.m_ignore = true;
   share.m_iDriveType = SourceType::OPTICAL_DISC;
-  AddAutoSource(share, false);
+
+  // Reading the disc above waited on it, so only add what still describes what is in the drive
+  RunOnAppThread(
+      [this, share, devicePath, generation]()
+      {
+        if (IsDiscCurrent(devicePath, generation))
+          AddAutoSource(share, false);
+      });
 }
 #endif
 
@@ -1217,8 +1260,10 @@ void CMediaManager::OnStorageAdded(const MEDIA_DETECT::STORAGE::StorageDevice& d
     // Identifying the disc reads it, and on an AACS Blu-ray loading libaacs alone takes well
     // over a second. This is called from CApplication::ProcessSlow(), so doing it here freezes
     // the GUI for as long as the read takes - hand it to a job instead.
-    CServiceBroker::GetJobManager()->Submit([this, device]() { ProcessAddedOpticalDevice(device); },
-                                            CJob::PRIORITY_HIGH);
+    const uint64_t generation{BumpDiscGeneration(device.path)};
+    CServiceBroker::GetJobManager()->Submit(
+        [this, device, generation]() { ProcessAddedOpticalDevice(device, generation); },
+        CJob::PRIORITY_HIGH);
   }
   else
 #endif
@@ -1232,20 +1277,31 @@ void CMediaManager::OnStorageAdded(const MEDIA_DETECT::STORAGE::StorageDevice& d
 }
 
 #ifdef HAS_OPTICAL_DRIVE
-void CMediaManager::ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::StorageDevice& device)
+void CMediaManager::ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::StorageDevice& device,
+                                              uint64_t generation)
 {
 #ifdef TARGET_WINDOWS
   // Windows reports a tray closing on nothing as an arrival, so ask the drive rather than
   // announce an empty one. On a job, so it can wait for the answer.
   const DriveState state{GetDriveStatusNow(device.path)};
+
+  // Asking the drive waited on it, long enough for the disc to have been taken out again
+  if (!IsDiscCurrent(device.path, generation))
+    return;
+
   if (state == DriveState::CLOSED_NO_MEDIA || state == DriveState::OPEN)
     return;
 
-  AddOpticalSource(device.path);
+  AddOpticalSource(device.path, generation);
 #endif
 
   // Source creation clears the previous TOC; classification retries any failed read.
   const std::shared_ptr<CCdInfo> pInfo{GetCdInfo(device.path)};
+
+  // Reading the table of contents waits on the drive as well
+  if (!IsDiscCurrent(device.path, generation))
+    return;
+
   // No TOC is likely to mean a protected video disc
   const bool isAudioDisc{pInfo && pInfo->IsAudio(1)};
 
@@ -1262,7 +1318,7 @@ void CMediaManager::ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::Stora
     if (cdAutoAction == RIP || cdAutoAction == PLAY)
     {
       // Will fallback to play if HAS_CDDA_RIPPER not defined
-      ExecuteAutorunOnAppThread(device.path, device.label, true);
+      ExecuteAutorunOnAppThread(device.path, device.label, true, generation);
     }
     else if (cdAutoAction == NONE)
     {
@@ -1282,12 +1338,12 @@ void CMediaManager::ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::Stora
     using enum AutoDVDAction;
     if (dvdAutoAction == BROWSE)
     {
-      CServiceBroker::GetJobManager()->AddJob(new CAutorunMediaJob(device.label, device.path), this,
-                                              CJob::PRIORITY_HIGH);
+      CServiceBroker::GetJobManager()->AddJob(
+          new CAutorunMediaJob(device.label, device.path, generation), this, CJob::PRIORITY_HIGH);
     }
     else if (dvdAutoAction == PLAY)
     {
-      ExecuteAutorunOnAppThread(device.path, device.label, false);
+      ExecuteAutorunOnAppThread(device.path, device.label, false, generation);
     }
     else if (dvdAutoAction == NONE)
     {
@@ -1303,6 +1359,11 @@ void CMediaManager::ProcessAddedOpticalDevice(const MEDIA_DETECT::STORAGE::Stora
 void CMediaManager::OnStorageSafelyRemoved(const MEDIA_DETECT::STORAGE::StorageDevice& device)
 {
   ResetDriveCaches(device.path);
+#ifdef HAS_OPTICAL_DRIVE
+  // Every platform, so that a job still reading this disc knows to stop
+  if (device.type == MEDIA_DETECT::STORAGE::Type::OPTICAL)
+    BumpDiscGeneration(device.path);
+#endif
 #ifdef TARGET_WINDOWS
   if (device.type == MEDIA_DETECT::STORAGE::Type::OPTICAL)
   {
@@ -1321,6 +1382,10 @@ void CMediaManager::OnStorageSafelyRemoved(const MEDIA_DETECT::STORAGE::StorageD
 void CMediaManager::OnStorageUnsafelyRemoved(const MEDIA_DETECT::STORAGE::StorageDevice& device)
 {
   ResetDriveCaches(device.path);
+#ifdef HAS_OPTICAL_DRIVE
+  if (device.type == MEDIA_DETECT::STORAGE::Type::OPTICAL)
+    BumpDiscGeneration(device.path);
+#endif
 #ifdef TARGET_WINDOWS
   if (device.type == MEDIA_DETECT::STORAGE::Type::OPTICAL)
   {
