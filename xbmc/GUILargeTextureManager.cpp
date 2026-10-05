@@ -21,10 +21,52 @@
 #include "windowing/GraphicContext.h"
 #include "windowing/WinSystem.h"
 
+#include <algorithm>
 #include <cassert>
 #include <chrono>
 #include <exception>
 #include <mutex>
+
+namespace
+{
+constexpr unsigned int HIDDEN_SIZE = 8;
+constexpr unsigned int SMALLEST_BUCKET = 64;
+constexpr unsigned int LARGEST_BUCKET = 1024;
+
+unsigned int Bucket(unsigned int size)
+{
+  unsigned int bucket = SMALLEST_BUCKET;
+  while (bucket < size)
+    bucket *= 2;
+  return bucket;
+}
+
+// bilinear filtering shrinks up to 2x without aliasing
+void BucketRequest(unsigned int& width,
+                   unsigned int& height,
+                   CAspectRatio::AspectRatio& aspectRatio)
+{
+  if (aspectRatio == CAspectRatio::CENTER)
+    return;
+
+  if (aspectRatio == CAspectRatio::STRETCH)
+    aspectRatio = CAspectRatio::KEEP;
+
+  const unsigned int bucketWidth = Bucket(width);
+  const unsigned int bucketHeight = Bucket(height);
+  if (std::max(width, height) < HIDDEN_SIZE || bucketWidth > LARGEST_BUCKET ||
+      bucketHeight > LARGEST_BUCKET)
+  {
+    aspectRatio = CAspectRatio::KEEP;
+    width = height = 0;
+  }
+  else
+  {
+    width = bucketWidth;
+    height = bucketHeight;
+  }
+}
+} // namespace
 
 CImageLoader::CImageLoader(const std::string& path,
                            unsigned int targetWidth,
@@ -38,6 +80,13 @@ CImageLoader::CImageLoader(const std::string& path,
     m_aspectRatio(aspectRatio)
 {
   m_use_cache = useCache;
+
+  if (m_aspectRatio == CAspectRatio::KEEP && m_targetWidth == 0 && m_targetHeight == 0)
+  {
+    const CGraphicContext& gfxContext = CServiceBroker::GetWinSystem()->GetGfxContext();
+    m_targetWidth = static_cast<unsigned int>(gfxContext.GetWidth());
+    m_targetHeight = static_cast<unsigned int>(gfxContext.GetHeight());
+  }
 }
 
 CImageLoader::~CImageLoader() = default;
@@ -188,6 +237,8 @@ bool CGUILargeTextureManager::GetImage(const std::string& path,
                                        bool firstRequest,
                                        const bool useCache)
 {
+  BucketRequest(width, height, aspectRatio);
+
   std::unique_lock lock(m_listSection);
   for (listIterator it = m_allocated.begin(); it != m_allocated.end(); ++it)
   {
@@ -214,6 +265,8 @@ void CGUILargeTextureManager::ReleaseImage(const std::string& path,
                                            CAspectRatio::AspectRatio aspectRatio,
                                            bool immediately)
 {
+  BucketRequest(width, height, aspectRatio);
+
   std::unique_lock lock(m_listSection);
   for (listIterator it = m_allocated.begin(); it != m_allocated.end(); ++it)
   {
