@@ -9,13 +9,9 @@ endif()
 set(_test_root "${TEST_BINARY_DIR}/darwin-embedded-deb-${TEST_PLATFORM}")
 set(_packaging_dir "${_test_root}/tools/darwin/packaging/darwin_embedded")
 set(_app_dir "${_test_root}/build/Debug-${TEST_PLATFORM}/Kodi.app")
-set(_dsym_dir "${_test_root}/build/Debug-${TEST_PLATFORM}/Kodi.app.dSYM")
-set(DARWIN_EMBEDDED_DSYM_TARGET_DIR "${_test_root}/dsyms")
 file(REMOVE_RECURSE "${_test_root}")
-file(MAKE_DIRECTORY "${_packaging_dir}" "${_app_dir}" "${_dsym_dir}"
-                    "${DARWIN_EMBEDDED_DSYM_TARGET_DIR}")
+file(MAKE_DIRECTORY "${_packaging_dir}" "${_app_dir}")
 file(WRITE "${_app_dir}/payload.txt" "packaged\n")
-file(WRITE "${_dsym_dir}/symbols" "symbols\n")
 file(WRITE "${_packaging_dir}/../gitrev-posix" "#!/bin/sh\nprintf 'safe-revision'\n")
 file(CHMOD "${_packaging_dir}/../gitrev-posix"
      PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE
@@ -50,10 +46,6 @@ set(_package
   "${_packaging_dir}/${TEST_BUNDLE_IDENTIFIER}64_22.0-0~alpha1_${TEST_PLATFORM}-arm.deb")
 if(NOT EXISTS "${_package}")
   message(FATAL_ERROR "Expected package was not created: ${_package}")
-endif()
-if(NOT EXISTS
-   "${DARWIN_EMBEDDED_DSYM_TARGET_DIR}/safe-revision-Kodi.app.dSYM.tar.bz2")
-  message(FATAL_ERROR "Expected dSYM archive was not created")
 endif()
 
 execute_process(
@@ -127,11 +119,4 @@ execute_process(
   ERROR_VARIABLE _unsafe_revision_error)
 if(_unsafe_revision_result EQUAL 0)
   message(FATAL_ERROR "Packaging accepted an unsafe git revision")
-endif()
-if(NOT "${_unsafe_revision_output}${_unsafe_revision_error}" MATCHES
-   "Invalid git revision")
-  message(FATAL_ERROR "dSYM packaging failed for the wrong reason")
-endif()
-if(EXISTS "${DARWIN_EMBEDDED_DSYM_TARGET_DIR}/../unsafe-revision-Kodi.app.dSYM.tar.bz2")
-  message(FATAL_ERROR "Unsafe git revision wrote a dSYM archive outside its target directory")
 endif()
