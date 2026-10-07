@@ -3,7 +3,7 @@ if(NOT CPACK_BUILD_CONFIG)
 endif()
 
 set(_install_prefix "$ENV{CMAKE_INSTALL_PREFIX}")
-set(_app "@CMAKE_BINARY_DIR@/build/${_core_build_type}-@PLATFORM@/@APP_NAME@.app")
+set(_app "@CMAKE_BINARY_DIR@/build/${CPACK_BUILD_CONFIG}/@APP_NAME@.app")
 
 if(NOT _install_prefix)
   message(FATAL_ERROR "CMAKE_INSTALL_PREFIX is not set by CPack")
