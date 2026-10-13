@@ -223,9 +223,16 @@ void CThread::StopThread(bool bWait /*= true*/)
   if (lthread != nullptr && bWait && !IsCurrentThread())
   {
     lock.unlock();
-    if (!Join(std::chrono::milliseconds::max())) // eh?
-      lthread->join();
-    m_thread = nullptr;
+    Join(std::chrono::milliseconds::max());
+    lock.lock();
+    // a concurrent StopThread() may already have joined and deleted it
+    if (m_thread == lthread)
+    {
+      if (lthread->joinable())
+        lthread->join();
+      m_thread = nullptr;
+      delete lthread;
+    }
   }
 }
 
@@ -265,9 +272,10 @@ bool CThread::Join(std::chrono::milliseconds duration)
         return false;
     }
 
-    // it's possible it's already joined since we released the lock above.
-    if (lthread->joinable())
-      m_thread->join();
+    // it's possible it's already joined, or deleted by StopThread(), since we released the lock
+    // above.
+    if (m_thread == lthread && lthread->joinable())
+      lthread->join();
     return true;
   }
   else
