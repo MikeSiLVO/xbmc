@@ -49,6 +49,24 @@ using namespace MUSIC_INFO;
 using namespace JSONRPC;
 using namespace XFILE;
 
+namespace
+{
+class CVideoInfoTagFields final : public ISerializable
+{
+public:
+  CVideoInfoTagFields(const CVideoInfoTag& tag, const std::set<std::string>& fields)
+    : m_tag(tag),
+      m_fields(fields)
+  {
+  }
+  void Serialize(CVariant& value) const override { m_tag.SerializeFields(value, m_fields); }
+
+private:
+  const CVideoInfoTag& m_tag;
+  const std::set<std::string>& m_fields;
+};
+} // namespace
+
 bool CFileItemHandler::GetField(const std::string& field,
                                 const CVariant& info,
                                 const std::shared_ptr<CFileItem>& item,
@@ -481,7 +499,10 @@ void CFileItemHandler::HandleFileItem(const char* ID,
     if (item->HasPVRTimerInfoTag())
       FillDetails(item->GetPVRTimerInfoTag().get(), item, fields, object, thumbLoader);
     if (item->HasVideoInfoTag())
-      FillDetails(item->GetVideoInfoTag(), item, fields, object, thumbLoader);
+    {
+      const CVideoInfoTagFields tagFields(*item->GetVideoInfoTag(), fields);
+      FillDetails(&tagFields, item, fields, object, thumbLoader);
+    }
     if (item->HasMusicInfoTag())
       FillDetails(item->GetMusicInfoTag(), item, fields, object, thumbLoader);
     if (item->HasPictureInfoTag())

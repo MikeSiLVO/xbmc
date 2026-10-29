@@ -270,6 +270,42 @@ TEST(TestVideoInfoTag, EpisodeBookmarkRoundTrip)
   EXPECT_DOUBLE_EQ(16066.5, reloaded.m_EpBookmark.totalTimeInSeconds);
 }
 
+TEST(TestVideoInfoTag, SerializeFieldsWritesEachKeyAsSerializeDoes)
+{
+  CVideoInfoTag details;
+  details.SetTitle("Title");
+  details.SetGenre({"Drama", "Comedy"});
+  details.m_set.SetTitle("Set");
+  details.SetTags({"Tag"});
+  SActorInfo actor;
+  actor.strName = "Actor";
+  actor.strRole = "Role";
+  actor.thumb = "/actor.jpg";
+  details.m_cast.push_back(actor);
+  details.SetRating(7.5f, 100, "imdb", true);
+  details.SetUniqueID("tt0000001", "imdb", true);
+  auto* video = new CStreamDetailVideo();
+  video->m_iDuration = 5400;
+  details.m_streamDetails.AddStream(video);
+  CBookmark resume;
+  resume.timeInSeconds = 60.0;
+  resume.totalTimeInSeconds = 5400.0;
+  details.SetResumePoint(resume);
+
+  CVariant all;
+  details.Serialize(all);
+  for (auto it = all.begin_map(); it != all.end_map(); ++it)
+  {
+    CVariant some;
+    details.SerializeFields(some, {it->first});
+    EXPECT_TRUE(some[it->first] == it->second) << it->first;
+  }
+
+  CVariant title;
+  details.SerializeFields(title, {"title"});
+  EXPECT_EQ(1u, title.size());
+}
+
 namespace
 {
 class TestVideoInfoTagArchive : public testing::Test

@@ -809,88 +809,167 @@ void CVideoInfoTag::Archive(CArchive& ar)
 
 void CVideoInfoTag::Serialize(CVariant& value) const
 {
-  value["director"] = m_director;
-  value["writer"] = m_writingCredits;
-  value["genre"] = m_genre;
-  value["country"] = m_country;
-  value["tagline"] = m_strTagLine;
-  value["plotoutline"] = m_strPlotOutline;
-  value["plot"] = m_strPlot;
-  value["title"] = m_strTitle;
-  value["votes"] = std::to_string(GetRating().votes);
-  value["studio"] = m_studio;
-  value["trailer"] = m_strTrailer;
-  value["cast"] = CVariant(CVariant::VariantTypeArray);
-  for (const auto& person : m_cast)
-  {
-    CVariant actor;
-    actor["name"] = person.strName;
-    actor["role"] = person.strRole;
-    actor["order"] = person.order;
-    if (!person.thumb.empty())
-      actor["thumbnail"] = IMAGE_FILES::URLFromFile(person.thumb);
-    value["cast"].push_back(std::move(actor));
-  }
-  m_set.Serialize(value);
-  value["tag"] = m_tags;
-  m_assetInfo.Serialize(value);
-  value["hasvideoversions"] = m_hasVideoVersions;
-  value["hasvideoextras"] = m_hasVideoExtras;
-  value["isdefaultvideoversion"] = m_isDefaultVideoVersion;
-  value["runtime"] = GetDuration();
-  value["file"] = m_strFile;
-  value["path"] = m_strPath;
-  value["imdbnumber"] = GetUniqueID();
-  value["mpaa"] = m_strMPAARating;
-  value["filenameandpath"] = m_strFileNameAndPath;
-  value["originaltitle"] = m_strOriginalTitle;
-  value["originallanguage"] = m_originalLanguage;
-  value["sorttitle"] = m_strSortTitle;
-  value["episodeguide"] = m_strEpisodeGuide;
-  value["premiered"] = m_premiered.IsValid() ? m_premiered.GetAsDBDate() : StringUtils::Empty;
-  value["status"] = m_strStatus;
-  value["productioncode"] = m_strProductionCode;
-  value["firstaired"] = m_firstAired.IsValid() ? m_firstAired.GetAsDBDate() : StringUtils::Empty;
-  value["showtitle"] = m_strShowTitle;
-  value["album"] = m_strAlbum;
-  value["artist"] = m_artist;
-  value["playcount"] = GetPlayCount();
-  value["lastplayed"] = m_lastPlayed.IsValid() ? m_lastPlayed.GetAsDBDateTime() : StringUtils::Empty;
-  value["top250"] = m_iTop250;
-  value["year"] = GetYear();
-  value["season"] = m_iSeason;
-  value["episode"] = m_iEpisode;
-  for (const auto& i : m_uniqueIDs)
-    value["uniqueid"][i.first] = i.second;
+  SerializeKeys(value, nullptr);
+}
 
-  value["rating"] = GetRating().rating;
-  CVariant ratings{CVariant::VariantTypeObject};
-  for (const auto& [ratingname, ratingvalue] : m_ratings)
-  {
-    CVariant rating;
-    rating["rating"] = ratingvalue.rating;
-    rating["votes"] = ratingvalue.votes;
-    rating["default"] = (ratingname == m_strDefaultRating);
+void CVideoInfoTag::SerializeFields(CVariant& value, const std::set<std::string>& fields) const
+{
+  SerializeKeys(value, &fields);
+}
 
-    ratings[ratingname] = rating;
+void CVideoInfoTag::SerializeKeys(CVariant& value, const std::set<std::string>* fields) const
+{
+  const auto want = [fields](const char* key) { return !fields || fields->contains(key); };
+
+  if (want("director"))
+    value["director"] = m_director;
+  if (want("writer"))
+    value["writer"] = m_writingCredits;
+  if (want("genre"))
+    value["genre"] = m_genre;
+  if (want("country"))
+    value["country"] = m_country;
+  if (want("tagline"))
+    value["tagline"] = m_strTagLine;
+  if (want("plotoutline"))
+    value["plotoutline"] = m_strPlotOutline;
+  if (want("plot"))
+    value["plot"] = m_strPlot;
+  if (want("title"))
+    value["title"] = m_strTitle;
+  if (want("votes"))
+    value["votes"] = std::to_string(GetRating().votes);
+  if (want("studio"))
+    value["studio"] = m_studio;
+  if (want("trailer"))
+    value["trailer"] = m_strTrailer;
+  if (want("cast"))
+  {
+    value["cast"] = CVariant(CVariant::VariantTypeArray);
+    for (const auto& person : m_cast)
+    {
+      CVariant actor;
+      actor["name"] = person.strName;
+      actor["role"] = person.strRole;
+      actor["order"] = person.order;
+      if (!person.thumb.empty())
+        actor["thumbnail"] = IMAGE_FILES::URLFromFile(person.thumb);
+      value["cast"].push_back(std::move(actor));
+    }
   }
-  value["ratings"] = ratings;
-  value["userrating"] = m_iUserRating;
-  value["dbid"] = m_iDbId;
-  value["fileid"] = m_iFileId;
-  value["track"] = m_iTrack;
-  value["showlink"] = m_showLink;
-  m_streamDetails.Serialize(value["streamdetails"]);
-  CVariant resume{CVariant::VariantTypeObject};
-  resume["position"] = m_resumePoint.timeInSeconds;
-  resume["total"] = m_resumePoint.totalTimeInSeconds;
-  value["resume"] = resume;
-  value["tvshowid"] = m_iIdShow;
-  value["dateadded"] = m_dateAdded.IsValid() ? m_dateAdded.GetAsDBDateTime() : StringUtils::Empty;
-  value["type"] = m_type;
-  value["seasonid"] = m_iIdSeason;
-  value["specialsortseason"] = m_iSpecialSortSeason;
-  value["specialsortepisode"] = m_iSpecialSortEpisode;
+  if (want("set") || want("setid") || want("setoverview") || want("originalset") ||
+      want("setsorttitle"))
+    m_set.Serialize(value);
+  if (want("tag"))
+    value["tag"] = m_tags;
+  if (want("videoassettitle") || want("videoassetid") || want("videoassettype"))
+    m_assetInfo.Serialize(value);
+  if (want("hasvideoversions"))
+    value["hasvideoversions"] = m_hasVideoVersions;
+  if (want("hasvideoextras"))
+    value["hasvideoextras"] = m_hasVideoExtras;
+  if (want("isdefaultvideoversion"))
+    value["isdefaultvideoversion"] = m_isDefaultVideoVersion;
+  if (want("runtime"))
+    value["runtime"] = GetDuration();
+  if (want("file"))
+    value["file"] = m_strFile;
+  if (want("path"))
+    value["path"] = m_strPath;
+  if (want("imdbnumber"))
+    value["imdbnumber"] = GetUniqueID();
+  if (want("mpaa"))
+    value["mpaa"] = m_strMPAARating;
+  if (want("filenameandpath"))
+    value["filenameandpath"] = m_strFileNameAndPath;
+  if (want("originaltitle"))
+    value["originaltitle"] = m_strOriginalTitle;
+  if (want("originallanguage"))
+    value["originallanguage"] = m_originalLanguage;
+  if (want("sorttitle"))
+    value["sorttitle"] = m_strSortTitle;
+  if (want("episodeguide"))
+    value["episodeguide"] = m_strEpisodeGuide;
+  if (want("premiered"))
+    value["premiered"] = m_premiered.IsValid() ? m_premiered.GetAsDBDate() : StringUtils::Empty;
+  if (want("status"))
+    value["status"] = m_strStatus;
+  if (want("productioncode"))
+    value["productioncode"] = m_strProductionCode;
+  if (want("firstaired"))
+    value["firstaired"] = m_firstAired.IsValid() ? m_firstAired.GetAsDBDate() : StringUtils::Empty;
+  if (want("showtitle"))
+    value["showtitle"] = m_strShowTitle;
+  if (want("album"))
+    value["album"] = m_strAlbum;
+  if (want("artist"))
+    value["artist"] = m_artist;
+  if (want("playcount"))
+    value["playcount"] = GetPlayCount();
+  if (want("lastplayed"))
+    value["lastplayed"] =
+        m_lastPlayed.IsValid() ? m_lastPlayed.GetAsDBDateTime() : StringUtils::Empty;
+  if (want("top250"))
+    value["top250"] = m_iTop250;
+  if (want("year"))
+    value["year"] = GetYear();
+  if (want("season"))
+    value["season"] = m_iSeason;
+  if (want("episode"))
+    value["episode"] = m_iEpisode;
+  if (want("uniqueid"))
+  {
+    for (const auto& i : m_uniqueIDs)
+      value["uniqueid"][i.first] = i.second;
+  }
+
+  if (want("rating"))
+    value["rating"] = GetRating().rating;
+  if (want("ratings"))
+  {
+    CVariant ratings{CVariant::VariantTypeObject};
+    for (const auto& [ratingname, ratingvalue] : m_ratings)
+    {
+      CVariant rating;
+      rating["rating"] = ratingvalue.rating;
+      rating["votes"] = ratingvalue.votes;
+      rating["default"] = (ratingname == m_strDefaultRating);
+
+      ratings[ratingname] = rating;
+    }
+    value["ratings"] = ratings;
+  }
+  if (want("userrating"))
+    value["userrating"] = m_iUserRating;
+  if (want("dbid"))
+    value["dbid"] = m_iDbId;
+  if (want("fileid"))
+    value["fileid"] = m_iFileId;
+  if (want("track"))
+    value["track"] = m_iTrack;
+  if (want("showlink"))
+    value["showlink"] = m_showLink;
+  if (want("streamdetails"))
+    m_streamDetails.Serialize(value["streamdetails"]);
+  if (want("resume"))
+  {
+    CVariant resume{CVariant::VariantTypeObject};
+    resume["position"] = m_resumePoint.timeInSeconds;
+    resume["total"] = m_resumePoint.totalTimeInSeconds;
+    value["resume"] = resume;
+  }
+  if (want("tvshowid"))
+    value["tvshowid"] = m_iIdShow;
+  if (want("dateadded"))
+    value["dateadded"] = m_dateAdded.IsValid() ? m_dateAdded.GetAsDBDateTime() : StringUtils::Empty;
+  if (want("type"))
+    value["type"] = m_type;
+  if (want("seasonid"))
+    value["seasonid"] = m_iIdSeason;
+  if (want("specialsortseason"))
+    value["specialsortseason"] = m_iSpecialSortSeason;
+  if (want("specialsortepisode"))
+    value["specialsortepisode"] = m_iSpecialSortEpisode;
 }
 
 int CVideoInfoTag::GetDescribedAudioStreamIndex() const

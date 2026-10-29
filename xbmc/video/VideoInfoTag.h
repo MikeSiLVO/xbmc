@@ -18,6 +18,7 @@
 #include "utils/StreamDetails.h"
 #include "video/Bookmark.h"
 
+#include <set>
 #include <string>
 #include <string_view>
 #include <vector>
@@ -82,6 +83,8 @@ public:
   void Merge(CVideoInfoTag& other);
   void Archive(CArchive& ar) override;
   void Serialize(CVariant& value) const override;
+  /*! \brief Serialize the given keys as Serialize() writes them, set and asset keys as groups. */
+  void SerializeFields(CVariant& value, const std::set<std::string>& fields) const;
   void ToSortable(SortItem& sortable, Field field) const override;
 
   /*!
@@ -469,6 +472,9 @@ private:
    \sa Load
    */
   void ParseNative(const TiXmlElement* element, bool prioritise);
+
+  /*! \brief Serialize every key, or the listed ones with set and asset keys as groups. */
+  void SerializeKeys(CVariant& value, const std::set<std::string>* fields) const;
 
   std::string m_strDefaultRating;
   std::string m_strDefaultUniqueID;
