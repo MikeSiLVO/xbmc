@@ -9,6 +9,8 @@
 #include "utils/JSONVariantWriter.h"
 #include "utils/Variant.h"
 
+#include <limits>
+
 #include <gtest/gtest.h>
 
 TEST(TestJSONVariantWriter, CanWriteNull)
@@ -148,4 +150,40 @@ TEST(TestJSONVariantWriter, CanWriteArray)
   variant.push_back(obj);
   ASSERT_TRUE(CJSONVariantWriter::Write(variant, str, false));
   ASSERT_STREQ("[\n\t{\n\t\t\"foo\": \"bar\"\n\t}\n]", str.c_str());
+}
+
+TEST(TestJSONVariantWriter, CanWriteCompact)
+{
+  CVariant variant(CVariant::VariantTypeObject);
+  variant["string"] = "foo bar";
+  variant["int"] = static_cast<int64_t>(-4294967296LL);
+  variant["uint"] = std::numeric_limits<uint64_t>::max();
+  variant["double"] = 7.5;
+  variant["bool"] = false;
+  variant["null"] = CVariant(CVariant::VariantTypeNull);
+  variant["array"].push_back(1);
+  variant["array"].push_back(CVariant(CVariant::VariantTypeObject));
+  variant["empty"] = CVariant(CVariant::VariantTypeArray);
+  std::string str;
+  ASSERT_TRUE(CJSONVariantWriter::Write(variant, str, true));
+  ASSERT_STREQ("{\"array\":[1,{}],\"bool\":false,\"double\":7.5,\"empty\":[],\"int\":-4294967296,"
+               "\"null\":null,\"string\":\"foo bar\",\"uint\":18446744073709551615}",
+               str.c_str());
+}
+
+TEST(TestJSONVariantWriter, CanWriteCompactEscapedString)
+{
+  CVariant variant(CVariant::VariantTypeObject);
+  variant["k\"ey"] = "q\" b\\ c\x01 n\n t\t s/ "
+                     "e\xc3\xa9";
+  std::string str;
+  ASSERT_TRUE(CJSONVariantWriter::Write(variant, str, true));
+  ASSERT_STREQ("{\"k\\\"ey\":\"q\\\" b\\\\ c\\u0001 n\\n t\\t s/ e\xc3\xa9\"}", str.c_str());
+}
+
+TEST(TestJSONVariantWriter, CannotWriteCompactInvalidUtf8)
+{
+  CVariant variant("bad\xff");
+  std::string str;
+  EXPECT_FALSE(CJSONVariantWriter::Write(variant, str, true));
 }
