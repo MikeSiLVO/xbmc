@@ -229,7 +229,9 @@ bool CFileItemHandler::GetField(const std::string& field,
     if (field == "thumbnail")
     {
       if (thumbLoader != NULL && !item->HasArt(KODI::ART::TYPE::THUMB) && !fetchedArt &&
-        ((item->HasVideoInfoTag() && item->GetVideoInfoTag()->m_iDbId > -1) || (item->HasMusicInfoTag() && item->GetMusicInfoTag()->GetDatabaseId() > -1)))
+          !item->GetProperty(KODI::ITEM::PROPERTY::LIBRARY_ART_FILLED).asBoolean() &&
+          ((item->HasVideoInfoTag() && item->GetVideoInfoTag()->m_iDbId > -1) ||
+           (item->HasMusicInfoTag() && item->GetMusicInfoTag()->GetDatabaseId() > -1)))
       {
         thumbLoader->FillLibraryArt(*item);
         fetchedArt = true;
@@ -248,7 +250,9 @@ bool CFileItemHandler::GetField(const std::string& field,
     if (field == "fanart")
     {
       if (thumbLoader != NULL && !item->HasArt(KODI::ART::TYPE::FANART) && !fetchedArt &&
-        ((item->HasVideoInfoTag() && item->GetVideoInfoTag()->m_iDbId > -1) || (item->HasMusicInfoTag() && item->GetMusicInfoTag()->GetDatabaseId() > -1)))
+          !item->GetProperty(KODI::ITEM::PROPERTY::LIBRARY_ART_FILLED).asBoolean() &&
+          ((item->HasVideoInfoTag() && item->GetVideoInfoTag()->m_iDbId > -1) ||
+           (item->HasMusicInfoTag() && item->GetMusicInfoTag()->GetDatabaseId() > -1)))
       {
         thumbLoader->FillLibraryArt(*item);
         fetchedArt = true;
