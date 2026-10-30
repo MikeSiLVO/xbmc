@@ -76,6 +76,11 @@ private:
   const CVideoInfoTag& m_tag;
   const std::set<std::string>& m_fields;
 };
+
+bool RequestsArt(const std::set<std::string>& fields)
+{
+  return fields.contains("art") || fields.contains("thumbnail") || fields.contains("fanart");
+}
 } // namespace
 
 bool CFileItemHandler::GetField(const std::string& field,
@@ -332,8 +337,16 @@ void CFileItemHandler::HandleFileItemList(const char *ID, bool allowFile, const 
     end = items.Size();
   }
 
+  std::set<std::string> fields;
+  if (parameterObject.isMember("properties") && parameterObject["properties"].isArray())
+  {
+    for (CVariant::const_iterator_array field = parameterObject["properties"].begin_array();
+         field != parameterObject["properties"].end_array(); ++field)
+      fields.insert(field->asString());
+  }
+
   CThumbLoader *thumbLoader = NULL;
-  if (end - start > 0)
+  if (end - start > 0 && RequestsArt(fields))
   {
     if (items.Get(start)->HasVideoInfoTag())
       thumbLoader = new CVideoThumbLoader();
@@ -344,17 +357,7 @@ void CFileItemHandler::HandleFileItemList(const char *ID, bool allowFile, const 
       thumbLoader->OnLoaderStart();
   }
 
-  std::set<std::string> fields;
-  if (parameterObject.isMember("properties") && parameterObject["properties"].isArray())
-  {
-    for (CVariant::const_iterator_array field = parameterObject["properties"].begin_array();
-         field != parameterObject["properties"].end_array(); ++field)
-      fields.insert(field->asString());
-  }
-
-  if (auto* videoLoader = dynamic_cast<CVideoThumbLoader*>(thumbLoader);
-      videoLoader &&
-      (fields.contains("art") || fields.contains("thumbnail") || fields.contains("fanart")))
+  if (auto* videoLoader = dynamic_cast<CVideoThumbLoader*>(thumbLoader))
   {
     std::vector<CFileItem*> slice;
     slice.reserve(static_cast<size_t>(end - start));
@@ -500,7 +503,7 @@ void CFileItemHandler::HandleFileItem(const char* ID,
     }
 
     bool deleteThumbloader = false;
-    if (thumbLoader == NULL)
+    if (thumbLoader == NULL && RequestsArt(fields))
     {
       if (item->HasVideoInfoTag())
         thumbLoader = new CVideoThumbLoader();
