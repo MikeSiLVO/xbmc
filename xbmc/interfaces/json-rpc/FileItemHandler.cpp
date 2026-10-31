@@ -352,6 +352,17 @@ void CFileItemHandler::HandleFileItemList(const char *ID, bool allowFile, const 
       fields.insert(field->asString());
   }
 
+  if (auto* videoLoader = dynamic_cast<CVideoThumbLoader*>(thumbLoader);
+      videoLoader &&
+      (fields.contains("art") || fields.contains("thumbnail") || fields.contains("fanart")))
+  {
+    std::vector<CFileItem*> slice;
+    slice.reserve(static_cast<size_t>(end - start));
+    for (int i = start; i < end; i++)
+      slice.push_back(items.Get(i).get());
+    videoLoader->PrefetchArt(slice);
+  }
+
   result[resultname].reserve(static_cast<size_t>(end - start));
   for (int i = start; i < end; i++)
   {
