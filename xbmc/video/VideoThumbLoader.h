@@ -37,6 +37,9 @@ public:
   bool LoadItemCached(CFileItem* pItem) override;
   bool LoadItemLookup(CFileItem* pItem) override;
 
+  /*! \brief Prefetch art and stream details of a batch for LoadItem(). */
+  void Prefetch(const std::vector<CFileItem*>& items);
+
   /*! \brief Prefetch art of a batch and of its sets, shows and seasons for FillLibraryArt(). */
   void PrefetchArt(const std::vector<CFileItem*>& items);
 
