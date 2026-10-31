@@ -51,6 +51,17 @@ using namespace XFILE;
 
 namespace
 {
+// each info tag is filled by its own FillDetails call
+class CFileItemFields final : public ISerializable
+{
+public:
+  explicit CFileItemFields(const CFileItem& item) : m_item(item) {}
+  void Serialize(CVariant& value) const override { m_item.SerializeWithoutInfoTags(value); }
+
+private:
+  const CFileItem& m_item;
+};
+
 class CVideoInfoTagFields final : public ISerializable
 {
 public:
@@ -508,7 +519,8 @@ void CFileItemHandler::HandleFileItem(const char* ID,
     if (item->HasPictureInfoTag())
       FillDetails(item->GetPictureInfoTag(), item, fields, object, thumbLoader);
 
-    FillDetails(item.get(), item, fields, object, thumbLoader);
+    const CFileItemFields itemFields(*item);
+    FillDetails(&itemFields, item, fields, object, thumbLoader);
 
     if (deleteThumbloader)
       delete thumbLoader;

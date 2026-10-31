@@ -639,17 +639,7 @@ void CFileItem::Archive(CArchive& ar)
 
 void CFileItem::Serialize(CVariant& value) const
 {
-  //! @todo Why is this commented out? The implementation exists but will never be called.
-  //CGUIListItem::Serialize(value["CGUIListItem"]);
-
-  value["strPath"] = m_strPath;
-  value["dateTime"] = (m_dateTime.IsValid()) ? m_dateTime.GetAsRFC1123DateTime() : "";
-  value["lastmodified"] = m_dateTime.IsValid() ? m_dateTime.GetAsDBDateTime() : "";
-  value["size"] = m_dwSize;
-  value["DVDLabel"] = m_strDVDLabel;
-  value["title"] = m_strTitle;
-  value["mimetype"] = m_mimetype;
-  value["extrainfo"] = m_extrainfo;
+  SerializeWithoutInfoTags(value);
 
   if (m_musicInfoTag)
     (*m_musicInfoTag).Serialize(value["musicInfoTag"]);
@@ -662,6 +652,21 @@ void CFileItem::Serialize(CVariant& value) const
 
   if (m_gameInfoTag)
     (*m_gameInfoTag).Serialize(value["gameInfoTag"]);
+}
+
+void CFileItem::SerializeWithoutInfoTags(CVariant& value) const
+{
+  //! @todo Why is this commented out? The implementation exists but will never be called.
+  //CGUIListItem::Serialize(value["CGUIListItem"]);
+
+  value["strPath"] = m_strPath;
+  value["dateTime"] = (m_dateTime.IsValid()) ? m_dateTime.GetAsRFC1123DateTime() : "";
+  value["lastmodified"] = m_dateTime.IsValid() ? m_dateTime.GetAsDBDateTime() : "";
+  value["size"] = m_dwSize;
+  value["DVDLabel"] = m_strDVDLabel;
+  value["title"] = m_strTitle;
+  value["mimetype"] = m_mimetype;
+  value["extrainfo"] = m_extrainfo;
 
   //! @todo Why is property map the only CGUIListItem property which gets serialized?
   //! Why is this implemented here and not in CGUIListItem?

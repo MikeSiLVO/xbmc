@@ -143,6 +143,8 @@ public:
   CFileItem& operator=(const CFileItem& item);
   void Archive(CArchive& ar) override;
   void Serialize(CVariant& value) const override;
+  /*! \brief Serialize the item's own fields, leaving out the info tags. */
+  void SerializeWithoutInfoTags(CVariant& value) const;
   void ToSortable(SortItem &sortable, Field field) const override;
   void ToSortable(SortItem &sortable, const Fields &fields) const;
   bool IsFileItem() const override { return true; }
